@@ -78,23 +78,12 @@ These extensions add new fields or semantics to STAC objects.
 | [Tiled Assets](tiled-assets/README.md)           | tiled-assets      | tiles               | Item, Catalog, Collection | *Proposal* | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
 | [Timestamps](timestamps/README.md)               | timestamps        | -                   | Item                      | *Proposal* | Allows to specify numerous timestamps for assets and metadata. |
 | [Versioning Indicators](version/README.md)       | version           | -                   | Item, Collection          | *Proposal* | Provides fields and link relation types to provide a version and indicate deprecation. |
-| [CARD4L](https://github.com/stac-extensions/card4l) | card4l            | Item  | *Proposal* | How to comply to the CEOS CARD4L product family specifications (Optical and SAR) | [openEO Platform](https://platform.openeo.org) |
-
-## Third-party / vendor extensions
-
-The following extensions are provided by third parties (vendors). They address specific
-use-cases and may be less stable than the official extensions. Once stable and adopted by multiple
-parties, extensions may be made official and incorporated in the STAC repository.
-
-Please contact a STAC maintainer or open a Pull Request to add your extension to this table.
-
-| Name                                                | Field Name Prefix | Scope | Description                                                  | Vendor                                         |
-| --------------------------------------------------- | ----------------- | ----- | ------------------------------------------------------------ | ---------------------------------------------- |
+| [CARD4L](https://github.com/stac-extensions/card4l) | card4l         | card4l.             | Item  | *Proposal* | How to comply to the CEOS CARD4L product family specifications (Optical and SAR) |
 
 ## Proposed extensions
 
 The following extensions are proposed through the
-[STAC Extensions issue tracker](https://github.com/stac-extensions/overview/issues) and are considered to be
+[STAC issue tracker](https://github.com/radiantearth/stac-spec/issues?q=is%3Aissue+is%3Aopen+label%3A%22new+extension%22) and are considered to be
 implemented. If you would find any of these helpful or are considering to implement a similar
 extension, please get in touch through the referenced issues:
 
