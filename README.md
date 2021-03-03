@@ -12,31 +12,6 @@ providing a neutral home for collaboration. Many of these used to be in the core
 repository]((https://github.com/radiantearth/stac-spec)), but were removed for 1.0.0 so they could evolve at their
 own pace, instead of having to follow the core STAC release cycle.
 
-Anybody is welcome
-
-TODO: Flesh out more, on what's in this repo, what's in core, what may be in other repos, link to extensions section
-
-The core STAC specification
-defines only a minimal core, but is designed for extension. It is expected that most real-world
-implementations will use several extensions to fully describe their data.
-
-Extensions to the core STAC specification provide additional JSON fields that can be used to better describe
-the data. Most tend to be about describing a particular domain or type of data, but some imply
-functionality.
-
-Extensions should include a JSON Schema precisely describing the structure, a natural language description of the fields, and thorough examples.
-Any data provider can create a proprietary extension, and when providers work together to share fields between
-them they can create a shared extension and include it in the STAC repository.
-
-Anyone is welcome to create an extension (see section 'Extending STAC'), and is encouraged to at least link
-to the extension from here. The [third-party / vendor extensions](#third-party--vendor-extensions) section is
-for the sharing of extensions. As third-parties create useful extensions for their implementation, it is
-expected that others will make use
-of it, and then evolve to make it a 'community extension', that several providers maintain
-together. For now anyone from the community is welcome to use this extensions/ folder of the
-stac-spec repository to collaborate.
-
-
 ## Extension Maturity
 
 Extensions in this directory are meant to evolve to maturity, and thus may be in different states
@@ -62,7 +37,10 @@ stable for over a year and are used in twenty or more implementations.
 
 ## List of STAC Extensions
 
-TODO: Link to core extensions
+The definitive list of STAC Extensions is in the core spec repository, in the [Extensions 
+README](https://github.com/radiantearth/stac-spec/blob/master/extensions/README.md). This includes the official core
+extensions, as well as a complete list of 'community' extensions. A subset of the community extensions use this 
+stac-extensions GitHub organization, and those are listed in the next section.
 
 ### Extensions in stac-extensions organization
 
@@ -94,21 +72,11 @@ These extensions add new fields or semantics to STAC objects.
 - Published - Release made, schemas published
 - Published* - Release made, schemas published, but was not reviewed
 
+## Adding a new extension
 
-## Proposed extensions
+### Using the stac-extensions template
 
-The following extensions are proposed through the
-[STAC issue tracker](https://github.com/radiantearth/stac-spec/issues?q=is%3Aissue+is%3Aopen+label%3A%22new+extension%22) and are considered to be
-implemented. If you would find any of these helpful or are considering to implement a similar
-extension, please get in touch through the referenced issues:
-
-- [Drone Extension](https://github.com/radiantearth/stac-spec/issues/149)
-- [Full Motion Video Extension](https://github.com/radiantearth/stac-spec/issues/156)
-- [gRPC STAC Extensions](https://github.com/radiantearth/stac-spec/issues/575)
-
-## Using the stac-extensions template
-
-TODO: Overview of using the template
+TODO: Overview of using the template.
 
 Step-by-step (add an image or two)
 
