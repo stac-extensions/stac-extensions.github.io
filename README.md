@@ -1,7 +1,18 @@
-# STAC Extensions
+# STAC Extensions 
 
 The [stac-extensions](https://github.com/stac-extensions/) github organization is a home for extensions to the
 [SpatioTemporal Asset Catalog](https://github.com/radiantearth/stac-spec) specification.
+
+To learn about STAC and Extensions start with the [extensions](https://github.com/radiantearth/stac-spec/extensions)
+section of the core specification. It explains how extensions work, lists all the known extensions, and has
+instructions for how to go about '[extending STAC](https://github.com/radiantearth/stac-spec/extensions/README.md##extending-stac)'.
+
+The [stac-extensions](https://github.com/stac-extensions/) is a home for many of the leading 'community extensions',
+providing a neutral home for collaboration. Many of these used to be in the core [stac-spec 
+repository]((https://github.com/radiantearth/stac-spec)), but were removed for 1.0.0 so they could evolve at their
+own pace, instead of having to follow the core STAC release cycle. 
+
+Anybody is welcome
 
 TODO: Flesh out more, on what's in this repo, what's in core, what may be in other repos, link to extensions section
 
@@ -25,13 +36,6 @@ of it, and then evolve to make it a 'community extension', that several provider
 together. For now anyone from the community is welcome to use this extensions/ folder of the
 stac-spec repository to collaborate.
 
-## General Conventions
-
-1. Additional attributes relating to an [Item](../item-spec/item-spec.md) should be added into the Item Properties object, rather than directly in the Item object. 
-2. In general, additional attributes that apply to an Item Asset should also be allowed in Item Properties and vice-versa.
-For example, the `eo:bands` attribute may be used in Item Properties to describe the aggregation of all bands available in 
-the Item Asset objects contained in the Item, but may also be used in an individual Item Asset to describe only the bands available in that asset.
-3. Additional attributes relating to a [Catalog](../catalog-spec/catalog-spec.md) or [Collection](../collection-spec/collection-spec.md) should be added to the root of the object. 
 
 ## Extension Maturity
 
@@ -94,4 +98,15 @@ extension, please get in touch through the referenced issues:
 
 ## Using the stac-extensions template
 
-TODO
+TODO: Overview of using the template
+
+Step-by-step (add an image or two)
+
+* Request to become a member of stac-extensions if you want to it to have that visibility, or put in your personal or org's repo
+* Go to [template repo](https://github.com/stac-extensions/template) and hit the green 'Use this template' button.
+* Be sure to pick the right place to create it.
+* Description - briefly describe it
+* click 'copy all branches' for the CI to write correctly.
+* Title your table properly - likely is just item properties or collection fields, though some are both. But make your heading clear.
+* Schemas - start with the templates, and add in your properties.
+* In 'settings' turn on github pages (unless we find a way to do this automatically) - probaby add a picture for this.
