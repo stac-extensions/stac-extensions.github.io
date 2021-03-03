@@ -68,21 +68,31 @@ TODO: Link to core extensions
 
 These extensions add new fields or semantics to STAC objects.
 
-| Extension Title                                  | Identifier        | Field Name Prefix   | Scope                     | Maturity   | Description |
-| ------------------------------------------------ | ----------------- | ------------------- | ------------------------- | ---------- | ----------- |
-| [Data Cube](datacube/README.md)                  | datacube          | cube                | Item, Collection          | *Proposal* | Data Cube related metadata, especially to describe their dimensions. |
-| [File Info](file/README.md)                      | file              | file                | Item, Collection          | *Proposal* | Provides a way to specify file details such as size, data type and checksum for assets in Items and Collections. |
-| [Item Asset Definition](item-assets/README.md)   | item-assets       | -                   | Collection                | *Proposal* | Provides a way to specify details about what assets may be found in Items belonging to a Collection. |
-| [Label](label/README.md)                         | label             | label               | Item                      | *Proposal* | Items that relate labeled AOIs with source imagery |
-| [Point Cloud](pointcloud/README.md)              | pointcloud        | pc                  | Item                      | *Proposal* | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery. |
-| [Processing](processing/README.md)               | processing        | processing          | Item, Collection          | *Proposal* | Indicates from which processing chain data originates and how the data itself has been produced. |
-| [SAR](sar/README.md)                             | sar               | sar                 | Item                      | *Proposal* | Covers synthetic-aperture radar data that represents a snapshot of the earth for a single date and time. |
-| [Satellite](sat/README.md)                       | sat               | sat                 | Item                      | *Proposal* | Satellite related metadata for data collected from satellites. |
-| [Single File STAC](single-file-stac/README.md)   | single-file-stac  | -                   | Catalog                   | *Proposal* | An extension to provide a set of Collections and Items within a single file STAC. |
-| [Tiled Assets](tiled-assets/README.md)           | tiled-assets      | tiles               | Item, Catalog, Collection | *Proposal* | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
-| [Timestamps](timestamps/README.md)               | timestamps        | -                   | Item                      | *Proposal* | Allows to specify numerous timestamps for assets and metadata. |
-| [Versioning Indicators](version/README.md)       | version           | -                   | Item, Collection          | *Proposal* | Provides fields and link relation types to provide a version and indicate deprecation. |
-| [CARD4L](https://github.com/stac-extensions/card4l) | card4l         | card4l.             | Item  | *Proposal* | How to comply to the CEOS CARD4L product family specifications (Optical and SAR) |
+| Extension Title                                  | Identifier        | Field Name Prefix   | Scope                     | Maturity   | Status | Description |
+| ------------------------------------------------ | ----------------- | ------------------- | ------------------------- | ---------- | ------ | ----------- |
+| [Data Cube](datacube/README.md)                  | datacube          | cube                | Item, Collection          | *Proposal* | | Data Cube related metadata, especially to describe their dimensions. |
+| [File Info](file/README.md)                      | file              | file                | Item, Collection          | *Proposal* | Published* | Provides a way to specify file details such as size, data type and checksum for assets in Items and Collections. |
+| [Item Asset Definition](item-assets/README.md)   | item-assets       | -                   | Collection                | *Proposal* | | Provides a way to specify details about what assets may be found in Items belonging to a Collection. |
+| [Label](label/README.md)                         | label             | label               | Item                      | *Proposal* | Published* | Items that relate labeled AOIs with source imagery |
+| [Point Cloud](pointcloud/README.md)              | pointcloud        | pc                  | Item                      | *Proposal* | Repo Created | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery. |
+| [Processing](processing/README.md)               | processing        | processing          | Item, Collection          | *Proposal* | | Indicates from which processing chain data originates and how the data itself has been produced. |
+| [SAR](sar/README.md)                             | sar               | sar                 | Item                      | *Proposal* | Published* | Covers synthetic-aperture radar data that represents a snapshot of the earth for a single date and time. |
+| [Satellite](sat/README.md)                       | sat               | sat                 | Item                      | *Proposal* | Repo Created | Satellite related metadata for data collected from satellites. |
+| [Single File STAC](single-file-stac/README.md)   | single-file-stac  | -                   | Catalog                   | *Proposal* | | An extension to provide a set of Collections and Items within a single file STAC. |
+| [Tiled Assets](tiled-assets/README.md)           | tiled-assets      | tiles               | Item, Catalog, Collection | *Proposal* | | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
+| [Timestamps](timestamps/README.md)               | timestamps        | -                   | Item                      | *Proposal* | Published* | Allows to specify numerous timestamps for assets and metadata. |
+| [Versioning Indicators](version/README.md)       | version           | -                   | Item, Collection          | *Proposal* | | Provides fields and link relation types to provide a version and indicate deprecation. |
+| [CARD4L](https://github.com/stac-extensions/card4l) | card4l         | card4l.             | Item                      | *Proposal* | Repo Created | How to comply to the CEOS CARD4L product family specifications (Optical and SAR) |
+
+**Status** - Indicates the status of the extension moving out of STAC Core to the `stac-extensions` organization. Status is one of:
+
+- *Blank* - repo has not yet been created
+- Repo Created - Repo has been created from template
+- Updated - Contents have been updated with extension from STAC Core
+- Reviewed - Extension has been reviewed (should happen priopr to Published)
+- Published - Release made, schemas published
+- Published* - Release made, schemas published, but was not reviewed
+
 
 ## Proposed extensions
 
