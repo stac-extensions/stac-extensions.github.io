@@ -1,4 +1,4 @@
-# STAC Extensions 
+# STAC Extensions
 
 The [stac-extensions](https://github.com/stac-extensions/) github organization is a home for extensions to the
 [SpatioTemporal Asset Catalog](https://github.com/radiantearth/stac-spec) specification.
@@ -8,29 +8,29 @@ section of the core specification. It explains how extensions work, lists all th
 instructions for how to go about '[extending STAC](https://github.com/radiantearth/stac-spec/extensions/README.md##extending-stac)'.
 
 The [stac-extensions](https://github.com/stac-extensions/) is a home for many of the leading 'community extensions',
-providing a neutral home for collaboration. Many of these used to be in the core [stac-spec 
+providing a neutral home for collaboration. Many of these used to be in the core [stac-spec
 repository]((https://github.com/radiantearth/stac-spec)), but were removed for 1.0.0 so they could evolve at their
-own pace, instead of having to follow the core STAC release cycle. 
+own pace, instead of having to follow the core STAC release cycle.
 
 Anybody is welcome
 
 TODO: Flesh out more, on what's in this repo, what's in core, what may be in other repos, link to extensions section
 
-The core STAC specification 
+The core STAC specification
 defines only a minimal core, but is designed for extension. It is expected that most real-world
-implementations will use several extensions to fully describe their data.  
+implementations will use several extensions to fully describe their data.
 
 Extensions to the core STAC specification provide additional JSON fields that can be used to better describe
 the data. Most tend to be about describing a particular domain or type of data, but some imply
-functionality. 
+functionality.
 
 Extensions should include a JSON Schema precisely describing the structure, a natural language description of the fields, and thorough examples.
 Any data provider can create a proprietary extension, and when providers work together to share fields between
 them they can create a shared extension and include it in the STAC repository.
 
-Anyone is welcome to create an extension (see section 'Extending STAC'), and is encouraged to at least link 
-to the extension from here. The [third-party / vendor extensions](#third-party--vendor-extensions) section is 
-for the sharing of extensions. As third-parties create useful extensions for their implementation, it is 
+Anyone is welcome to create an extension (see section 'Extending STAC'), and is encouraged to at least link
+to the extension from here. The [third-party / vendor extensions](#third-party--vendor-extensions) section is
+for the sharing of extensions. As third-parties create useful extensions for their implementation, it is
 expected that others will make use
 of it, and then evolve to make it a 'community extension', that several providers maintain
 together. For now anyone from the community is welcome to use this extensions/ folder of the
@@ -70,18 +70,18 @@ These extensions add new fields or semantics to STAC objects.
 
 | Extension Title                                  | Identifier        | Field Name Prefix   | Scope                     | Maturity   | Status | Description |
 | ------------------------------------------------ | ----------------- | ------------------- | ------------------------- | ---------- | ------ | ----------- |
-| [Data Cube](datacube/README.md)                  | datacube          | cube                | Item, Collection          | *Proposal* | | Data Cube related metadata, especially to describe their dimensions. |
+| [Data Cube](datacube/README.md)                  | datacube          | cube                | Item, Collection          | *Proposal* | Repo Created | Data Cube related metadata, especially to describe their dimensions. |
 | [File Info](file/README.md)                      | file              | file                | Item, Collection          | *Proposal* | Published* | Provides a way to specify file details such as size, data type and checksum for assets in Items and Collections. |
-| [Item Asset Definition](item-assets/README.md)   | item-assets       | -                   | Collection                | *Proposal* | | Provides a way to specify details about what assets may be found in Items belonging to a Collection. |
+| [Item Asset Definition](item-assets/README.md)   | item-assets       | -                   | Collection                | *Proposal* | Repo Created | Provides a way to specify details about what assets may be found in Items belonging to a Collection. |
 | [Label](label/README.md)                         | label             | label               | Item                      | *Proposal* | Published* | Items that relate labeled AOIs with source imagery |
 | [Point Cloud](pointcloud/README.md)              | pointcloud        | pc                  | Item                      | *Proposal* | Repo Created | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery. |
-| [Processing](processing/README.md)               | processing        | processing          | Item, Collection          | *Proposal* | | Indicates from which processing chain data originates and how the data itself has been produced. |
+| [Processing](processing/README.md)               | processing        | processing          | Item, Collection          | *Proposal* | Repo Created | Indicates from which processing chain data originates and how the data itself has been produced. |
 | [SAR](sar/README.md)                             | sar               | sar                 | Item                      | *Proposal* | Published* | Covers synthetic-aperture radar data that represents a snapshot of the earth for a single date and time. |
 | [Satellite](sat/README.md)                       | sat               | sat                 | Item                      | *Proposal* | Repo Created | Satellite related metadata for data collected from satellites. |
-| [Single File STAC](single-file-stac/README.md)   | single-file-stac  | -                   | Catalog                   | *Proposal* | | An extension to provide a set of Collections and Items within a single file STAC. |
-| [Tiled Assets](tiled-assets/README.md)           | tiled-assets      | tiles               | Item, Catalog, Collection | *Proposal* | | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
+| [Single File STAC](single-file-stac/README.md)   | single-file-stac  | -                   | Catalog                   | *Proposal* | Repo Created | An extension to provide a set of Collections and Items within a single file STAC. |
+| [Tiled Assets](tiled-assets/README.md)           | tiled-assets      | tiles               | Item, Catalog, Collection | *Proposal* | Repo Created | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
 | [Timestamps](timestamps/README.md)               | timestamps        | -                   | Item                      | *Proposal* | Published* | Allows to specify numerous timestamps for assets and metadata. |
-| [Versioning Indicators](version/README.md)       | version           | -                   | Item, Collection          | *Proposal* | | Provides fields and link relation types to provide a version and indicate deprecation. |
+| [Versioning Indicators](version/README.md)       | version           | -                   | Item, Collection          | *Proposal* | Repo Created | Provides fields and link relation types to provide a version and indicate deprecation. |
 | [CARD4L](https://github.com/stac-extensions/card4l) | card4l         | card4l.             | Item                      | *Proposal* | Repo Created | How to comply to the CEOS CARD4L product family specifications (Optical and SAR) |
 
 **Status** - Indicates the status of the extension moving out of STAC Core to the `stac-extensions` organization. Status is one of:
