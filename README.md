@@ -79,6 +79,7 @@ These extensions add new fields or semantics to STAC objects.
 | [SAR](sar/README.md)                             | sar               | sar                 | Item                      | *Proposal* | Published* | Covers synthetic-aperture radar data that represents a snapshot of the earth for a single date and time. |
 | [Satellite](sat/README.md)                       | sat               | sat                 | Item                      | *Proposal* | Repo Created | Satellite related metadata for data collected from satellites. |
 | [Single File STAC](single-file-stac/README.md)   | single-file-stac  | -                   | Catalog                   | *Proposal* | Repo Created | An extension to provide a set of Collections and Items within a single file STAC. |
+| [Storage](storage/README.md) | storage | storage | Item | *Proposal* | Repo Created | Provides additional fields relating to how the asset is stored. |
 | [Tiled Assets](tiled-assets/README.md)           | tiled-assets      | tiles               | Item, Catalog, Collection | *Proposal* | Repo Created | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
 | [Timestamps](timestamps/README.md)               | timestamps        | -                   | Item                      | *Proposal* | Published* | Allows to specify numerous timestamps for assets and metadata. |
 | [Versioning Indicators](version/README.md)       | version           | -                   | Item, Collection          | *Proposal* | Repo Created | Provides fields and link relation types to provide a version and indicate deprecation. |
@@ -103,7 +104,6 @@ extension, please get in touch through the referenced issues:
 
 - [Drone Extension](https://github.com/radiantearth/stac-spec/issues/149)
 - [Full Motion Video Extension](https://github.com/radiantearth/stac-spec/issues/156)
-- [Storage Extensions](https://github.com/radiantearth/stac-spec/issues/148)
 - [gRPC STAC Extensions](https://github.com/radiantearth/stac-spec/issues/575)
 
 ## Using the stac-extensions template
