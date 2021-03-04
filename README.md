@@ -55,7 +55,7 @@ These extensions add new fields or semantics to STAC objects.
 | [Point Cloud](https://github.com/stac-extensions/pointcloud)              | pointcloud        | pc                  | Item                      | *Proposal* | Repo Created | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery. |
 | [Processing](https://github.com/stac-extensions/processing)               | processing        | processing          | Item, Collection          | *Proposal* | Repo Created | Indicates from which processing chain data originates and how the data itself has been produced. |
 | [SAR](https://github.com/stac-extensions/sar)                             | sar               | sar                 | Item                      | *Proposal* | Published* | Covers synthetic-aperture radar data that represents a snapshot of the earth for a single date and time. |
-| [Satellite](https://github.com/stac-extensions/sat)                       | sat               | sat                 | Item                      | *Proposal* | Repo Created | Satellite related metadata for data collected from satellites. |
+| [Satellite](https://github.com/stac-extensions/sat)                       | sat               | sat                 | Item                      | *Proposal* | Updated (need schema help) | Satellite related metadata for data collected from satellites. |
 | [Single File STAC](https://github.com/stac-extensions/single-file-stac)   | single-file-stac  | -                   | Catalog                   | *Proposal* | Repo Created | An extension to provide a set of Collections and Items within a single file STAC. |
 | [Storage](storage/README.md) | storage | storage | Item | *Proposal* | Repo Created | Provides additional fields relating to how the asset is stored. |
 | [Tiled Assets](https://github.com/stac-extensions/tiled-assets)           | tiled-assets      | tiles               | Item, Catalog, Collection | *Proposal* | Repo Created | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
@@ -68,7 +68,7 @@ These extensions add new fields or semantics to STAC objects.
 - *Blank* - repo has not yet been created
 - Repo Created - Repo has been created from template
 - Updated - Contents have been updated with extension from STAC Core
-- Reviewed - Extension has been reviewed (should happen priopr to Published)
+- Reviewed - Extension has been reviewed (should happen prior to Published)
 - Published - Release made, schemas published
 - Published* - Release made, schemas published, but was not reviewed
 
