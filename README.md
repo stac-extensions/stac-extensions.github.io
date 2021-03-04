@@ -59,7 +59,7 @@ These extensions add new fields or semantics to STAC objects.
 | [Single File STAC](https://github.com/stac-extensions/single-file-stac) | single-file-stac | -                 | Catalog                   | *Proposal* | Repo Created  | An extension to provide a set of Collections and Items within a single file STAC. |
 | [Storage](storage/README.md)                                 | storage          | storage           | Item                      | *Proposal* | New Extension | Provides additional fields relating to how the asset is stored. |
 | [Tiled Assets](https://github.com/stac-extensions/tiled-assets) | tiled-assets     | tiles             | Item, Catalog, Collection | *Proposal* | Repo Created  | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
-| [Timestamps](https://github.com/stac-extensions/timestamps)  | timestamps       | -                 | Item                      | *Proposal* | Reviewed      | Allows to specify numerous timestamps for assets and metadata. |
+| [Timestamps](https://github.com/stac-extensions/timestamps)  | timestamps       | -                 | Item                      | *Proposal* | Published      | Allows to specify numerous timestamps for assets and metadata. |
 | [Versioning Indicators](https://github.com/stac-extensions/version) | version          | -                 | Item, Collection          | *Proposal* | Repo Created  | Provides fields and link relation types to provide a version and indicate deprecation. |
 | [CARD4L](https://github.com/stac-extensions/card4l)          | card4l           | card4l.           | Item                      | *Proposal* | New Extension | How to comply to the CEOS CARD4L product family specifications (Optical and SAR) |
 
