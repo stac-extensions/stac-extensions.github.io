@@ -46,29 +46,24 @@ stac-extensions GitHub organization, and those are listed in the next section.
 
 These extensions add new fields or semantics to STAC objects.
 
-| Extension Title                                              | Identifier       | Field Name Prefix | Scope                     | Maturity   | Status        | Description                                                  |
+| Extension Title                                              | Identifier       | Field Name Prefix | Scope                     | Maturity   | Published?        | Description                                                  |
 | ------------------------------------------------------------ | ---------------- | ----------------- | ------------------------- | ---------- | ------------- | ------------------------------------------------------------ |
-| [Data Cube](https://github.com/stac-extensions/datacube)     | datacube         | cube              | Item, Collection          | *Proposal* | Reviewed | Data Cube related metadata, especially to describe their dimensions. |
-| [File Info](https://github.com/stac-extensions/file)         | file             | file              | Item, Collection          | *Proposal* | **Published** | Provides a way to specify file details such as size, data type and checksum for assets in Items and Collections. |
-| [Item Asset Definition](https://github.com/stac-extensions/item-assets) | item-assets      | -                 | Collection                | *Proposal* | Reviewed | Provides a way to specify details about what assets may be found in Items belonging to a Collection. |
-| [Label](https://github.com/stac-extensions/label)            | label            | label             | Item, Collection          | *Proposal* | Reviewed, open issues | Items that relate labeled AOIs with source imagery           |
-| [Point Cloud](https://github.com/stac-extensions/pointcloud) | pointcloud       | pc                | Item, Collection          | *Proposal* | Reviewed | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery. |
-| [Processing](https://github.com/stac-extensions/processing)  | processing       | processing        | Item, Collection          | *Proposal* | Reviewed | Indicates from which processing chain data originates and how the data itself has been produced. |
-| [SAR](https://github.com/stac-extensions/sar)                | sar              | sar               | Item, Collection          | *Proposal* | **Published** | Covers synthetic-aperture radar data that represents a snapshot of the earth for a single date and time. |
-| [Satellite](https://github.com/stac-extensions/sat)          | sat              | sat               | Item, Collection          | *Proposal* | **Published** | Satellite related metadata for data collected from satellites. |
-| [Single File STAC](https://github.com/stac-extensions/single-file-stac) | single-file-stac | -                 | Catalog                   | *Proposal* | Updated | An extension to provide a set of Collections and Items within a single file STAC. |
-| [Storage](storage/README.md)                                 | storage          | storage           | Item, Collection          | *Proposal* | New Extension | Provides additional fields relating to how the asset is stored. |
-| [Tiled Assets](https://github.com/stac-extensions/tiled-assets) | tiled-assets     | tiles             | Item, Catalog, Collection | *Proposal* | Updated | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
-| [Timestamps](https://github.com/stac-extensions/timestamps)  | timestamps       | -                 | Item, Collection          | *Proposal* | **Published** | Allows to specify numerous timestamps for assets and metadata. |
-| [Versioning Indicators](https://github.com/stac-extensions/version) | version          | -                 | Item, Collection          | *Proposal* | Review  | Provides fields and link relation types to provide a version and indicate deprecation. |
-| [CARD4L](https://github.com/stac-extensions/card4l)          | card4l           | card4l.           | Item                      | *Proposal* | New Extension | How to comply to the CEOS CARD4L product family specifications (Optical and SAR) |
+| [Data Cube](https://github.com/stac-extensions/datacube)     | datacube         | cube              | Item, Collection          | *Proposal* | **Yes** | Data Cube related metadata, especially to describe their dimensions. |
+| [File Info](https://github.com/stac-extensions/file)         | file             | file              | Item, Collection          | *Proposal* | **Yes** | Provides a way to specify file details such as size, data type and checksum for assets in Items and Collections. |
+| [Item Asset Definition](https://github.com/stac-extensions/item-assets) | item-assets      | -                 | Collection                | *Proposal* | **Yes** | Provides a way to specify details about what assets may be found in Items belonging to a Collection. |
+| [Label](https://github.com/stac-extensions/label)            | label            | label             | Item, Collection          | *Proposal* | **Yes** | Items that relate labeled AOIs with source imagery           |
+| [Point Cloud](https://github.com/stac-extensions/pointcloud) | pointcloud       | pc                | Item, Collection          | *Proposal* | **Yes** | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery. |
+| [Processing](https://github.com/stac-extensions/processing)  | processing       | processing        | Item, Collection          | *Proposal* | **Yes** | Indicates from which processing chain data originates and how the data itself has been produced. |
+| [SAR](https://github.com/stac-extensions/sar)                | sar              | sar               | Item, Collection          | *Proposal* | **Yes** | Covers synthetic-aperture radar data that represents a snapshot of the earth for a single date and time. |
+| [Satellite](https://github.com/stac-extensions/sat)          | sat              | sat               | Item, Collection          | *Proposal* | **Yes** | Satellite related metadata for data collected from satellites. |
+| [Single File STAC](https://github.com/stac-extensions/single-file-stac) | single-file-stac | -                 | Catalog                   | *Proposal* | No | An extension to provide a set of Collections and Items within a single file STAC. |
+| [Storage](storage/README.md)                                 | storage          | storage           | Item, Collection          | *Proposal* | No | Provides additional fields relating to how the asset is stored. |
+| [Tiled Assets](https://github.com/stac-extensions/tiled-assets) | tiled-assets     | tiles             | Item, Catalog, Collection | *Proposal* | No | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
+| [Timestamps](https://github.com/stac-extensions/timestamps)  | timestamps       | -                 | Item, Collection          | *Proposal* | **Yes** | Allows to specify numerous timestamps for assets and metadata. |
+| [Versioning Indicators](https://github.com/stac-extensions/version) | version          | -                 | Item, Collection          | *Proposal* | **Yes**  | Provides fields and link relation types to provide a version and indicate deprecation. |
+| [CARD4L](https://github.com/stac-extensions/card4l)          | card4l           | card4l.           | Item                      | *Proposal* | No | How to comply to the CEOS CARD4L product family specifications (Optical and SAR) |
 
-**Status** - Indicates the status of the extension moving out of STAC Core to the `stac-extensions` organization. Status is one of:
-
-- New Extension - Repo contains a new extension
-- Updated - Contents have been updated with extension from STAC Core (and the Template)
-- Reviewed - Extension has been reviewed (should happen prior to Published)
-- Published - Release made, schemas published
+**Published?** - Indicates the status of the extension, it is either in development (No) or published (Yes)
 
 ## Adding a new extension
 
