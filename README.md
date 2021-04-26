@@ -3,11 +3,11 @@
 The [stac-extensions](https://github.com/stac-extensions/) github organization is a home for extensions to the
 [SpatioTemporal Asset Catalog](https://github.com/radiantearth/stac-spec) specification.
 
-To learn about STAC and Extensions start with the [extensions](https://github.com/radiantearth/stac-spec/extensions)
+To learn about STAC and Extensions start with the [extensions](https://github.com/radiantearth/stac-spec/tree/master/extensions)
 section of the core specification. It explains how extensions work, lists all the known extensions, and has
-instructions for how to go about '[extending STAC](https://github.com/radiantearth/stac-spec/extensions/README.md##extending-stac)'.
+instructions for how to go about '[extending STAC](https://github.com/radiantearth/stac-spec/blob/master/extensions/README.md#extending-stac)'.
 
-The [stac-extensions](https://github.com/stac-extensions/) is a home for many of the leading 'community extensions',
+The [stac-extensions](https://github.com/stac-extensions/) github organization is a home for many of the leading 'community extensions',
 providing a neutral home for collaboration. Many of these used to be in the core [stac-spec
 repository]((https://github.com/radiantearth/stac-spec)), but were removed for 1.0.0 so they could evolve at their
 own pace, instead of having to follow the core STAC release cycle.
