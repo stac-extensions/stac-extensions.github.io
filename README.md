@@ -37,7 +37,7 @@ These extensions add new fields or semantics to STAC objects.
 | [Point Cloud](https://github.com/stac-extensions/pointcloud) | pc                | Item, Collection          | *Proposal* | Yes        | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery. |
 | [Processing](https://github.com/stac-extensions/processing)  | processing        | Item, Collection          | *Proposal* | Yes        | Indicates from which processing chain data originates and how the data itself has been produced. |
 | [Projection](https://github.com/stac-extensions/projection)  | proj              | Item, Collection          | Stable     | Yes        | Provides a way to describe Items whose assets are in a geospatial projection. |
-| [Raster](https://github.com/stac-extensions/raster)          | raster            | Item, Collection          | **WIP**    | **No**     |                                                              |
+| [Raster](https://github.com/stac-extensions/raster)          | raster            | Item, Collection          | *Proposal*    | Yes     | Describes raster assets at band level (one or multiple) with specific information such as data type, unit, number of bits used, nodata. |
 | [SAR](https://github.com/stac-extensions/sar)                | sar               | Item, Collection          | *Proposal* | Yes        | Covers synthetic-aperture radar data that represents a snapshot of the earth for a single date and time. |
 | [Satellite](https://github.com/stac-extensions/sat)          | sat               | Item, Collection          | *Proposal* | Yes        | Satellite related metadata for data collected from satellites. |
 | [Scientific Citation](https://github.com/stac-extensions/scientific) | sci               | Item, Collection          | Stable     | Yes        | Metadata that indicate from which publication data originates and how the data itself should be cited or referenced. |
@@ -47,6 +47,7 @@ These extensions add new fields or semantics to STAC objects.
 | [Timestamps](https://github.com/stac-extensions/timestamps)  | -                 | Item, Collection          | *Proposal* | Yes        | Allows to specify numerous timestamps for assets and metadata. |
 | [Versioning Indicators](https://github.com/stac-extensions/version) | -                 | Item, Collection          | *Proposal* | Yes        | Provides fields and link relation types to provide a version and indicate deprecation. |
 | [View Geometry](https://github.com/stac-extensions/view)     | view              | Item, Collection          | Stable     | Yes        | View Geometry adds metadata related to angles of sensors and other radiance angles that affect the view of resulting data |
+| [Virtual Assets](https://github.com/stac-extensions/virtual-assets)     | virtual              | Item, Collection          | **WIP**    | **No**      | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
 
 ## Extension Maturity
 
