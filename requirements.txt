@@ -1,0 +1,4 @@
+requests
+jinja2
+marko
+beautifulsoup4

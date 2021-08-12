@@ -23,40 +23,15 @@ stac-extensions GitHub organization, and those are listed in the next section.
 
 These extensions add new fields or semantics to STAC objects.
 
-Last Updated: Aug 12 23:10  2021 UTC.
+Last Updated: {{updated_time}} UTC.
 
 | Extension Title | Field Name Prefix | Scope | Maturity | Published? | Description |
 | :-------------- | :---------------- | :---- | :------- | ---------- | :---------- |
-   [Alternate Assets](https://github.com/stac-extensions/alternate-assets)|-|Asset|Proposal|-|Extension for describing alternate locations and mirrors of assets|
-   [Anonymized Location](https://github.com/stac-extensions/anonymized-location)|anon|Item, Collection|Proposal|-|Anonymized Location Extension Specification|
-   [](https://github.com/stac-extensions/card4l)||||-|Extension that explains how to comply to the CEOS CARD4L specifications (SAR and Optical)|
-   [Template](https://github.com/stac-extensions/classification)|template|Item, Collection|Proposal|-|An extension to give values in a file a certain meaning (classification).|
-   [Composite](https://github.com/stac-extensions/composite)|composite|Item|Proposal|-|Composite Extension Specification|
-   [Datacube](https://github.com/stac-extensions/datacube)|cube|Item, Collection|Proposal|-|Data cube Extension Specification|
-   [Electro-Optical](https://github.com/stac-extensions/eo)|eo|Item, Collection|Stable|-|EO Extension Specification|
-   [File Info](https://github.com/stac-extensions/file)|file|Item, Collection|Proposal|-|File Info Extension Specification|
-   [Item Assets Definition](https://github.com/stac-extensions/item-assets)|-|Collection|Proposal|-|Item Assets Definition Specification|
-   [Label](https://github.com/stac-extensions/label)|label|Item, Collection|Proposal|-|Label extension|
-   [Military Grid Reference System](https://github.com/stac-extensions/mgrs)|mgrs|Item|Proposal|-|MGRS STAC Extension|
-   [ML AOI](https://github.com/stac-extensions/ml-aoi)|ml-aoi|Item, Collection|Proposal|-|An Item and Collection extension to provide labeled training data for machine learning models.|
-   [Order](https://github.com/stac-extensions/order)|order|Item, Collection|Proposal|-|Order Extension Specification|
-   [Point Cloud](https://github.com/stac-extensions/pointcloud)|pc|Item, Collection|Proposal|-|Point Cloud Extension Specification|
-   [Processing](https://github.com/stac-extensions/processing)|processing|Item, Collection|Proposal|-|Processing Extension Specification|
-   [Projection](https://github.com/stac-extensions/projection)|proj|Item, Collection|Stable|-|Projection Extension Specification|
-   [Raster](https://github.com/stac-extensions/raster)|raster|Item, Collection|Proposal|-|Raster Extension Specification|
-   [Remote Data (Example Extension)](https://github.com/stac-extensions/remote-data)|rd|Item, Collection|Proposal|-|Example Extension|
-   [SAR](https://github.com/stac-extensions/sar)|sar|Item, Collection|Proposal|-|SAR Extension Specification|
-   [Satellite](https://github.com/stac-extensions/sat)|sat|Item, Collection|Proposal|-|Satellite Extension for STAC, providing fields to help describe satellite data collection|
-   [Scientific Citation](https://github.com/stac-extensions/scientific)|sci|Item, Collection|Stable|-|Scientific Citation Extension Specification|
-   [Single File STAC](https://github.com/stac-extensions/single-file-stac)|-|Item, Collection|Proposal|-|Single File STAC Specification|
-   [](https://github.com/stac-extensions/stac-extensions.github.io)||||-|Overview of STAC Extensions, with advice on creating new extensions|
-   [Storage](https://github.com/stac-extensions/storage)|storage|Item, Asset|Proposal|-|Storage Extension Specification|
-   [Template](https://github.com/stac-extensions/template)|template|Item, Collection|Proposal|-|A template repository for new extensions. It enables CI for schema publishing and proposes some core structures.|
-   [Tiled Assets](https://github.com/stac-extensions/tiled-assets)|tiles|Item, Catalog, Collection|Proposal|-|Tiled Assets specification|
-   [Timestamps](https://github.com/stac-extensions/timestamps)|-|Item, Collection|Proposal|-|Timestamps Extension Specification|
-   [Versioning Indicators](https://github.com/stac-extensions/version)|-|Item, Collection|Proposal|-|Versioning Indicators Extension Specification|
-   [View Geometry](https://github.com/stac-extensions/view)|view|Item, Collection|Stable|-|View Extension Specification|
-   [Virtual Assets](https://github.com/stac-extensions/virtual-assets)|virtual|Item, Collection|Proposal|-|Virtual-Assets Extension Specification|## Extension Maturity
+{%- for e in extensions %}
+   [{{e['stac_md_extras']['title']}}]({{e['html_url']}})|{{e['stac_md_extras']['field-name-prefix']}}|{{e['stac_md_extras']['scope']}}|{{e['stac_md_extras']['extension-maturity-classification']}}|-|{{e['description']}}|
+{%- endfor -%}
+
+## Extension Maturity
 
 Extensions in this directory are meant to evolve to maturity, and thus may be in different states
 in terms of stability and number of implementations. All extensions included must include a
