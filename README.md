@@ -9,7 +9,7 @@ instructions for how to go about '[extending STAC](https://github.com/radiantear
 
 The [stac-extensions](https://github.com/stac-extensions/) github organization is a home for many of the leading 'community extensions',
 providing a neutral home for collaboration. Many of these used to be in the core [stac-spec
-repository]((https://github.com/radiantearth/stac-spec)), but were removed for 1.0.0 so they could evolve at their
+repository](https://github.com/radiantearth/stac-spec), but were removed for 1.0.0 so they could evolve at their
 own pace, instead of having to follow the core STAC release cycle.
 
 ## List of STAC Extensions
