@@ -25,6 +25,7 @@ These extensions add new fields or semantics to STAC objects.
 
 | Extension Title                                              | Field Name Prefix | Scope                     | Maturity   | Published? | Description                                                  |
 | ------------------------------------------------------------ | ----------------- | ------------------------- | ---------- | ---------- | ------------------------------------------------------------ |
+| [Alternate Assets](https://github.com/stac-extensions/alternate-assets)  | -   | Asset  | *Proposal*    | Yes         | Provides a way to specify alternate locations for an asset. |
 | [Anonymized Location](https://github.com/stac-extensions/anonymized-location) | anon | Item, Collection      | **WIP**    | No         | Provides a way to anonymize location data. |
 | [CARD4L](https://github.com/stac-extensions/card4l)          | card4l            | Item                      | **WIP**    | **No**     | How to comply to the CEOS CARD4L product family specifications (Optical and SAR) |
 | [Data Cube](https://github.com/stac-extensions/datacube)     | cube              | Item, Collection          | *Proposal* | Yes        | Data Cube related metadata, especially to describe their dimensions. |
