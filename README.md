@@ -50,7 +50,8 @@ These extensions add new fields or semantics to STAC objects.
 | [Timestamps](https://github.com/stac-extensions/timestamps)  | -                 | Item, Collection          | *Proposal* | Yes        | Allows to specify numerous timestamps for assets and metadata. |
 | [Versioning Indicators](https://github.com/stac-extensions/version) | -          | Item, Collection          | *Proposal* | Yes        | Provides fields and link relation types to provide a version and indicate deprecation. |
 | [View Geometry](https://github.com/stac-extensions/view)     | view              | Item, Collection          | Stable     | Yes        | View Geometry adds metadata related to angles of sensors and other radiance angles that affect the view of resulting data |
-| [Virtual Assets](https://github.com/stac-extensions/virtual-assets)     | virtual | Item, Collection         | **WIP**    | **No**      | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
+| [Virtual Assets](https://github.com/stac-extensions/virtual-assets)     | virtual | Item, Collection         | **WIP**    | **No**     | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
+| [Web Map Links](https://github.com/stac-extensions/web-map-links) | - (wmts/xyz) | Item, Catalog, Collection | *Proposal* | Yes        | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 
 ## Extension Maturity
 
