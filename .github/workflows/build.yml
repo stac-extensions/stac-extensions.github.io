@@ -1,0 +1,32 @@
+name: Build README
+on:
+  schedule:
+    - cron: '0 0 * * *' # at 00:00 everyday
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+    - name: Setup Python
+      uses: actions/setup-python@v2
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r python/requirements.txt
+    - name: Update README
+      run: |-
+        python python/create_readme.py
+        cat README.md
+      env:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Deploy to gh-pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        exclude_assets: '.github,python'
+        publish_dir: .
+        commit_message: Update list of extensions

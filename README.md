@@ -8,99 +8,94 @@ section of the core specification. It explains how extensions work, lists all th
 instructions for how to go about '[extending STAC](https://github.com/radiantearth/stac-spec/blob/master/extensions/README.md#extending-stac)'.
 
 The [stac-extensions](https://github.com/stac-extensions/) github organization is a home for many of the leading 'community extensions',
-providing a neutral home for collaboration. Many of these used to be in the core [stac-spec
-repository](https://github.com/radiantearth/stac-spec), but were removed for 1.0.0 so they could evolve at their
+providing a neutral home for collaboration. Many of these used to be in the core
+[stac-spec repository](https://github.com/radiantearth/stac-spec), but were removed for 1.0.0 so they could evolve at their
 own pace, instead of having to follow the core STAC release cycle.
 
 ## List of STAC Extensions
 
-The definitive list of STAC Extensions is in the core spec repository, in the [Extensions 
-README](https://github.com/radiantearth/stac-spec/blob/master/extensions/README.md). This includes the official core
-extensions, as well as a complete list of 'community' extensions. A subset of the community extensions use this 
-stac-extensions GitHub organization, and those are listed in the next section.
+This is meant to be the definitive list of STAC Extensions, but not all of them may be part of this GitHub organization
+and are hosted externally instead.
 
-### Extensions in stac-extensions organization
+| Title | Field Name Prefix | Scope | Maturity | Version | Description |
+| ----- | ----------------- | ----- | -------- | ---------- | ----------- |
+| [Accuracy](https://github.com/stac-extensions/accuracy) | accuracy | Collection, Item | Proposal | **Unreleased** | Fields to provide estimates of accuracy, both geometric and measurement (e.g., radiometric) accuracy. |
+| [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo) | aerial-photo | Collection, Item | Work In Progress (Before proposal) | *Unknown* | Aerial photography related metadata, such as run, sequence number, altitude and scale. |
+| [Alternate Assets](https://github.com/stac-extensions/alternate-assets) | - | Asset | Proposal | 1.1.0 | Describes alternate locations and mirrors of assets |
+| [Anonymized Location](https://github.com/stac-extensions/anonymized-location) | anon | Collection, Item | Proposal | 1.0.0 | Provides a way to anonymize location data |
+| [CARD4L (Optical and SAR)](https://github.com/stac-extensions/card4l) | card4l | Item | Proposal | 0.1.0 | Describes how to comply to the CEOS CARD4L specifications (SAR and Optical) with STAC |
+| [Camera](https://github.com/linz/stac/tree/master/extensions/camera) | camera | Collection, Item | Work In Progress (Before proposal) | *Unknown* | Camera related metadata, such as focal length and sequence number. Especially useful for aerial imagery surveys. |
+| [Classification](https://github.com/stac-extensions/classification) | classification | Collection, Item | Proposal | 1.1.0 | Describes categorical values and bitfields to give values in a file a certain meaning (classification). |
+| [Composite](https://github.com/stac-extensions/composite) | composite | Item | Proposal | **Unreleased** | Defines how virtual assets can be composed from existing assets in STAC |
+| [Datacube](https://github.com/stac-extensions/datacube) | cube | Collection, Item | Proposal | 2.1.0 | Datacube related metadata to describe their dimensions and variables. |
+| [Electro-Optical](https://github.com/stac-extensions/eo) | eo | Collection, Item | Stable | 1.0.0 | Covers electro-optical data that represents a snapshot of the Earth. It could consist of cloud cover and multiple spectral bands, for example visible bands, infrared bands, red edge bands and panchromatic bands. |
+| [File Info](https://github.com/stac-extensions/file) | file | Catalog, Collection, Item | Proposal | 2.1.0 | Specifies file-related details such as size, data type and checksum for assets and links in STAC. |
+| [Film](https://github.com/linz/stac/tree/master/extensions/film) | film | Collection, Item | Work In Progress (Before proposal) | *Unknown* | Film related metadata, such as roll, negative sequence and other physical attributes. Especially useful for digitised historic aerial imagery surveys. |
+| [Forecast](https://github.com/stac-extensions/forecast) | forecast | Collection, Item | Proposal | 0.1.0 | Common fields for (meteorological/weather) forecast data. |
+| [Grid](https://github.com/stac-extensions/grid) | grid | Item | Proposal | 1.1.0 | Describes gridded data products, especially the grid code. |
+| [Hyperspectral Imagery](https://github.com/stac-extensions/hsi) | hsi | Collection, Item | Proposal | **Unreleased** | Hyperspectral Imagery Extension Specification |
+| [InSAR](https://github.com/stac-extensions/insar) | insar | Item | Proposal | **Unreleased** | STAC extension for InSAR |
+| [Item Assets Definition](https://github.com/stac-extensions/item-assets) | - | Collection | Proposal | 1.0.0 | Item Assets Definition Specification |
+| [Label](https://github.com/stac-extensions/label) | label | Collection, Item | Proposal | 1.0.1 | Label extension |
+| [ML AOI](https://github.com/stac-extensions/ml-aoi) | ml-aoi | Collection, Item | Proposal | **Unreleased** | An Item and Collection extension to provide labeled training data for machine learning models. |
+| [ML Model](https://github.com/stac-extensions/ml-model) | ml-model | Collection, Item | Proposal | 1.0.0 | ML Model Extension Specification |
+| [Military Grid Reference System](https://github.com/stac-extensions/mgrs) | mgrs | Item | Proposal | 1.0.0 | MGRS STAC Extension |
+| [NOAA Geostationary Operational Environmental Satellite (GOES)](https://github.com/stac-extensions/goes) | goes | Collection, Item | Proposal | 1.0.0 | STAC Extension for NOAA GOES (Geostationary Operational Environmental Satellite) products |
+| [NOAA MRMS QPE](https://github.com/stac-extensions/noaa-mrms-qpe) | noaa_mrms_qpe | Collection, Item | Proposal | 1.0.0 | None |
+| [Order](https://github.com/stac-extensions/order) | order | Collection, Item | Proposal | 1.0.0 | Order Extension Specification |
+| [Perspective Imagery](https://github.com/stac-extensions/perspective-imagery) | pers | Collection, Item | Proposal | **Unreleased** | STAC extension for describing perspective imagery collected by photogrammetric or non-photogrammetric cameras |
+| [Point Cloud](https://github.com/stac-extensions/pointcloud) | pc | Collection, Item | Proposal | 1.0.0 | Point Cloud Extension Specification |
+| [Processing](https://github.com/stac-extensions/processing) | processing | Collection, Item | Proposal | 1.1.0 | Processing Extension Specification |
+| [Projection](https://github.com/stac-extensions/projection) | proj | Collection, Item | Stable | 1.0.0 | Projection Extension Specification |
+| [Quality](https://github.com/linz/stac/tree/master/extensions/quality) | quality | Collection | Proposal | *Unknown* | Geospatial quality and accuracy of collections, such as horizontal and vertical accuracy. |
+| [Raster](https://github.com/stac-extensions/raster) | raster | Collection, Item | Proposal | 1.1.0 | Raster Extension Specification |
+| [SAR](https://github.com/stac-extensions/sar) | sar | Collection, Item | Proposal | 1.0.0 | SAR Extension Specification |
+| [Satellite](https://github.com/stac-extensions/sat) | sat | Collection, Item | Proposal | 1.0.0 | Satellite Extension for STAC, providing fields to help describe satellite data collection |
+| [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning) | scan | Collection, Item | Work In Progress (Before proposal) | *Unknown* | Scanning related metadata, such as the scan date and time. Especially useful for digitised images. |
+| [Scientific Citation](https://github.com/stac-extensions/scientific) | sci | Collection, Item | Stable | 1.0.0 | Scientific Citation Extension Specification |
+| [Single File STAC](https://github.com/stac-extensions/single-file-stac) | - | Collection, Item | **Deprecated** | **Unreleased** | Single File STAC Specification |
+| [Stats](https://github.com/stac-extensions/stats) | *Unknown* | Catalog, Collection | *Unknown* | 0.2.0 | Extension to describe number of items, extensions and assets that are contained in a STAC catalog. |
+| [Storage](https://github.com/stac-extensions/storage) | storage | Asset, Item | Proposal | 1.0.0 | Storage Extension Specification |
+| [Subjects](https://github.com/stac-extensions/subjects) | subjects | Collection, Item | Proposal | **Unreleased** | Subjects Extension Specification |
+| [Table](https://github.com/stac-extensions/table) | table | Collection, Item | Proposal | 1.2.0 | None |
+| [Template](https://github.com/stac-extensions/vector-label) | template | Collection, Item | Proposal | **Unreleased** | Vector Label Extension Specification |
+| [Tiled Assets](https://github.com/stac-extensions/tiled-assets) | tiles | Catalog, Collection, Item | Proposal | **Unreleased** | Tiled Assets specification |
+| [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | Proposal | **Unreleased** | Time Series STAC Extension Specification  |
+| [Timestamps](https://github.com/stac-extensions/timestamps) | - | Collection, Item | Proposal | 1.0.0 | Timestamps Extension Specification |
+| [U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI)](https://github.com/stac-extensions/usfws-nwi) | fws_nwi | Collection, Item | Proposal | 1.0.0 | None |
+| [Versioning Indicators](https://github.com/stac-extensions/version) | - | Collection, Item | Proposal | 1.1.0 | Versioning Indicators Extension Specification |
+| [Video](https://github.com/stac-extensions/video) | video | Collection, Item | Proposal | 1.0.0 | Provides a way to describe video assets. |
+| [View Geometry](https://github.com/stac-extensions/view) | view | Collection, Item | Stable | 1.0.0 | View Extension Specification |
+| [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | virtual | Collection, Item | Proposal | **Unreleased** | Virtual-Assets Extension Specification |
+| [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relation type has potentially a distinct prefix for additional data (e.g. `wmts` and `xyz`) | Catalog, Collection, Item | Proposal | **Unreleased** | Defines how to link to web mapping services |
+| [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Proposal | 1.0.0 | None |<br>
 
-These extensions add new fields or semantics to STAC objects.
-
-| Extension Title                                                                        | Field Name Prefix | Scope                     | Maturity   | Published? | Description                                                                                                                                                                                                                                                                                                |
-| -------------------------------------------------------------------------------------- | ----------------- | ------------------------- | ---------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo) | aerial-photo      | Item, Collection          | **WIP**    | **No**     | Aerial photography related metadata, such as run, sequence number, altitude and scale.                                                                                                                                                                                                                     |
-| [Alternate Assets](https://github.com/stac-extensions/alternate-assets)                | -                 | Asset                     | *Proposal* | Yes        | Provides a way to specify alternate locations for an asset.                                                                                                                                                                                                                                                |
-| [Anonymized Location](https://github.com/stac-extensions/anonymized-location)          | anon              | Item, Collection          | **WIP**    | **No**     | Provides a way to anonymize location data.                                                                                                                                                                                                                                                                 |
-| [Camera](https://github.com/linz/stac/tree/master/extensions/camera)                   | camera            | Item, Collection          | **WIP**    | **No**     | Camera related metadata, such as focal length and sequence number. Especially useful for aerial imagery surveys.                                                                                                                                                                                           |
-| [CARD4L](https://github.com/stac-extensions/card4l)                                    | card4l            | Item                      | *Proposal* | Yes        | How to comply to the CEOS CARD4L product family specifications (Optical and SAR).                                                                                                                                                                                                                          |
-| [Classification](https://github.com/stac-extensions/classification)                    | classification    | Item, Collection          | *Proposal* | Yes        | Describes categorical values and bitfields. |
-| [Data Cube](https://github.com/stac-extensions/datacube)                               | cube              | Item, Collection          | *Proposal* | Yes        | Data Cube related metadata, especially to describe their dimensions.                                                                                                                                                                                                                                       |
-| [Electro-Optical](https://github.com/stac-extensions/eo)                               | eo                | Item, Collection          | Stable     | Yes        | Covers electro-optical data that represents a snapshot of the Earth for a single date and time. It could consist of multiple spectral bands, for example visible bands, infrared bands, red edge bands and panchromatic bands. The extension provides common fields like bands, cloud cover, gsd and more. |
-| [File Info](https://github.com/stac-extensions/file)                                   | file              | Item, Collection          | *Proposal* | Yes        | Provides a way to specify file details such as size, data type and checksum for assets in Items and Collections.                                                                                                                                                                                           |
-| [Film](https://github.com/linz/stac/tree/master/extensions/film)                       | film              | Item, Collection          | **WIP**    | **No**     | Film related metadata, such as roll, negative sequence and other physical attributes. Especially useful for digitised historic aerial imagery surveys.                                                                                                                                                     |
-| [Forecast](https://github.com/stac-extensions/forecast)                                | forecast          | Item, Collection          | **WIP**    | **No**     | Common fields for (meteorological/weather) forecast data. |
-| [Hyperspectral Imagery](https://github.com/stac-extensions/hsi)                        | hsi               | Item, Collection          | *Proposal* | Yes        | Desribes necessary not specific to vendor hyperspectral imagery fields.                                                                                                                                                                                                                                    |
-| [Item Asset Definition](https://github.com/stac-extensions/item-assets)                | -                 | Collection                | *Proposal* | Yes        | Provides a way to specify details about what assets may be found in Items belonging to a Collection.                                                                                                                                                                                                       |
-| [Label](https://github.com/stac-extensions/label)                                      | label             | Item, Collection          | *Proposal* | Yes        | Items that relate labeled AOIs with source imagery.                                                                                                                                                                                                                                                        |
-| [ML AOI](https://github.com/stac-extensions/ml-aoi)                                    | ml-aoi            | Item, Collection          | **WIP**    | **No**     | An Item and Collection extension to provide labeled training data for machine learning models.                                                                                                                                                                                                             |
-| [ML Model](https://github.com/stac-extensions/ml-model)                                | ml-model          | Item, Collection          | *Proposal* | Yes        | An Item and Collection extension to describe machine learning (ML) models that operate on Earth observation data.                                                                                                                                                                                          |
-| [MGRS](https://github.com/stac-extensions/mgrs)                                        | mgrs              | Item, Collection          | *Proposal* | Yes        |                                                                                                                                                                                                                                                                                                            |
-| [Order](https://github.com/stac-extensions/order)                                      | order             | Item, Collection          | *Proposal* | Yes        | Allows assets ordering management within STAC specification.                                                                                                                                                                                                                                               |
-| [Perspective Imagery](https://github.com/stac-extensions/perspective-imagery)          | pers              | Item, Collection          | **WIP**    | **No**     | Provides a way to describe perspective imagery collected by photogrammetric or non-photogrammetric frame cameras.                                                                                                                                                                                          |
-| [Point Cloud](https://github.com/stac-extensions/pointcloud)                           | pc                | Item, Collection          | *Proposal* | Yes        | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery.                                                                                                |
-| [Processing](https://github.com/stac-extensions/processing)                            | processing        | Item, Collection          | *Proposal* | Yes        | Indicates from which processing chain data originates and how the data itself has been produced.                                                                                                                                                                                                           |
-| [Projection](https://github.com/stac-extensions/projection)                            | proj              | Item, Collection          | Stable     | Yes        | Provides a way to describe Items whose assets are in a geospatial projection.                                                                                                                                                                                                                              |
-| [Quality](https://github.com/linz/stac/tree/master/extensions/quality)                 | quality           | Collection                | *Proposal* | **No**     | Geospatial quality and accuracy of collections, such as horizontal and vertical accuracy.                                                                                                                                                                                                                  |
-| [Raster](https://github.com/stac-extensions/raster)                                    | raster            | Item, Collection          | *Proposal* | Yes        | Describes raster assets at band level (one or multiple) with specific information such as data type, unit, number of bits used, nodata.                                                                                                                                                                    |
-| [SAR](https://github.com/stac-extensions/sar)                                          | sar               | Item, Collection          | *Proposal* | Yes        | Covers synthetic-aperture radar data that represents a snapshot of the earth for a single date and time.                                                                                                                                                                                                   |
-| [Satellite](https://github.com/stac-extensions/sat)                                    | sat               | Item, Collection          | *Proposal* | Yes        | Satellite related metadata for data collected from satellites.                                                                                                                                                                                                                                             |
-| [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)               | scan              | Item, Collection          | **WIP**    | **No**     | Scanning related metadata, such as the scan date and time. Especially useful for digitised images.                                                                                                                                                                                                         |
-| [Scientific Citation](https://github.com/stac-extensions/scientific)                   | sci               | Item, Collection          | Stable     | Yes        | Metadata that indicate from which publication data originates and how the data itself should be cited or referenced.                                                                                                                                                                                       |
-| [Single File STAC](https://github.com/stac-extensions/single-file-stac)                | -                 | Catalog                   | **Deprecated** | **No**     | An extension to provide a set of Collections and Items within a single file STAC.                                                                                                                                                                                                                          |
-| [Storage](https://github.com/stac-extensions/storage)                                  | storage           | Item, Collection          | *Proposal* | Yes        | Provides additional fields relating to how the asset is stored.                                                                                                                                                                                                                                            |
-| [Table](https://github.com/stac-extensions/table)                                      | table             | Item, Collection          | *Proposal* | Yes        | An Collection or Item can describe a tabular data assets, using a list of Column objects. Additionally, Collections can describe many tabular datasets using Table objects. |
-| [Tiled Assets](https://github.com/stac-extensions/tiled-assets)                        | tiles             | Item, Catalog, Collection | *Proposal* | **No**     | Allows to specify numerous assets using asset templates via tile matrices and dimensions.                                                                                                                                                                                                                  |
-| [Timestamps](https://github.com/stac-extensions/timestamps)                            | -                 | Item, Collection          | *Proposal* | Yes        | Allows to specify numerous timestamps for assets and metadata.                                                                                                                                                                                                                                             |
-| [Versioning Indicators](https://github.com/stac-extensions/version)                    | -                 | Item, Collection          | *Proposal* | Yes        | Provides fields and link relation types to provide a version and indicate deprecation.                                                                                                                                                                                                                     |
-| [Video](https://github.com/stac-extensions/video)                                      | video             | Item                      | *Proposal* | Yes        | Allows the description of video sources.                                                                                                                                                                                                                                                                   |
-| [View Geometry](https://github.com/stac-extensions/view)                               | view              | Item, Collection          | Stable     | Yes        | View Geometry adds metadata related to angles of sensors and other radiance angles that affect the view of resulting data.                                                                                                                                                                                 |
-| [Virtual Assets](https://github.com/stac-extensions/virtual-assets)                    | virtual           | Item, Collection          | **WIP**    | **No**     | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning.                                                                                                                                                                                           |
-| [Web Map Links](https://github.com/stac-extensions/web-map-links)                      | - (wmts/xyz)      | Item, Catalog, Collection | *Proposal* | Yes        | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported.                                                                                                                                                                                                 |
-
-
-## Extension Maturity
-
-Extensions in this directory are meant to evolve to maturity, and thus may be in different states
-in terms of stability and number of implementations. All extensions included must include a
-maturity classification, so that STAC spec users can easily get a sense of how much they can count
-on the extension.
-
-| Maturity Classification |  Min Impl # | Description | Stability |
-| ----------------------- | ----------- | ----------- | --------- |
-| Proposal                | 0           | An idea put forward by a community member to gather feedback | Not stable - breaking changes almost guaranteed as implementers try out the idea. |
-| Pilot                   | 1           | Idea is fleshed out, with examples and a JSON schema, and implemented in one or more catalogs. Additional implementations encouraged to help give feedback | Approaching stability - breaking changes are not anticipated but can easily come from additional feedback |
-| Candidate               | 3           | A number of implementers are using it and are standing behind it as a solid extension. Can generally count on an extension at this maturity level | Mostly stable, breaking changes require a new version and minor changes are unlikely. The extension has a [code owner](../.github/CODEOWNERS). |
-| Stable                  | 6           | Highest current level of maturity. The community of extension maintainers commits to a STAC review process for any changes, which are not made lightly. | Completely stable, all changes require a new version number and review process. |
-| Deprecated              | N/A         | A previous extension that has likely been superseded by a newer one or did not work out for some reason. | DO NOT USE, is not supported |
-
-Maturity mostly comes through diverse implementations, so the minimum number of implementations
-column is the main gating function for an extension to mature. But extension authors can also
-choose to hold back the maturity advancement if they don't feel they are yet ready to commit to
-the less breaking changes of the next level.
-
-A 'mature' classification level will likely be added once there are extensions that have been
-stable for over a year and are used in twenty or more implementations.
+Last updated: Dec 06 2022, 15:26 
 
 ## Adding a new extension
 
+The general idea on how to [extend STAC](https://github.com/radiantearth/stac-spec/blob/master/extensions/README.md#extending-stac)
+and [propose new extensions](https://github.com/radiantearth/stac-spec/blob/master/extensions/README.md#proposing-new-extensions) is explained on [the page about extensions in the stac-spec repository](https://github.com/radiantearth/stac-spec/blob/master/extensions/README.md).
+
 ### Using the stac-extensions template
 
-TODO: Overview of using the template.
+**Create the repository:**
 
-Step-by-step (add an image or two)
+* Go to [template repository](https://github.com/stac-extensions/template), hit the green 'Use this template' button and choose 'Create a new repository'.
+* Be sure to pick the right place ('Owner' and 'Repository name') to create it. You can request (via Gitter or e-mail) to become a member of the stac-extensions organization or put the next repository under your personal account or any other organization.
+* Add a concise and clear description about the extension, it will be used as a description in the list above!
+* Click 'Include all branches' for the CI to write correctly.
+* Finish this by clicking the 'Create repository from template' button
 
-* Request to become a member of stac-extensions if you want to it to have that visibility, or put in your personal or org's repo
-* Go to [template repo](https://github.com/stac-extensions/template) and hit the green 'Use this template' button.
-* Be sure to pick the right place to create it.
-* Description - briefly describe it
-* click 'copy all branches' for the CI to write correctly.
-* Title your table properly - likely is just item properties or collection fields, though some are both. But make your heading clear.
-* Schemas - start with the templates, and add in your properties.
-* In 'settings' turn on github pages (unless we find a way to do this automatically) - probaby add a picture for this.
+**Write your extension:**
+
+* In the repository 'Settings' go to 'Pages' and set the 'Source' to 'Deploy from a branch' and for the 'Branch' select 'gh-pages' and '/ (root)'
+* Update the title, identifier, field name prefix, scope and owner. Don't mess around with the formatting or structure as this will be used to generate the table above!
+* Update the fields, select where they can be used, add documentation etc. in the README.md
+* Update the JSON Schema accordingly in schemas/schema.json
+* Add examples
+* Go through the files and update everything that is still named 'template' (the easiest way is to let an IDE/Editor search through all the files for 'template')
+* Run the tests
+* Update the changelog
+* Let people discuss your extension, e.g. via Gitter
+* Eventually, release the extension via GitHub Releases
