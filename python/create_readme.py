@@ -109,6 +109,22 @@ def get_extensions() -> list:
   wip = "*WIP*"
   data = get_sources()
   for src in data:
+    # Get tags
+    src["version"] = unknown
+    if "tags" in src:
+      try:
+        with requests.get(src["tags"], headers=headers) as tags:
+          tags = tags.json()
+          if len(tags) > 0:
+            src["version"] = re.sub(r"^v", "", tags[0]["name"])
+          else:
+            src["version"] = "**Unreleased**"
+            if "maturity" not in src:
+              src["maturity"] = wip
+      except error as e:
+        logger.error(f"tags not available: {e}")
+    
+    # Parse README
     try:
       logger.info("Reading readme for" + src["title"])
       with requests.get(src["readme"]) as readme:
@@ -140,7 +156,7 @@ def get_extensions() -> list:
 
         # Parse maturity
         maturity = re.search(r"[\-\*]\s+[\*\_]*Extension\s+(?:(?:Maturity\s+)?Classification|\[Maturity Classification\]\([^\)]+\))[\*\_]*:[\*\_]*\s*(.+)", readme.text, re.I)
-        if maturity:
+        if maturity and "maturity" not in src:
           maturity_str = maturity.group(1).strip()
           maturity_lc = maturity_str.lower()
           if "wip" in maturity_lc or "work in progress" in maturity_lc:
@@ -151,20 +167,6 @@ def get_extensions() -> list:
           src["maturity"] = unknown
     except error as e:
         logger.error(f"readme not available: {e}")
-
-    # Get tags
-    src["version"] = unknown
-    if "tags" in src:
-      try:
-        with requests.get(src["tags"], headers=headers) as tags:
-          tags = tags.json()
-          if len(tags) > 0:
-            src["version"] = re.sub(r"^v", "", tags[0]["name"])
-          else:
-            src["version"] = "**Unreleased**"
-            src["maturity"] = wip
-      except error as e:
-        logger.error(f"tags not available: {e}")
 
   return data
     
