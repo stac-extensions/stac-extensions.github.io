@@ -53,7 +53,7 @@ and are hosted externally instead.
 | [Satellite](https://github.com/stac-extensions/sat) | sat | Collection, Item | Proposal | 1.0.0 | Satellite Extension for STAC, providing fields to help describe satellite data collection |
 | [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning) | scan | Collection, Item | *WIP* | *Unknown* | Scanning related metadata, such as the scan date and time. Especially useful for digitised images. |
 | [Scientific Citation](https://github.com/stac-extensions/scientific) | sci | Collection, Item | Stable | 1.0.0 | Scientific Citation Extension Specification |
-| [Single File STAC](https://github.com/stac-extensions/single-file-stac) | - | Collection, Item | *WIP* | **Unreleased** | Single File STAC Specification |
+| [Single File STAC](https://github.com/stac-extensions/single-file-stac) | - | Collection, Item | **Deprecated** | **Unreleased** | Single File STAC Specification |
 | [Stats](https://github.com/stac-extensions/stats) | stats | Catalog, Collection | Proposal | 0.2.0 | Describes the number of items, extensions and assets that are contained in a STAC catalog. |
 | [Storage](https://github.com/stac-extensions/storage) | storage | Asset, Item | Proposal | 1.0.0 | Storage Extension Specification |
 | [Subjects](https://github.com/stac-extensions/subjects) | subjects | Collection, Item | *WIP* | **Unreleased** | Subjects Extension Specification |
@@ -70,7 +70,7 @@ and are hosted externally instead.
 | [vector-label](https://github.com/stac-extensions/vector-label) | *Unknown* | Collection, Item | *WIP* | **Unreleased** | Vector Label Extension Specification |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Proposal | 1.0.0 | None |
 
-**Last updated:** Dec 06 2022, 21:25 
+**Last updated:** Dec 06 2022, 21:32 
 
 ## Adding a new extension
 
