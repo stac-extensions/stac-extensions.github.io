@@ -19,11 +19,11 @@ and are hosted externally instead.
 
 | Title | Field Name Prefix | Scope | [Maturity](https://github.com/radiantearth/stac-spec/tree/master/extensions#extension-maturity) | Version | Description |
 | ----- | ----------------- | ----- | ----------------------------------------------------------------------------------------------- | ------- | ----------- |
-{% for e in extensions %}
+{%- for e in extensions %}
 | [{{e.title}}]({{e.url}}) | {{e.prefix}} | {{e.scope}} | {{e.maturity}} | {{e.version}} | {{e.description}} |
-{%- endfor -%}
+{%- endfor %}
 
-Last updated: {{updated}}
+**Last updated:** {{updated}}
 
 ## Adding a new extension
 

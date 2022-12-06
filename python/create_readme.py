@@ -88,7 +88,7 @@ def get_sources() -> list:
         if not isinstance(repo, dict):
           logger.error(f"response invalid")
           continue
-        if repo["name"] in IGNORE_REPOS:
+        if repo["is_template"] or repo["name"] in IGNORE_REPOS:
           continue
         data.append(from_gh(repo))
   except error as e:
@@ -106,6 +106,7 @@ def get_sources() -> list:
 
 def get_extensions() -> list:
   unknown = "*Unknown*"
+  wip = "*WIP*"
   data = get_sources()
   for src in data:
     try:
@@ -114,10 +115,12 @@ def get_extensions() -> list:
         # Parse title
         title = re.search(r"[\-\*]\s+[\*\_]*Title[\*\_]*:[\*\_]*\s*(.+)", readme.text, re.I)
         if title:
-          src["title"] = title.group(1).strip()
+          title_str = title.group(1).strip()
+          if "template" not in title_str.lower():
+            src["title"] = title_str
       
         # Parse scope
-        scope = re.search(r"[\-\*]\s+[\*\_]*Scope[\*\_]*:[\*\_]*\s*(.+)", readme.text, re.I)
+        scope = re.search(r"[\-\*]\s+[\*\_]*Scope[\*\_]*:[\*\_]*\s*([\w\s,]+)", readme.text, re.I)
         if scope:
           scopes = scope.group(1).split(",")
           scopes = [s.strip() for s in scopes]
@@ -127,17 +130,24 @@ def get_extensions() -> list:
           src["scope"] = unknown
 
         # Parse prefix
-        prefix = re.search(r"[\-\*]\s+[\*\_]*(?:Field\s+Name\s+)?Prefix[\*\_]*:[\*\_]*\s*(.+)", readme.text, re.I)
+        prefix = re.search(r"[\-\*]\s+[\*\_]*(?:Field\s+Name\s+)?Prefix[\*\_]*:[\*\_]*\s*`?(.{1,20})`?", readme.text, re.I)
         if prefix:
-          src["prefix"] = prefix.group(1).strip()
-        else:
+          prefix_str = prefix.group(1).strip()
+          if "template" not in prefix_str.lower():
+            src["prefix"] = prefix_str
+        if "prefix" not in src:
           src["prefix"] = unknown
 
         # Parse maturity
         maturity = re.search(r"[\-\*]\s+[\*\_]*Extension\s+(?:(?:Maturity\s+)?Classification|\[Maturity Classification\]\([^\)]+\))[\*\_]*:[\*\_]*\s*(.+)", readme.text, re.I)
-        if prefix:
-          src["maturity"] = maturity.group(1).strip()
-        else:
+        if maturity:
+          maturity_str = maturity.group(1).strip()
+          maturity_lc = maturity_str.lower()
+          if "wip" in maturity_lc or "work in progress" in maturity_lc:
+            src["maturity"] = wip
+          elif maturity_lc in ["proposal", "pilot", "candidate", "stable"]:
+            src["maturity"] = maturity_str
+        if "maturity" not in src:
           src["maturity"] = unknown
     except error as e:
         logger.error(f"readme not available: {e}")
@@ -152,6 +162,7 @@ def get_extensions() -> list:
             src["version"] = re.sub(r"^v", "", tags[0]["name"])
           else:
             src["version"] = "**Unreleased**"
+            src["maturity"] = wip
       except error as e:
         logger.error(f"tags not available: {e}")
 
