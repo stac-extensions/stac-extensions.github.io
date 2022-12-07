@@ -1,0 +1,46 @@
+# Names of GitHub repositories not in stac-extensions org
+COMMUNITY_REPOS = [
+  # Example (org, repo name):
+  # ['stac-extensions', 'card4l'], 
+]
+
+# Other extensions that are not on GitHub
+EXTERNAL_EXTENSIONS = [
+  {
+    "title": "Aerial Photo",
+    "url": "https://github.com/linz/stac/tree/master/extensions/aerial-photo",
+    "readme": "https://raw.githubusercontent.com/linz/stac/master/extensions/aerial-photo/README.md",
+    "description": "Aerial photography related metadata, such as run, sequence number, altitude and scale."
+  },
+  {
+    "title": "Camera",
+    "url": "https://github.com/linz/stac/tree/master/extensions/camera",
+    "readme": "https://raw.githubusercontent.com/linz/stac/master/extensions/camera/README.md",
+    "description": "Camera related metadata, such as focal length and sequence number. Especially useful for aerial imagery surveys."
+  },
+  {
+    "title": "Film",
+    "url": "https://github.com/linz/stac/tree/master/extensions/film",
+    "readme": "https://raw.githubusercontent.com/linz/stac/master/extensions/film/README.md",
+    "description": "Film related metadata, such as roll, negative sequence and other physical attributes. Especially useful for digitised historic aerial imagery surveys."
+  },
+  {
+    "title": "Quality",
+    "url": "https://github.com/linz/stac/tree/master/extensions/quality",
+    "readme": "https://raw.githubusercontent.com/linz/stac/master/extensions/quality/README.md",
+    "description": "Geospatial quality and accuracy of collections, such as horizontal and vertical accuracy."
+  },
+  {
+    "title": "Scanning",
+    "url": "https://github.com/linz/stac/tree/master/extensions/scanning",
+    "readme": "https://raw.githubusercontent.com/linz/stac/master/extensions/scanning/README.md",
+    "description": "Scanning related metadata, such as the scan date and time. Especially useful for digitised images."
+  }
+]
+
+# Names of repositories in the stac-extensions org to skip
+IGNORE_REPOS = [
+  "remote-data",
+  "stac-extensions.github.io",
+  "template"
+]

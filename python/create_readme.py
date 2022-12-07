@@ -7,55 +7,9 @@ import logging
 import re
 import os
 import sys
+import config
 
 logger = logging.getLogger(__name__)
-
-# Names of repositories to skip
-IGNORE_REPOS = [
-  "remote-data",
-  "stac-extensions.github.io",
-  "template"
-]
-
-# Names of GitHub repositories not in stac-extensions org
-COMMUNITY_REPOS = [
-  # Example (org, repo name):
-  # ['stac-extensions', 'card4l'], 
-]
-
-# Other extensions that are not on GitHub
-EXTERNAL_EXTENSIONS = [
-  {
-    "title": "Aerial Photo",
-    "url": "https://github.com/linz/stac/tree/master/extensions/aerial-photo",
-    "readme": "https://raw.githubusercontent.com/linz/stac/master/extensions/aerial-photo/README.md",
-    "description": "Aerial photography related metadata, such as run, sequence number, altitude and scale."
-  },
-  {
-    "title": "Camera",
-    "url": "https://github.com/linz/stac/tree/master/extensions/camera",
-    "readme": "https://raw.githubusercontent.com/linz/stac/master/extensions/camera/README.md",
-    "description": "Camera related metadata, such as focal length and sequence number. Especially useful for aerial imagery surveys."
-  },
-  {
-    "title": "Film",
-    "url": "https://github.com/linz/stac/tree/master/extensions/film",
-    "readme": "https://raw.githubusercontent.com/linz/stac/master/extensions/film/README.md",
-    "description": "Film related metadata, such as roll, negative sequence and other physical attributes. Especially useful for digitised historic aerial imagery surveys."
-  },
-  {
-    "title": "Quality",
-    "url": "https://github.com/linz/stac/tree/master/extensions/quality",
-    "readme": "https://raw.githubusercontent.com/linz/stac/master/extensions/quality/README.md",
-    "description": "Geospatial quality and accuracy of collections, such as horizontal and vertical accuracy."
-  },
-  {
-    "title": "Scanning",
-    "url": "https://github.com/linz/stac/tree/master/extensions/scanning",
-    "readme": "https://raw.githubusercontent.com/linz/stac/master/extensions/scanning/README.md",
-    "description": "Scanning related metadata, such as the scan date and time. Especially useful for digitised images."
-  }
-]
 
 headers = {}
 env = dict(os.environ)
@@ -89,13 +43,13 @@ def get_sources() -> list:
         if not isinstance(repo, dict):
           logger.error(f"response invalid")
           continue
-        if repo["is_template"] or repo["name"] in IGNORE_REPOS:
+        if repo["is_template"] or repo["name"] in config.IGNORE_REPOS:
           continue
         data.append(from_gh(repo, False))
   except error as e:
       logger.error(f"stac-extensions not available: {e}")
 
-  for r in COMMUNITY_REPOS:
+  for r in config.COMMUNITY_REPOS:
     try:
       logger.info(f"Reading community repos individually")
       with requests.get(f"https://api.github.com/repos/{r[0]}/{r[1]}", headers=headers) as repo:
@@ -103,7 +57,7 @@ def get_sources() -> list:
     except error as e:
         logger.error(f"community repo not available: {e}")
 
-  for r in EXTERNAL_EXTENSIONS:
+  for r in config.EXTERNAL_EXTENSIONS:
     r["external"] = True
     data.append(r)
 
