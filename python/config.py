@@ -1,7 +1,7 @@
 # Names of GitHub repositories not in stac-extensions org
 COMMUNITY_REPOS = [
-  # Example (org, repo name):
-  # ['stac-extensions', 'card4l'], 
+  # org, repo name
+  ['thareUSGS', 'ssys'], 
 ]
 
 # Other extensions that are not on GitHub
