@@ -69,7 +69,8 @@ def get_extensions() -> list:
   data = get_sources()
   for src in data:
     # Get tags
-    src["version"] = unknown
+    if "version" not in "src":
+      src["version"] = unknown
     if "tags" in src:
       try:
         with requests.get(src["tags"], headers=headers) as tags:
@@ -84,48 +85,50 @@ def get_extensions() -> list:
         logger.error(f"tags not available: {e}")
     
     # Parse README
-    try:
-      logger.info("Reading readme for" + src["title"])
-      with requests.get(src["readme"]) as readme:
-        # Parse title
-        title = re.search(r"[\-\*]\s+[\*\_]*Title[\*\_]*:[\*\_]*\s*(.+)", readme.text, re.I)
-        if title:
-          title_str = title.group(1).strip()
-          if "template" not in title_str.lower():
-            src["title"] = title_str
-      
-        # Parse scope
-        scope = re.search(r"[\-\*]\s+[\*\_]*Scope[\*\_]*:[\*\_]*\s*([\w\s,]+)", readme.text, re.I)
-        if scope:
-          scopes = scope.group(1).split(",")
-          scopes = [s.strip() for s in scopes]
-          scopes.sort()
-          src["scope"] = ", ".join(scopes)
-        else:
-          src["scope"] = unknown
+    if "readme" in src:
+      try:
+        logger.info("Reading readme for" + src["title"])
+        with requests.get(src["readme"]) as readme:
+          # Parse title
+          title = re.search(r"[\-\*]\s+[\*\_]*Title[\*\_]*:[\*\_]*\s*(.+)", readme.text, re.I)
+          if title:
+            title_str = title.group(1).strip()
+            if "template" not in title_str.lower():
+              src["title"] = title_str
+        
+          # Parse scope
+          scope = re.search(r"[\-\*]\s+[\*\_]*Scope[\*\_]*:[\*\_]*\s*([\w\s,]+)", readme.text, re.I)
+          if scope:
+            scopes = scope.group(1).split(",")
+            scopes = [s.strip() for s in scopes]
+            scopes.sort()
+            src["scope"] = ", ".join(scopes)
 
-        # Parse prefix
-        prefix = re.search(r"[\-\*]\s+[\*\_]*(?:Field\s+Name\s+)?Prefix[\*\_]*:[\*\_]*\s*`?(.{1,20})`?", readme.text, re.I)
-        if prefix:
-          prefix_str = prefix.group(1).strip()
-          if "template" not in prefix_str.lower():
-            src["prefix"] = prefix_str
-        if "prefix" not in src:
-          src["prefix"] = unknown
+          # Parse prefix
+          prefix = re.search(r"[\-\*]\s+[\*\_]*(?:Field\s+Name\s+)?Prefix[\*\_]*:[\*\_]*\s*`?(.{1,20})`?", readme.text, re.I)
+          if prefix:
+            prefix_str = prefix.group(1).strip()
+            if "template" not in prefix_str.lower():
+              src["prefix"] = prefix_str
 
-        # Parse maturity
-        maturity = re.search(r"[\-\*]\s+[\*\_]*Extension\s+(?:(?:Maturity\s+)?Classification|\[Maturity Classification\]\([^\)]+\))[\*\_]*:[\*\_]*\s*(.+)", readme.text, re.I)
-        if maturity and "maturity" not in src:
-          maturity_str = maturity.group(1).strip()
-          maturity_lc = maturity_str.lower()
-          if "wip" in maturity_lc or "work in progress" in maturity_lc:
-            src["maturity"] = wip
-          elif maturity_lc in ["proposal", "pilot", "candidate", "stable"]:
-            src["maturity"] = maturity_str
-        if "maturity" not in src:
-          src["maturity"] = unknown
-    except error as e:
-        logger.error(f"readme not available: {e}")
+          # Parse maturity
+          maturity = re.search(r"[\-\*]\s+[\*\_]*Extension\s+(?:(?:Maturity\s+)?Classification|\[Maturity Classification\]\([^\)]+\))[\*\_]*:[\*\_]*\s*(.+)", readme.text, re.I)
+          if maturity and "maturity" not in src:
+            maturity_str = maturity.group(1).strip()
+            maturity_lc = maturity_str.lower()
+            if "wip" in maturity_lc or "work in progress" in maturity_lc:
+              src["maturity"] = wip
+            elif maturity_lc in ["proposal", "pilot", "candidate", "stable"]:
+              src["maturity"] = maturity_str
+      except error as e:
+          logger.error(f"readme not available: {e}")
+
+    if "prefix" not in src:
+      src["prefix"] = unknown
+    if "maturity" not in src:
+      src["maturity"] = unknown
+    if "scope" not in src:
+      src["scope"] = unknown
 
   return data
     

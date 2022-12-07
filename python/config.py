@@ -35,6 +35,20 @@ EXTERNAL_EXTENSIONS = [
     "url": "https://github.com/linz/stac/tree/master/extensions/scanning",
     "readme": "https://raw.githubusercontent.com/linz/stac/master/extensions/scanning/README.md",
     "description": "Scanning related metadata, such as the scan date and time. Especially useful for digitised images."
+  },
+  {
+    "title": "Landsat",
+    "url": "https://landsat.usgs.gov/stac/landsat-extension/v1.1.1/schema.json",
+    "version": "1.1.1",
+    "prefix": "landsat",
+    "description": "*JSON Schema only!*"
+  },
+  {
+    "title": "Landsat ARD Tile",
+    "url": "https://landsat.usgs.gov/stac/landsat-ard-extension/v1.0.0/schema.json",
+    "version": "1.0.0",
+    "prefix": "landsat",
+    "description": "*JSON Schema only!*"
   }
 ]
 
