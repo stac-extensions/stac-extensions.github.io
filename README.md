@@ -71,15 +71,12 @@ As such is not part of the stac-extensions GitHub organization and may not follo
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | *WIP* | **Unreleased** | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Proposal | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-**Last updated:** Dec 07 2022, 16:09 
+**Last updated:** Dec 07 2022, 16:12 
 
 ## Adding a new extension
 
 The general idea on how to [extend STAC](https://github.com/radiantearth/stac-spec/blob/master/extensions/README.md#extending-stac)
 and [propose new extensions](https://github.com/radiantearth/stac-spec/blob/master/extensions/README.md#proposing-new-extensions) is explained on [the page about extensions in the stac-spec repository](https://github.com/radiantearth/stac-spec/blob/master/extensions/README.md).
-
-You can add external/community extensions to this list by editing the [config file](https://github.com/stac-extensions/stac-extensions.github.io/edit/main/python/config.py)
-and creating a Pull Request for the change. All extensions hosted in the stac-extensions organization will be added automatically each night.
 
 ### Using the stac-extensions template
 
@@ -103,3 +100,6 @@ and creating a Pull Request for the change. All extensions hosted in the stac-ex
 * Update the changelog
 * Let people discuss your extension, e.g. via Gitter
 * Eventually, release the extension via GitHub Releases
+
+You can add external/community extensions to the list above by editing the [config file](https://github.com/stac-extensions/stac-extensions.github.io/edit/main/python/config.py)
+and creating a Pull Request for the change. All extensions hosted in the stac-extensions organization will be added automatically each night.
