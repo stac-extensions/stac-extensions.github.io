@@ -56,6 +56,7 @@ As such is not part of the stac-extensions GitHub organization and may not follo
 | [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)* | scan | Collection, Item | *WIP* | *Unknown* | Scanning related metadata, such as the scan date and time. Especially useful for digitised images. |
 | [Scientific Citation](https://github.com/stac-extensions/scientific) | sci | Collection, Item | Stable | 1.0.0 | Metadata that indicate from which publication data originates and how the data itself should be cited or referenced. |
 | [Single File STAC](https://github.com/stac-extensions/single-file-stac) | - | Collection, Item | **Deprecated** | **Unreleased** | An extension to provide a set of Collections and Items within a single file STAC. |
+| [Solar System](https://github.com/thareUSGS/ssys)* | ssys | Catalog, Collection, Item | *Unknown* | 1.0.0 | SSYS STAC Extension Specification |
 | [Stats](https://github.com/stac-extensions/stats) | stats | Catalog, Collection | Proposal | 0.2.0 | Describes the number of items, extensions and assets that are contained in a STAC catalog. |
 | [Storage](https://github.com/stac-extensions/storage) | storage | Asset, Item | Proposal | 1.0.0 | Provides additional fields relating to how the asset is stored in the cloud |
 | [Subjects](https://github.com/stac-extensions/subjects) | subjects | Collection, Item | *WIP* | **Unreleased** | Subjects Extension Specification |
@@ -71,7 +72,7 @@ As such is not part of the stac-extensions GitHub organization and may not follo
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | *WIP* | **Unreleased** | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Proposal | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-**Last updated:** Dec 07 2022, 16:12 
+**Last updated:** Dec 07 2022, 17:29 
 
 ## Adding a new extension
 
