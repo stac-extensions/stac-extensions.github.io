@@ -136,8 +136,9 @@ def get_extensions() -> list:
 def main() -> bool:
   data = get_extensions()
   data.sort(key = lambda x: x["title"])
+  count = len(data)
 
-  if len(data) < 45:
+  if count < 45:
     logger.error("Something likely went wrong as there are not enough repos listed, don't overrride README")
     sys.exit(1)
   
@@ -145,7 +146,7 @@ def main() -> bool:
   template = Template(Path("./python/README_TEMPLATE.md.jinja").read_text())
 
   with Path("./README.md") as f:
-    f.write_text(template.render(extensions=data, updated=now))
+    f.write_text(template.render(extensions=data, updated=now, count=count))
 
   sys.exit(0)
 
