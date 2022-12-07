@@ -69,7 +69,7 @@ def get_extensions() -> list:
   data = get_sources()
   for src in data:
     # Get tags
-    if "version" not in "src":
+    if "version" not in src:
       src["version"] = unknown
     if "tags" in src:
       try:
