@@ -14,13 +14,15 @@ own pace, instead of having to follow the core STAC release cycle.
 
 ## List of STAC Extensions
 
-This is meant to be the definitive list of STAC Extensions, but not all of them may be part of this GitHub organization
-and are hosted externally instead.
+This is meant to be the definitive list of STAC Extensions, but not all of them may be part of this GitHub organization.
+
+An asterisk (*) indicates a community extension that is hosted externally.
+As such is not part of the stac-extensions GitHub organisation and may not follow the normal procedure or classification for STAC extensions, e.g. regarding the maturity.
 
 | Title | Field Name Prefix | Scope | [Maturity](https://github.com/radiantearth/stac-spec/tree/master/extensions#extension-maturity) | Version | Description |
 | ----- | ----------------- | ----- | ----------------------------------------------------------------------------------------------- | ------- | ----------- |
 {%- for e in extensions %}
-| [{{e.title}}]({{e.url}}) | {{e.prefix}} | {{e.scope}} | {{e.maturity}} | {{e.version}} | {{e.description}} |
+| [{{e.title}}]({{e.url}}){% if e.external %}*{% endif %} | {{e.prefix}} | {{e.scope}} | {{e.maturity}} | {{e.version}} | {{e.description}} |
 {%- endfor %}
 
 **Last updated:** {{updated}}

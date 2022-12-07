@@ -62,7 +62,7 @@ env = dict(os.environ)
 if "github-token" in env:
   headers["Authorization"] = " ".join(["token", os.environ["github-token"]])
 
-def from_gh(response) -> dict:
+def from_gh(response, external = False) -> dict:
   data = {
     "title": response["name"],
     "url": response["html_url"],
@@ -71,7 +71,8 @@ def from_gh(response) -> dict:
       path = response["full_name"],
       branch = response["default_branch"]
     ),
-    "tags": response["tags_url"]
+    "tags": response["tags_url"],
+    "external": external
   }
   if response["archived"]:
     data["maturity"] = "**Deprecated**"
@@ -90,7 +91,7 @@ def get_sources() -> list:
           continue
         if repo["is_template"] or repo["name"] in IGNORE_REPOS:
           continue
-        data.append(from_gh(repo))
+        data.append(from_gh(repo, False))
   except error as e:
       logger.error(f"stac-extensions not available: {e}")
 
@@ -98,11 +99,15 @@ def get_sources() -> list:
     try:
       logger.info(f"Reading community repos individually")
       with requests.get(f"https://api.github.com/repos/{r[0]}/{r[1]}", headers=headers) as repo:
-        data.append(from_gh(repo.json()))
+        data.append(from_gh(repo.json(), True))
     except error as e:
         logger.error(f"community repo not available: {e}")
 
-  return data + EXTERNAL_EXTENSIONS
+  for r in EXTERNAL_EXTENSIONS:
+    r["external"] = True
+    data.append(r)
+
+  return data
 
 def get_extensions() -> list:
   unknown = "*Unknown*"
