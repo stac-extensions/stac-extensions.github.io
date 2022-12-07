@@ -67,10 +67,9 @@ and are hosted externally instead.
 | [View Geometry](https://github.com/stac-extensions/view) | view | Collection, Item | Stable | 1.0.0 | View Extension Specification |
 | [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | virtual | Collection, Item | *WIP* | **Unreleased** | Virtual-Assets Extension Specification |
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | *WIP* | **Unreleased** | Defines how to link to web mapping services |
-| [vector-label](https://github.com/stac-extensions/vector-label) | *Unknown* | Collection, Item | *WIP* | **Unreleased** | Vector Label Extension Specification |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Proposal | 1.0.0 | None |
 
-**Last updated:** Dec 06 2022, 21:32 
+**Last updated:** Dec 07 2022, 01:19 
 
 ## Adding a new extension
 
