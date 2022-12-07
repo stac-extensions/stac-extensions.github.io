@@ -1,13 +1,13 @@
 # STAC Extensions
 
-The [stac-extensions](https://github.com/stac-extensions/) github organization is a home for extensions to the
+The [stac-extensions](https://github.com/stac-extensions/) GitHub organization is a home for extensions to the
 [SpatioTemporal Asset Catalog](https://github.com/radiantearth/stac-spec) specification.
 
 To learn about STAC and Extensions start with the [extensions](https://github.com/radiantearth/stac-spec/tree/master/extensions)
 section of the core specification. It explains how extensions work, lists all the known extensions, and has
 instructions for how to go about '[extending STAC](https://github.com/radiantearth/stac-spec/blob/master/extensions/README.md#extending-stac)'.
 
-The [stac-extensions](https://github.com/stac-extensions/) github organization is a home for many of the leading 'community extensions',
+The [stac-extensions](https://github.com/stac-extensions/) GitHub organization is a home for many of the leading 'community extensions',
 providing a neutral home for collaboration. Many of these used to be in the core
 [stac-spec repository](https://github.com/radiantearth/stac-spec), but were removed for 1.0.0 so they could evolve at their
 own pace, instead of having to follow the core STAC release cycle.
@@ -17,7 +17,7 @@ own pace, instead of having to follow the core STAC release cycle.
 This is meant to be the definitive list of STAC Extensions, but not all of them may be part of this GitHub organization.
 
 An asterisk (*) indicates a community extension that is hosted externally.
-As such is not part of the stac-extensions GitHub organisation and may not follow the normal procedure or classification for STAC extensions, e.g. regarding the maturity.
+As such is not part of the stac-extensions GitHub organization and may not follow the normal procedure or classification for STAC extensions, e.g. regarding the maturity.
 
 | Title | Field Name Prefix | Scope | [Maturity](https://github.com/radiantearth/stac-spec/tree/master/extensions#extension-maturity) | Version | Description |
 | ----- | ----------------- | ----- | ----------------------------------------------------------------------------------------------- | ------- | ----------- |
@@ -71,12 +71,15 @@ As such is not part of the stac-extensions GitHub organisation and may not follo
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | *WIP* | **Unreleased** | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Proposal | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-**Last updated:** Dec 07 2022, 15:42 
+**Last updated:** Dec 07 2022, 16:09 
 
 ## Adding a new extension
 
 The general idea on how to [extend STAC](https://github.com/radiantearth/stac-spec/blob/master/extensions/README.md#extending-stac)
 and [propose new extensions](https://github.com/radiantearth/stac-spec/blob/master/extensions/README.md#proposing-new-extensions) is explained on [the page about extensions in the stac-spec repository](https://github.com/radiantearth/stac-spec/blob/master/extensions/README.md).
+
+You can add external/community extensions to this list by editing the [config file](https://github.com/stac-extensions/stac-extensions.github.io/edit/main/python/config.py)
+and creating a Pull Request for the change. All extensions hosted in the stac-extensions organization will be added automatically each night.
 
 ### Using the stac-extensions template
 
@@ -84,15 +87,15 @@ and [propose new extensions](https://github.com/radiantearth/stac-spec/blob/mast
 
 * Go to [template repository](https://github.com/stac-extensions/template), hit the green 'Use this template' button and choose 'Create a new repository'.
 * Be sure to pick the right place ('Owner' and 'Repository name') to create it. You can request (via Gitter or e-mail) to become a member of the stac-extensions organization or put the next repository under your personal account or any other organization.
-* Add a concise and clear description about the extension, it will be used as a description in the list above!
+* Add a concise and clear description of the extension, it will be used as a description in the list above!
 * Click 'Include all branches' for the CI to write correctly.
 * Finish this by clicking the 'Create repository from template' button
 
 **Write your extension:**
 
 * In the repository 'Settings' go to 'Pages' and set the 'Source' to 'Deploy from a branch' and for the 'Branch' select 'gh-pages' and '/ (root)'
-* Update the title, identifier, field name prefix, scope and owner. Don't mess around with the formatting or structure as this will be used to generate the table above!
-* Update the fields, select where they can be used, add documentation etc. in the README.md
+* Update the title, identifier, field name prefix, scope, and owner. Don't mess around with the formatting or structure as this will be used to generate the table above!
+* Update the fields, select where they can be used, add documentation, etc. in the README.md
 * Update the JSON Schema accordingly in schemas/schema.json
 * Add examples
 * Go through the files and update everything that is still named 'template' (the easiest way is to let an IDE/Editor search through all the files for 'template')
