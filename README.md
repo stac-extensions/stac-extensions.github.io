@@ -46,7 +46,7 @@ As such is not part of the stac-extensions GitHub organization and may not follo
 | [Military Grid Reference System](https://github.com/stac-extensions/mgrs) | mgrs | Item | Proposal | 1.0.0 | MGRS extension that provides information about the latitude band, grid square and UTM zone. |
 | [NOAA Geostationary Operational Environmental Satellite (GOES)](https://github.com/stac-extensions/goes) | goes | Collection, Item | Proposal | 1.0.0 | STAC Extension for NOAA GOES (Geostationary Operational Environmental Satellite) products |
 | [NOAA MRMS QPE](https://github.com/stac-extensions/noaa-mrms-qpe) | noaa_mrms_qpe | Collection, Item | Proposal | 1.0.0 | STAC Extension for NOAA MRMS QPE (Multi-Radar Multi-Sensor Quantitative Precipitation Estimation) products |
-| [Order](https://github.com/stac-extensions/order) | order | Collection, Item | Proposal | 1.0.0 | Allows assets ordering management within STAC specification. |
+| [Order](https://github.com/stac-extensions/order) | order | Collection, Item | Pilot | 1.0.0 | Allows assets ordering management within STAC specification. |
 | [Perspective Imagery](https://github.com/stac-extensions/perspective-imagery) | pers | Collection, Item | *WIP* | **Unreleased** | Describes perspective imagery collected by photogrammetric or non-photogrammetric cameras |
 | [Point Cloud](https://github.com/stac-extensions/pointcloud) | pc | Collection, Item | Proposal | 1.0.0 | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery. |
 | [Processing](https://github.com/stac-extensions/processing) | processing | Collection, Item | Proposal | 1.1.0 | Indicates from which processing chain data originates and how the data itself has been produced. |
@@ -74,7 +74,7 @@ As such is not part of the stac-extensions GitHub organization and may not follo
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | *WIP* | **Unreleased** | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Proposal | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Dec 07 2022, 17:45 
+* **Last updated:** Dec 08 2022, 01:16 
 * **Count:** 52
 
 ## Adding a new extension
