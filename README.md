@@ -74,7 +74,7 @@ As such is not part of the stac-extensions GitHub organization and may not follo
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | *WIP* | **Unreleased** | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Proposal | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Dec 09 2022, 01:18 
+* **Last updated:** Dec 10 2022, 01:13 
 * **Count:** 52
 
 ## Adding a new extension
