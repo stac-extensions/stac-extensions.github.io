@@ -62,7 +62,7 @@ As such is not part of the stac-extensions GitHub organization and may not follo
 | [Stats](https://github.com/stac-extensions/stats) | stats | Catalog, Collection | Proposal | 0.2.0 | Describes the number of items, extensions and assets that are contained in a STAC catalog. |
 | [Storage](https://github.com/stac-extensions/storage) | storage | Asset, Item | Proposal | 1.0.0 | Provides additional fields relating to how the asset is stored in the cloud |
 | [Subjects](https://github.com/stac-extensions/subjects) | subjects | Collection, Item | *WIP* | **Unreleased** | Subjects Extension Specification |
-| [Table](https://github.com/stac-extensions/table) | table | Collection, Item | Proposal | 1.2.0 | Describes tabular data assets using a list of Column objects. Tables can be specified in Collections. |
+| [Table](https://github.com/stac-extensions/table) | table | Collection, Item | Pilot | 1.2.0 | Describes tabular data assets using a list of Column objects. Tables can be specified in Collections. |
 | [Tiled Assets](https://github.com/stac-extensions/tiled-assets) | tiles | Catalog, Collection, Item | *WIP* | **Unreleased** | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
 | [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | *WIP* | **Unreleased** | Time Series STAC Extension Specification  |
 | [Timestamps](https://github.com/stac-extensions/timestamps) | - | Collection, Item | Proposal | 1.0.0 | Allows to specify numerous additional timestamps for assets and metadata. |
@@ -74,7 +74,7 @@ As such is not part of the stac-extensions GitHub organization and may not follo
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | *WIP* | **Unreleased** | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Proposal | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Dec 10 2022, 01:13 
+* **Last updated:** Dec 11 2022, 01:23 
 * **Count:** 52
 
 ## Adding a new extension
