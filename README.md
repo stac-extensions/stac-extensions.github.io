@@ -79,45 +79,31 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | *WIP* | **Unreleased** | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Proposal | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Dec 12 2022, 17:49 
+* **Last updated:** Dec 12 2022, 18:10 
 * **Count:** 53
 
 ### Grouped by maturity
 
 
-#### WIP
+#### Stable
 
-* [Accuracy](https://github.com/stac-extensions/accuracy)
+* [Electro-Optical](https://github.com/stac-extensions/eo)
 
-* [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)*
+* [Projection](https://github.com/stac-extensions/projection)
 
-* [Camera](https://github.com/linz/stac/tree/master/extensions/camera)*
+* [Scientific Citation](https://github.com/stac-extensions/scientific)
 
-* [Composite](https://github.com/stac-extensions/composite)
+* [View Geometry](https://github.com/stac-extensions/view)
 
-* [Film](https://github.com/linz/stac/tree/master/extensions/film)*
 
-* [Hyperspectral Imagery](https://github.com/stac-extensions/hsi)
+#### Candidate
 
-* [InSAR](https://github.com/stac-extensions/insar)
 
-* [Language (I18N)](https://github.com/stac-extensions/language)
+#### Pilot
 
-* [ML AOI](https://github.com/stac-extensions/ml-aoi)
+* [Order](https://github.com/stac-extensions/order)
 
-* [Perspective Imagery](https://github.com/stac-extensions/perspective-imagery)
-
-* [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)*
-
-* [Subjects](https://github.com/stac-extensions/subjects)
-
-* [Tiled Assets](https://github.com/stac-extensions/tiled-assets)
-
-* [Time Series](https://github.com/stac-extensions/timeseries)
-
-* [Virtual Assets](https://github.com/stac-extensions/virtual-assets)
-
-* [Web Map Links](https://github.com/stac-extensions/web-map-links)
+* [Table](https://github.com/stac-extensions/table)
 
 
 #### Proposal
@@ -177,22 +163,39 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [xarray Assets](https://github.com/stac-extensions/xarray-assets)
 
 
-#### Stable
+#### WIP
 
-* [Electro-Optical](https://github.com/stac-extensions/eo)
+* [Accuracy](https://github.com/stac-extensions/accuracy)
 
-* [Projection](https://github.com/stac-extensions/projection)
+* [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)*
 
-* [Scientific Citation](https://github.com/stac-extensions/scientific)
+* [Camera](https://github.com/linz/stac/tree/master/extensions/camera)*
 
-* [View Geometry](https://github.com/stac-extensions/view)
+* [Composite](https://github.com/stac-extensions/composite)
 
+* [Film](https://github.com/linz/stac/tree/master/extensions/film)*
 
-#### Pilot
+* [Hyperspectral Imagery](https://github.com/stac-extensions/hsi)
 
-* [Order](https://github.com/stac-extensions/order)
+* [InSAR](https://github.com/stac-extensions/insar)
 
-* [Table](https://github.com/stac-extensions/table)
+* [Language (I18N)](https://github.com/stac-extensions/language)
+
+* [ML AOI](https://github.com/stac-extensions/ml-aoi)
+
+* [Perspective Imagery](https://github.com/stac-extensions/perspective-imagery)
+
+* [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)*
+
+* [Subjects](https://github.com/stac-extensions/subjects)
+
+* [Tiled Assets](https://github.com/stac-extensions/tiled-assets)
+
+* [Time Series](https://github.com/stac-extensions/timeseries)
+
+* [Virtual Assets](https://github.com/stac-extensions/virtual-assets)
+
+* [Web Map Links](https://github.com/stac-extensions/web-map-links)
 
 
 #### Deprecated
