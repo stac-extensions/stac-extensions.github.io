@@ -133,19 +133,22 @@ def get_extensions() -> list:
   return data
 
 def group_by_maturity(extensions) -> dict:
-  levels = ["Stable", "Candidate", "Pilot", "Proposal", "Deprecated", "WIP"]
-  grouped = {}
+  levels = {
+    "Stable": [],
+    "Candidate": [],
+    "Pilot": [],
+    "Proposal": [],
+    "WIP": [],
+    "Deprecated": [],
+  }
   for extension in extensions:
-    found = [l for l in levels if l.lower() in extension["maturity"].lower()]
+    found = [l for l in levels.keys() if l.lower() in extension["maturity"].lower()]
     if len(found) == 0:
       continue
 
-    level = found[0]
-    if level not in grouped:
-      grouped[level] = []
-    grouped[level].append(extension)
+    levels[found[0]].append(extension)
     
-  return grouped
+  return levels
 
 def main() -> bool:
   data = get_extensions()
