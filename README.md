@@ -19,6 +19,10 @@ This is meant to be the definitive list of STAC Extensions, but not all of them 
 An asterisk (*) indicates a community extension that is hosted externally.
 As such is not part of the stac-extensions GitHub organization and may not follow the normal procedure or classification for STAC extensions, e.g. regarding the maturity.
 
+Below you can also find a list of extensions grouped by [maturity](#grouped-by-maturity).
+
+### Alphabetical list
+
 | Title | Field Name Prefix | Scope | [Maturity](https://github.com/radiantearth/stac-spec/tree/master/extensions#extension-maturity) | Version | Description |
 | ----- | ----------------- | ----- | ----------------------------------------------------------------------------------------------- | ------- | ----------- |
 | [Accuracy](https://github.com/stac-extensions/accuracy) | accuracy | Collection, Item | *WIP* | **Unreleased** | Fields to provide estimates of accuracy, both geometric and measurement (e.g., radiometric) accuracy. |
@@ -41,6 +45,7 @@ As such is not part of the stac-extensions GitHub organization and may not follo
 | [Label](https://github.com/stac-extensions/label) | label | Collection, Item | Proposal | 1.0.1 | Items that relate labeled AOIs with source imagery. |
 | [Landsat](https://landsat.usgs.gov/stac/landsat-extension/v1.1.1/schema.json)* | landsat | *Unknown* | *Unknown* | 1.1.1 | *JSON Schema only!* |
 | [Landsat ARD Tile](https://landsat.usgs.gov/stac/landsat-ard-extension/v1.0.0/schema.json)* | landsat | *Unknown* | *Unknown* | 1.0.0 | *JSON Schema only!* |
+| [Language (I18N)](https://github.com/stac-extensions/language) | - | Catalog, Collection, Item | *WIP* | **Unreleased** | Fields and recommendations around making multi-lingual STAC catalogs available.  |
 | [ML AOI](https://github.com/stac-extensions/ml-aoi) | ml-aoi | Collection, Item | *WIP* | **Unreleased** | An Item and Collection extension to provide labeled training data for machine learning models. |
 | [ML Model](https://github.com/stac-extensions/ml-model) | ml-model | Collection, Item | Proposal | 1.0.0 | An Item and Collection extension to describe machine learning (ML) models that operate on Earth observation data. |
 | [Military Grid Reference System](https://github.com/stac-extensions/mgrs) | mgrs | Item | Proposal | 1.0.0 | MGRS extension that provides information about the latitude band, grid square and UTM zone. |
@@ -57,7 +62,7 @@ As such is not part of the stac-extensions GitHub organization and may not follo
 | [Satellite](https://github.com/stac-extensions/sat) | sat | Collection, Item | Proposal | 1.0.0 | Satellite related metadata for data collected from satellites. |
 | [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)* | scan | Collection, Item | *WIP* | *Unknown* | Scanning related metadata, such as the scan date and time. Especially useful for digitised images. |
 | [Scientific Citation](https://github.com/stac-extensions/scientific) | sci | Collection, Item | Stable | 1.0.0 | Metadata that indicate from which publication data originates and how the data itself should be cited or referenced. |
-| [Single File STAC](https://github.com/stac-extensions/single-file-stac) | - | Collection, Item | **Deprecated** | **Unreleased** | An extension to provide a set of Collections and Items within a single file STAC. |
+| [Single File STAC](https://github.com/stac-extensions/single-file-stac) | - | Collection, Item | Deprecated | **Unreleased** | An extension to provide a set of Collections and Items within a single file STAC. |
 | [Solar System](https://github.com/thareUSGS/ssys)* | ssys | Catalog, Collection, Item | *Unknown* | 1.0.0 | SSYS STAC Extension Specification |
 | [Stats](https://github.com/stac-extensions/stats) | stats | Catalog, Collection | Proposal | 0.2.0 | Describes the number of items, extensions and assets that are contained in a STAC catalog. |
 | [Storage](https://github.com/stac-extensions/storage) | storage | Asset, Item | Proposal | 1.0.0 | Provides additional fields relating to how the asset is stored in the cloud |
@@ -74,8 +79,127 @@ As such is not part of the stac-extensions GitHub organization and may not follo
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | *WIP* | **Unreleased** | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Proposal | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Dec 12 2022, 01:19 
-* **Count:** 52
+* **Last updated:** Dec 12 2022, 17:49 
+* **Count:** 53
+
+### Grouped by maturity
+
+
+#### WIP
+
+* [Accuracy](https://github.com/stac-extensions/accuracy)
+
+* [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)*
+
+* [Camera](https://github.com/linz/stac/tree/master/extensions/camera)*
+
+* [Composite](https://github.com/stac-extensions/composite)
+
+* [Film](https://github.com/linz/stac/tree/master/extensions/film)*
+
+* [Hyperspectral Imagery](https://github.com/stac-extensions/hsi)
+
+* [InSAR](https://github.com/stac-extensions/insar)
+
+* [Language (I18N)](https://github.com/stac-extensions/language)
+
+* [ML AOI](https://github.com/stac-extensions/ml-aoi)
+
+* [Perspective Imagery](https://github.com/stac-extensions/perspective-imagery)
+
+* [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)*
+
+* [Subjects](https://github.com/stac-extensions/subjects)
+
+* [Tiled Assets](https://github.com/stac-extensions/tiled-assets)
+
+* [Time Series](https://github.com/stac-extensions/timeseries)
+
+* [Virtual Assets](https://github.com/stac-extensions/virtual-assets)
+
+* [Web Map Links](https://github.com/stac-extensions/web-map-links)
+
+
+#### Proposal
+
+* [Alternate Assets](https://github.com/stac-extensions/alternate-assets)
+
+* [Anonymized Location](https://github.com/stac-extensions/anonymized-location)
+
+* [CARD4L (Optical and SAR)](https://github.com/stac-extensions/card4l)
+
+* [Classification](https://github.com/stac-extensions/classification)
+
+* [Datacube](https://github.com/stac-extensions/datacube)
+
+* [File Info](https://github.com/stac-extensions/file)
+
+* [Forecast](https://github.com/stac-extensions/forecast)
+
+* [Grid](https://github.com/stac-extensions/grid)
+
+* [Item Assets Definition](https://github.com/stac-extensions/item-assets)
+
+* [Label](https://github.com/stac-extensions/label)
+
+* [ML Model](https://github.com/stac-extensions/ml-model)
+
+* [Military Grid Reference System](https://github.com/stac-extensions/mgrs)
+
+* [NOAA Geostationary Operational Environmental Satellite (GOES)](https://github.com/stac-extensions/goes)
+
+* [NOAA MRMS QPE](https://github.com/stac-extensions/noaa-mrms-qpe)
+
+* [Point Cloud](https://github.com/stac-extensions/pointcloud)
+
+* [Processing](https://github.com/stac-extensions/processing)
+
+* [Quality](https://github.com/linz/stac/tree/master/extensions/quality)*
+
+* [Raster](https://github.com/stac-extensions/raster)
+
+* [SAR](https://github.com/stac-extensions/sar)
+
+* [Satellite](https://github.com/stac-extensions/sat)
+
+* [Stats](https://github.com/stac-extensions/stats)
+
+* [Storage](https://github.com/stac-extensions/storage)
+
+* [Timestamps](https://github.com/stac-extensions/timestamps)
+
+* [U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI)](https://github.com/stac-extensions/usfws-nwi)
+
+* [Versioning Indicators](https://github.com/stac-extensions/version)
+
+* [Video](https://github.com/stac-extensions/video)
+
+* [xarray Assets](https://github.com/stac-extensions/xarray-assets)
+
+
+#### Stable
+
+* [Electro-Optical](https://github.com/stac-extensions/eo)
+
+* [Projection](https://github.com/stac-extensions/projection)
+
+* [Scientific Citation](https://github.com/stac-extensions/scientific)
+
+* [View Geometry](https://github.com/stac-extensions/view)
+
+
+#### Pilot
+
+* [Order](https://github.com/stac-extensions/order)
+
+* [Table](https://github.com/stac-extensions/table)
+
+
+#### Deprecated
+
+* [Single File STAC](https://github.com/stac-extensions/single-file-stac)
+
+
 
 ## Adding a new extension
 
