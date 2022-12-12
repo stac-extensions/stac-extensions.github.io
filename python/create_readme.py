@@ -29,7 +29,7 @@ def from_gh(response, external = False) -> dict:
     "external": external
   }
   if response["archived"]:
-    data["maturity"] = "**Deprecated**"
+    data["maturity"] = "Deprecated"
   return data
 
 def get_sources() -> list:
@@ -118,7 +118,7 @@ def get_extensions() -> list:
             maturity_lc = maturity_str.lower()
             if "wip" in maturity_lc or "work in progress" in maturity_lc:
               src["maturity"] = wip
-            elif maturity_lc in ["proposal", "pilot", "candidate", "stable"]:
+            elif maturity_lc in ["proposal", "pilot", "candidate", "stable", "deprecated"]:
               src["maturity"] = maturity_str
       except error as e:
           logger.error(f"readme not available: {e}")
@@ -131,11 +131,26 @@ def get_extensions() -> list:
       src["scope"] = unknown
 
   return data
+
+def group_by_maturity(extensions) -> dict:
+  levels = ["Stable", "Candidate", "Pilot", "Proposal", "Deprecated", "WIP"]
+  grouped = {}
+  for extension in extensions:
+    found = [l for l in levels if l.lower() in extension["maturity"].lower()]
+    if len(found) == 0:
+      continue
+
+    level = found[0]
+    if level not in grouped:
+      grouped[level] = []
+    grouped[level].append(extension)
     
+  return grouped
 
 def main() -> bool:
   data = get_extensions()
   data.sort(key = lambda x: x["title"])
+  maturities = group_by_maturity(data)
   count = len(data)
 
   if count < 45:
@@ -146,7 +161,7 @@ def main() -> bool:
   template = Template(Path("./python/README_TEMPLATE.md.jinja").read_text())
 
   with Path("./README.md") as f:
-    f.write_text(template.render(extensions=data, updated=now, count=count))
+    f.write_text(template.render(extensions=data, maturities=maturities, updated=now, count=count))
 
   sys.exit(0)
 

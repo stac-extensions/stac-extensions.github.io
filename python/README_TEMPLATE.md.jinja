@@ -19,6 +19,10 @@ This is meant to be the definitive list of STAC Extensions, but not all of them 
 An asterisk (*) indicates a community extension that is hosted externally.
 As such is not part of the stac-extensions GitHub organization and may not follow the normal procedure or classification for STAC extensions, e.g. regarding the maturity.
 
+Below you can also find a list of extensions grouped by [maturity](#grouped-by-maturity).
+
+### Alphabetical list
+
 | Title | Field Name Prefix | Scope | [Maturity](https://github.com/radiantearth/stac-spec/tree/master/extensions#extension-maturity) | Version | Description |
 | ----- | ----------------- | ----- | ----------------------------------------------------------------------------------------------- | ------- | ----------- |
 {%- for e in extensions %}
@@ -27,6 +31,15 @@ As such is not part of the stac-extensions GitHub organization and may not follo
 
 * **Last updated:** {{updated}}
 * **Count:** {{count}}
+
+### Grouped by maturity
+
+{% for level, extensions in maturities.items() %}
+#### {{ level }}
+{% for e in extensions %}
+* [{{e.title}}]({{e.url}}){% if e.external %}*{% endif %}
+{% endfor %}
+{% endfor %}
 
 ## Adding a new extension
 
