@@ -42,7 +42,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Hyperspectral Imagery](https://github.com/stac-extensions/hsi) | hsi | Collection, Item | *WIP* | **Unreleased** | Extension for Hyperspectral Imagery, to preserve the wavelength information for Items. |
 | [InSAR](https://github.com/stac-extensions/insar) | insar | Item | *WIP* | **Unreleased** | STAC extension for InSAR (Interferometric Synthetic Aperture Radar) |
 | [Item Assets Definition](https://github.com/stac-extensions/item-assets) | - | Collection | Proposal | 1.0.0 | Provides a way to specify details about what assets may be found in Items belonging to a Collection. |
-| [Label](https://github.com/stac-extensions/label) | label | Collection, Item | Proposal | 1.0.1 | Items that relate labeled AOIs with source imagery. |
+| [Label](https://github.com/stac-extensions/label) | label | Collection, Item | Pilot | 1.0.1 | Items that relate labeled AOIs with source imagery. |
 | [Landsat](https://landsat.usgs.gov/stac/landsat-extension/v1.1.1/schema.json)* | landsat | *Unknown* | *Unknown* | 1.1.1 | *JSON Schema only!* |
 | [Landsat ARD Tile](https://landsat.usgs.gov/stac/landsat-ard-extension/v1.0.0/schema.json)* | landsat | *Unknown* | *Unknown* | 1.0.0 | *JSON Schema only!* |
 | [Language (I18N)](https://github.com/stac-extensions/language) | - | Catalog, Collection, Item | *WIP* | **Unreleased** | Fields and recommendations around making multi-lingual STAC catalogs available.  |
@@ -79,7 +79,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | *WIP* | **Unreleased** | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Proposal | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Dec 25 2022, 01:16 
+* **Last updated:** Jan 03 2023, 12:29 
 * **Count:** 53
 
 ### Grouped by maturity
@@ -123,6 +123,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Grid](https://github.com/stac-extensions/grid)
 
+* [Label](https://github.com/stac-extensions/label)
+
 * [NOAA Geostationary Operational Environmental Satellite (GOES)](https://github.com/stac-extensions/goes)
 
 * [NOAA MRMS QPE](https://github.com/stac-extensions/noaa-mrms-qpe)
@@ -141,8 +143,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Forecast](https://github.com/stac-extensions/forecast)
 
 * [Item Assets Definition](https://github.com/stac-extensions/item-assets)
-
-* [Label](https://github.com/stac-extensions/label)
 
 * [ML Model](https://github.com/stac-extensions/ml-model)
 
