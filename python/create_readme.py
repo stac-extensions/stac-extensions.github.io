@@ -13,8 +13,10 @@ logger = logging.getLogger(__name__)
 
 headers = {}
 env = dict(os.environ)
-if "github-token" in env:
-  headers["Authorization"] = " ".join(["token", os.environ["github-token"]])
+if "GITHUB_TOKEN" in env:
+  headers["Authorization"] = " ".join(["Bearer", os.environ["GITHUB_TOKEN"]])
+else:
+  logger.warn("No GITHUB_TOKEN found in env")
 
 def from_gh(response, external = False) -> dict:
   data = {
