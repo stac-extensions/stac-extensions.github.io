@@ -27,7 +27,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | ----- | ----------------- | ----- | ----------------------------------------------------------------------------------------------- | ------- | ----------- |
 | [Accuracy](https://github.com/stac-extensions/accuracy) | accuracy | Collection, Item | *WIP* | **Unreleased** | Fields to provide estimates of accuracy, both geometric and measurement (e.g., radiometric) accuracy. |
 | [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)* | aerial-photo | Collection, Item | *WIP* | *Unknown* | Aerial photography related metadata, such as run, sequence number, altitude and scale. |
-| [Alternate Assets](https://github.com/stac-extensions/alternate-assets) | - | Asset | Proposal | 1.1.0 | Describes alternate locations and mirrors of assets |
+| [Alternate Assets](https://github.com/stac-extensions/alternate-assets) | - | Asset | Pilot | 1.1.0 | Describes alternate locations and mirrors of assets |
 | [Anonymized Location](https://github.com/stac-extensions/anonymized-location) | anon | Collection, Item | Pilot | 1.0.0 | Provides a way to anonymize location data |
 | [CARD4L (Optical and SAR)](https://github.com/stac-extensions/card4l) | card4l | Item | Pilot | 0.1.0 | Describes how to comply to the CEOS CARD4L specifications (SAR and Optical) with STAC |
 | [Camera](https://github.com/linz/stac/tree/master/extensions/camera)* | camera | Collection, Item | *WIP* | *Unknown* | Camera related metadata, such as focal length and sequence number. Especially useful for aerial imagery surveys. |
@@ -41,19 +41,19 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Grid](https://github.com/stac-extensions/grid) | grid | Item | Pilot | 1.1.0 | Describes gridded data products, especially the grid code. |
 | [Hyperspectral Imagery](https://github.com/stac-extensions/hsi) | hsi | Collection, Item | *WIP* | **Unreleased** | Extension for Hyperspectral Imagery, to preserve the wavelength information for Items. |
 | [InSAR](https://github.com/stac-extensions/insar) | insar | Item | *WIP* | **Unreleased** | STAC extension for InSAR (Interferometric Synthetic Aperture Radar) |
-| [Item Assets Definition](https://github.com/stac-extensions/item-assets) | - | Collection | Proposal | 1.0.0 | Provides a way to specify details about what assets may be found in Items belonging to a Collection. |
+| [Item Assets Definition](https://github.com/stac-extensions/item-assets) | - | Collection | Stable | 1.0.0 | Provides a way to specify details about what assets may be found in Items belonging to a Collection. |
 | [Label](https://github.com/stac-extensions/label) | label | Collection, Item | Pilot | 1.0.1 | Items that relate labeled AOIs with source imagery. |
 | [Landsat](https://landsat.usgs.gov/stac/landsat-extension/v1.1.1/schema.json)* | landsat | *Unknown* | *Unknown* | 1.1.1 | *JSON Schema only!* |
 | [Landsat ARD Tile](https://landsat.usgs.gov/stac/landsat-ard-extension/v1.0.0/schema.json)* | landsat | *Unknown* | *Unknown* | 1.0.0 | *JSON Schema only!* |
 | [Language (I18N)](https://github.com/stac-extensions/language) | - | Catalog, Collection, Item | *WIP* | **Unreleased** | Fields and recommendations around making multi-lingual STAC catalogs available.  |
 | [ML AOI](https://github.com/stac-extensions/ml-aoi) | ml-aoi | Collection, Item | *WIP* | **Unreleased** | An Item and Collection extension to provide labeled training data for machine learning models. |
 | [ML Model](https://github.com/stac-extensions/ml-model) | ml-model | Collection, Item | Proposal | 1.0.0 | An Item and Collection extension to describe machine learning (ML) models that operate on Earth observation data. |
-| [Military Grid Reference System](https://github.com/stac-extensions/mgrs) | mgrs | Item | Proposal | 1.0.0 | MGRS extension that provides information about the latitude band, grid square and UTM zone. |
+| [Military Grid Reference System](https://github.com/stac-extensions/mgrs) | mgrs | Item | Pilot | 1.0.0 | MGRS extension that provides information about the latitude band, grid square and UTM zone. |
 | [NOAA Geostationary Operational Environmental Satellite (GOES)](https://github.com/stac-extensions/goes) | goes | Collection, Item | Pilot | 1.0.0 | STAC Extension for NOAA GOES (Geostationary Operational Environmental Satellite) products |
 | [NOAA MRMS QPE](https://github.com/stac-extensions/noaa-mrms-qpe) | noaa_mrms_qpe | Collection, Item | Pilot | 1.0.0 | STAC Extension for NOAA MRMS QPE (Multi-Radar Multi-Sensor Quantitative Precipitation Estimation) products |
-| [Order](https://github.com/stac-extensions/order) | order | Collection, Item | Pilot | 1.0.0 | Allows assets ordering management within STAC specification. |
+| [Order](https://github.com/stac-extensions/order) | order | Collection, Item | Pilot | 1.1.0 | Allows assets ordering management within STAC specification. |
 | [Perspective Imagery](https://github.com/stac-extensions/perspective-imagery) | pers | Collection, Item | *WIP* | **Unreleased** | Describes perspective imagery collected by photogrammetric or non-photogrammetric cameras |
-| [Point Cloud](https://github.com/stac-extensions/pointcloud) | pc | Collection, Item | Proposal | 1.0.0 | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery. |
+| [Point Cloud](https://github.com/stac-extensions/pointcloud) | pc | Collection, Item | Pilot | 1.0.0 | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery. |
 | [Processing](https://github.com/stac-extensions/processing) | processing | Collection, Item | Candidate | 1.1.0 | Indicates from which processing chain data originates and how the data itself has been produced. |
 | [Projection](https://github.com/stac-extensions/projection) | proj | Collection, Item | Stable | 1.0.0 | Provides a way to describe Items whose assets are in a geospatial projection. |
 | [Quality](https://github.com/linz/stac/tree/master/extensions/quality)* | quality | Collection | Proposal | *Unknown* | Geospatial quality and accuracy of collections, such as horizontal and vertical accuracy. |
@@ -64,22 +64,22 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Scientific Citation](https://github.com/stac-extensions/scientific) | sci | Collection, Item | Stable | 1.0.0 | Metadata that indicate from which publication data originates and how the data itself should be cited or referenced. |
 | [Single File STAC](https://github.com/stac-extensions/single-file-stac) | - | Collection, Item | Deprecated | **Unreleased** | An extension to provide a set of Collections and Items within a single file STAC. |
 | [Solar System](https://github.com/thareUSGS/ssys)* | ssys | Catalog, Collection, Item | *Unknown* | 1.0.0 | SSYS STAC Extension Specification |
-| [Stats](https://github.com/stac-extensions/stats) | stats | Catalog, Collection | Proposal | 0.2.0 | Describes the number of items, extensions and assets that are contained in a STAC catalog. |
-| [Storage](https://github.com/stac-extensions/storage) | storage | Asset, Item | Proposal | 1.0.0 | Provides additional fields relating to how the asset is stored in the cloud |
+| [Stats](https://github.com/stac-extensions/stats) | stats | Catalog, Collection | Pilot | 0.2.0 | Describes the number of items, extensions and assets that are contained in a STAC catalog. |
+| [Storage](https://github.com/stac-extensions/storage) | storage | Asset, Item | Pilot | 1.0.0 | Provides additional fields relating to how the asset is stored in the cloud |
 | [Subjects](https://github.com/stac-extensions/subjects) | subjects | Collection, Item | *WIP* | **Unreleased** | Subjects Extension Specification |
 | [Table](https://github.com/stac-extensions/table) | table | Collection, Item | Pilot | 1.2.0 | Describes tabular data assets using a list of Column objects. Tables can be specified in Collections. |
 | [Tiled Assets](https://github.com/stac-extensions/tiled-assets) | tiles | Catalog, Collection, Item | *WIP* | **Unreleased** | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
 | [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | *WIP* | **Unreleased** | Time Series STAC Extension Specification  |
-| [Timestamps](https://github.com/stac-extensions/timestamps) | - | Collection, Item | Pilot | 1.0.0 | Allows to specify numerous additional timestamps for assets and metadata. |
+| [Timestamps](https://github.com/stac-extensions/timestamps) | - | Catalog, Collection, Item | Pilot | 1.1.0 | Allows to specify numerous additional timestamps for assets and metadata. |
 | [U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI)](https://github.com/stac-extensions/usfws-nwi) | fws_nwi | Collection, Item | Proposal | 1.0.0 | Describes the U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI) products |
 | [Versioning Indicators](https://github.com/stac-extensions/version) | - | Collection, Item | Candidate | 1.1.0 | Provides fields and link relation types to provide a version and indicate deprecation. |
 | [Video](https://github.com/stac-extensions/video) | video | Collection, Item | Proposal | 1.0.0 | Provides a way to describe video assets. |
 | [View Geometry](https://github.com/stac-extensions/view) | view | Collection, Item | Stable | 1.0.0 | View Geometry adds metadata related to angles of sensors and other radiance angles that affect the view of resulting data. |
 | [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | virtual | Collection, Item | *WIP* | **Unreleased** | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | *WIP* | **Unreleased** | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
-| [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Proposal | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
+| [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Jan 05 2023, 01:17 
+* **Last updated:** Jan 05 2023, 22:51 
 * **Count:** 53
 
 ### Grouped by maturity
@@ -90,6 +90,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Electro-Optical](https://github.com/stac-extensions/eo)
 
 * [File Info](https://github.com/stac-extensions/file)
+
+* [Item Assets Definition](https://github.com/stac-extensions/item-assets)
 
 * [Projection](https://github.com/stac-extensions/projection)
 
@@ -115,6 +117,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 #### Pilot
 
+* [Alternate Assets](https://github.com/stac-extensions/alternate-assets)
+
 * [Anonymized Location](https://github.com/stac-extensions/anonymized-location)
 
 * [CARD4L (Optical and SAR)](https://github.com/stac-extensions/card4l)
@@ -125,42 +129,38 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Label](https://github.com/stac-extensions/label)
 
+* [Military Grid Reference System](https://github.com/stac-extensions/mgrs)
+
 * [NOAA Geostationary Operational Environmental Satellite (GOES)](https://github.com/stac-extensions/goes)
 
 * [NOAA MRMS QPE](https://github.com/stac-extensions/noaa-mrms-qpe)
 
 * [Order](https://github.com/stac-extensions/order)
 
-* [Table](https://github.com/stac-extensions/table)
-
-* [Timestamps](https://github.com/stac-extensions/timestamps)
-
-
-#### Proposal
-
-* [Alternate Assets](https://github.com/stac-extensions/alternate-assets)
-
-* [Forecast](https://github.com/stac-extensions/forecast)
-
-* [Item Assets Definition](https://github.com/stac-extensions/item-assets)
-
-* [ML Model](https://github.com/stac-extensions/ml-model)
-
-* [Military Grid Reference System](https://github.com/stac-extensions/mgrs)
-
 * [Point Cloud](https://github.com/stac-extensions/pointcloud)
-
-* [Quality](https://github.com/linz/stac/tree/master/extensions/quality)*
 
 * [Stats](https://github.com/stac-extensions/stats)
 
 * [Storage](https://github.com/stac-extensions/storage)
 
+* [Table](https://github.com/stac-extensions/table)
+
+* [Timestamps](https://github.com/stac-extensions/timestamps)
+
+* [xarray Assets](https://github.com/stac-extensions/xarray-assets)
+
+
+#### Proposal
+
+* [Forecast](https://github.com/stac-extensions/forecast)
+
+* [ML Model](https://github.com/stac-extensions/ml-model)
+
+* [Quality](https://github.com/linz/stac/tree/master/extensions/quality)*
+
 * [U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI)](https://github.com/stac-extensions/usfws-nwi)
 
 * [Video](https://github.com/stac-extensions/video)
-
-* [xarray Assets](https://github.com/stac-extensions/xarray-assets)
 
 
 #### WIP
