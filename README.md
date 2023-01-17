@@ -69,7 +69,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Subjects](https://github.com/stac-extensions/subjects) | subjects | Collection, Item | *WIP* | **Unreleased** | Subjects Extension Specification |
 | [Table](https://github.com/stac-extensions/table) | table | Collection, Item | Pilot | 1.2.0 | Describes tabular data assets using a list of Column objects. Tables can be specified in Collections. |
 | [Tiled Assets](https://github.com/stac-extensions/tiled-assets) | tiles | Catalog, Collection, Item | *WIP* | **Unreleased** | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
-| [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | *WIP* | **Unreleased** | Time Series STAC Extension Specification  |
+| [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | Deprecated | **Unreleased** | Time Series STAC Extension Specification  |
 | [Timestamps](https://github.com/stac-extensions/timestamps) | - | Catalog, Collection, Item | Pilot | 1.1.0 | Allows to specify numerous additional timestamps for assets and metadata. |
 | [U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI)](https://github.com/stac-extensions/usfws-nwi) | fws_nwi | Collection, Item | Proposal | 1.0.0 | Describes the U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI) products |
 | [Versioning Indicators](https://github.com/stac-extensions/version) | - | Collection, Item | Candidate | 1.1.0 | Provides fields and link relation types to provide a version and indicate deprecation. |
@@ -79,7 +79,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | *WIP* | **Unreleased** | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Jan 16 2023, 01:15 
+* **Last updated:** Jan 17 2023, 01:15 
 * **Count:** 53
 
 ### Grouped by maturity
@@ -191,8 +191,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Tiled Assets](https://github.com/stac-extensions/tiled-assets)
 
-* [Time Series](https://github.com/stac-extensions/timeseries)
-
 * [Virtual Assets](https://github.com/stac-extensions/virtual-assets)
 
 * [Web Map Links](https://github.com/stac-extensions/web-map-links)
@@ -201,6 +199,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 #### Deprecated
 
 * [Single File STAC](https://github.com/stac-extensions/single-file-stac)
+
+* [Time Series](https://github.com/stac-extensions/timeseries)
 
 
 
