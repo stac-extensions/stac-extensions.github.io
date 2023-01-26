@@ -49,7 +49,13 @@ EXTERNAL_EXTENSIONS = [
     "version": "1.0.0",
     "prefix": "landsat",
     "description": "*JSON Schema only!*"
-  }
+  },
+    {
+    "title": "CF",
+    "url": "https://github.com/Fred-Leclercq/stac-CF-extention",
+    "readme": "https://raw.githubusercontent.com/Fred-Leclercq/stac-CF-extention/main/README.md",
+    "description": "CF conventions define metadata that provide a definitive description of what the data in each variable represents, and the spatial and temporal properties of the data. Especially useful for NetCDF assets."
+  },
 ]
 
 # Names of repositories in the stac-extensions org to skip
