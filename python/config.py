@@ -50,11 +50,18 @@ EXTERNAL_EXTENSIONS = [
     "prefix": "landsat",
     "description": "*JSON Schema only!*"
   },
-    {
+  {
     "title": "CF",
     "url": "https://github.com/Fred-Leclercq/stac-CF-extention",
     "readme": "https://raw.githubusercontent.com/Fred-Leclercq/stac-CF-extention/main/README.md",
     "description": "CF conventions define metadata that provide a definitive description of what the data in each variable represents, and the spatial and temporal properties of the data. Especially useful for NetCDF assets."
+  },
+  {
+    "title": "Disasters Charter",
+    "url": "https://github.com/Terradue/stac-extensions-disaster",
+    "version": "1.0.0",
+    "readme": "https://raw.githubusercontent.com/Terradue/stac-extensions-disaster/main/README.md",
+    "description": "The International Charter Space and Major Disasters related metadata to describe disaster events and satelitte acquisitions."
   },
 ]
 
