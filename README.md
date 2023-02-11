@@ -36,7 +36,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Composite](https://github.com/stac-extensions/composite) | composite | Item | *WIP* | **Unreleased** | Defines how virtual assets can be composed from existing assets in STAC |
 | [Datacube](https://github.com/stac-extensions/datacube) | cube | Collection, Item | Candidate | 2.1.0 | Datacube related metadata to describe their dimensions and variables. |
 | [Disasters Charter](https://github.com/Terradue/stac-extensions-disaster)* | disaster | Collection, Item | Proposal | 1.0.0 | The International Charter Space and Major Disasters related metadata to describe disaster events and satelitte acquisitions. |
-| [Electro-Optical](https://github.com/stac-extensions/eo) | eo | Collection, Item | Stable | 1.0.0 | Covers electro-optical data that represents a snapshot of the Earth. It could consist of cloud cover and multiple spectral bands, for example visible bands, infrared bands, red edge bands and panchromatic bands. |
+| [Electro-Optical](https://github.com/stac-extensions/eo) | eo | Collection, Item | Stable | 1.1.0 | Covers electro-optical data that represents a snapshot of the Earth. It could consist of cloud cover and multiple spectral bands, for example visible bands, infrared bands, red edge bands and panchromatic bands. |
 | [File Info](https://github.com/stac-extensions/file) | file | Catalog, Collection, Item | Stable | 2.1.0 | Specifies file-related details such as size, data type and checksum for assets and links in STAC. |
 | [Film](https://github.com/linz/stac/tree/master/extensions/film)* | film | Collection, Item | *WIP* | *Unknown* | Film related metadata, such as roll, negative sequence and other physical attributes. Especially useful for digitised historic aerial imagery surveys. |
 | [Forecast](https://github.com/stac-extensions/forecast) | forecast | Collection, Item | Proposal | 0.1.0 | Common fields for (meteorological/weather) forecast data. |
@@ -57,7 +57,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Perspective Imagery](https://github.com/stac-extensions/perspective-imagery) | pers | Collection, Item | *WIP* | **Unreleased** | Describes perspective imagery collected by photogrammetric or non-photogrammetric cameras |
 | [Point Cloud](https://github.com/stac-extensions/pointcloud) | pc | Collection, Item | Pilot | 1.0.0 | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery. |
 | [Processing](https://github.com/stac-extensions/processing) | processing | Collection, Item | Candidate | 1.1.0 | Indicates from which processing chain data originates and how the data itself has been produced. |
-| [Projection](https://github.com/stac-extensions/projection) | proj | Collection, Item | Stable | 1.0.0 | Provides a way to describe Items whose assets are in a geospatial projection. |
+| [Projection](https://github.com/stac-extensions/projection) | proj | Collection, Item | Stable | 1.1.0 | Provides a way to describe Items whose assets are in a geospatial projection. |
 | [Quality](https://github.com/linz/stac/tree/master/extensions/quality)* | quality | Collection | Proposal | *Unknown* | Geospatial quality and accuracy of collections, such as horizontal and vertical accuracy. |
 | [Raster](https://github.com/stac-extensions/raster) | raster | Collection, Item | Candidate | 1.1.0 | Describes raster assets at band level (one or multiple) with specific information such as data type, unit, number of bits used, nodata. |
 | [SAR](https://github.com/stac-extensions/sar) | sar | Collection, Item | Candidate | 1.0.0 | Covers synthetic-aperture radar data that represents a snapshot of the earth for a single date and time. |
@@ -81,7 +81,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.0.0 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Feb 10 2023, 01:21 
+* **Last updated:** Feb 11 2023, 01:13 
 * **Count:** 55
 
 ### Grouped by maturity
