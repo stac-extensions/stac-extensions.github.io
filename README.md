@@ -29,6 +29,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)* | aerial-photo | Collection, Item | *WIP* | *Unknown* | Aerial photography related metadata, such as run, sequence number, altitude and scale. |
 | [Alternate Assets](https://github.com/stac-extensions/alternate-assets) | - | Asset | Pilot | 1.1.0 | Describes alternate locations and mirrors of assets |
 | [Anonymized Location](https://github.com/stac-extensions/anonymized-location) | anon | Collection, Item | Pilot | 1.0.0 | Provides a way to anonymize location data |
+| [Archive](https://github.com/stac-extensions/archive) | archive | Collection, Item | *WIP* | **Unreleased** | Archive extension that deals with cases when files are not directly accessible on their respective storage, but are part of an archive file, such as ZIP or TAR archives.  |
 | [CARD4L (Optical and SAR)](https://github.com/stac-extensions/card4l) | card4l | Item | Pilot | 0.1.0 | Describes how to comply to the CEOS CARD4L specifications (SAR and Optical) with STAC |
 | [CF](https://github.com/Fred-Leclercq/stac-CF-extention)* | cf | Collection, Item | Proposal | *Unknown* | CF conventions define metadata that provide a definitive description of what the data in each variable represents, and the spatial and temporal properties of the data. Especially useful for NetCDF assets. |
 | [Camera](https://github.com/linz/stac/tree/master/extensions/camera)* | camera | Collection, Item | *WIP* | *Unknown* | Camera related metadata, such as focal length and sequence number. Especially useful for aerial imagery surveys. |
@@ -81,8 +82,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.0.0 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Feb 14 2023, 01:20 
-* **Count:** 55
+* **Last updated:** Feb 15 2023, 01:19 
+* **Count:** 56
 
 ### Grouped by maturity
 
@@ -176,6 +177,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Accuracy](https://github.com/stac-extensions/accuracy)
 
 * [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)*
+
+* [Archive](https://github.com/stac-extensions/archive)
 
 * [Camera](https://github.com/linz/stac/tree/master/extensions/camera)*
 
