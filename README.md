@@ -31,12 +31,13 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Anonymized Location](https://github.com/stac-extensions/anonymized-location) | anon | Collection, Item | Pilot | 1.0.0 | Provides a way to anonymize location data |
 | [Archive](https://github.com/stac-extensions/archive) | archive | Collection, Item | *WIP* | **Unreleased** | Archive extension that deals with cases when files are not directly accessible on their respective storage, but are part of an archive file, such as ZIP or TAR archives.  |
 | [CARD4L (Optical and SAR)](https://github.com/stac-extensions/card4l) | card4l | Item | Pilot | 0.1.0 | Describes how to comply to the CEOS CARD4L specifications (SAR and Optical) with STAC |
-| [CF](https://github.com/Fred-Leclercq/stac-CF-extention)* | cf | Collection, Item | Proposal | *Unknown* | CF conventions define metadata that provide a definitive description of what the data in each variable represents, and the spatial and temporal properties of the data. Especially useful for NetCDF assets. |
+| [CF](https://github.com/Fred-Leclercq/stac-CF-extention)* | cf | Collection, Item | *WIP* | **Unreleased** | None |
 | [Camera](https://github.com/linz/stac/tree/master/extensions/camera)* | camera | Collection, Item | *WIP* | *Unknown* | Camera related metadata, such as focal length and sequence number. Especially useful for aerial imagery surveys. |
 | [Classification](https://github.com/stac-extensions/classification) | classification | Collection, Item | Pilot | 1.1.0 | Describes categorical values and bitfields to give values in a file a certain meaning (classification). |
 | [Composite](https://github.com/stac-extensions/composite) | composite | Item | *WIP* | **Unreleased** | Defines how virtual assets can be composed from existing assets in STAC |
 | [Datacube](https://github.com/stac-extensions/datacube) | cube | Collection, Item | Candidate | 2.1.0 | Datacube related metadata to describe their dimensions and variables. |
-| [Disasters Charter](https://github.com/Terradue/stac-extensions-disaster)* | disaster | Collection, Item | Proposal | 1.0.0 | The International Charter Space and Major Disasters related metadata to describe disaster events and satelitte acquisitions. |
+| [Deep Learning Model Extension](https://github.com/crim-ca/dlm-extension)* | dlm | Collection, Item | *WIP* | **Unreleased** | Deep Learning Model STAC Extension  |
+| [Disasters Charter](https://github.com/Terradue/stac-extensions-disaster)* | disaster | Collection, Item | Proposal | 1.0.0 | Disaster Charter Extension Specification |
 | [Electro-Optical](https://github.com/stac-extensions/eo) | eo | Collection, Item | Stable | 1.1.0 | Covers electro-optical data that represents a snapshot of the Earth. It could consist of cloud cover and multiple spectral bands, for example visible bands, infrared bands, red edge bands and panchromatic bands. |
 | [File Info](https://github.com/stac-extensions/file) | file | Catalog, Collection, Item | Stable | 2.1.0 | Specifies file-related details such as size, data type and checksum for assets and links in STAC. |
 | [Film](https://github.com/linz/stac/tree/master/extensions/film)* | film | Collection, Item | *WIP* | *Unknown* | Film related metadata, such as roll, negative sequence and other physical attributes. Especially useful for digitised historic aerial imagery surveys. |
@@ -82,8 +83,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.0.0 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Feb 19 2023, 01:21 
-* **Count:** 56
+* **Last updated:** Feb 19 2023, 21:09 
+* **Count:** 57
 
 ### Grouped by maturity
 
@@ -155,8 +156,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 #### Proposal
 
-* [CF](https://github.com/Fred-Leclercq/stac-CF-extention)*
-
 * [Disasters Charter](https://github.com/Terradue/stac-extensions-disaster)*
 
 * [Forecast](https://github.com/stac-extensions/forecast)
@@ -180,9 +179,13 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Archive](https://github.com/stac-extensions/archive)
 
+* [CF](https://github.com/Fred-Leclercq/stac-CF-extention)*
+
 * [Camera](https://github.com/linz/stac/tree/master/extensions/camera)*
 
 * [Composite](https://github.com/stac-extensions/composite)
+
+* [Deep Learning Model Extension](https://github.com/crim-ca/dlm-extension)*
 
 * [Film](https://github.com/linz/stac/tree/master/extensions/film)*
 
