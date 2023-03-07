@@ -49,7 +49,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Label](https://github.com/stac-extensions/label) | label | Collection, Item | Pilot | 1.0.1 | Items that relate labeled AOIs with source imagery. |
 | [Landsat](https://landsat.usgs.gov/stac/landsat-extension/v1.1.1/schema.json)* | landsat | *Unknown* | *Unknown* | 1.1.1 | *JSON Schema only!* |
 | [Landsat ARD Tile](https://landsat.usgs.gov/stac/landsat-ard-extension/v1.0.0/schema.json)* | landsat | *Unknown* | *Unknown* | 1.0.0 | *JSON Schema only!* |
-| [Language (I18N)](https://github.com/stac-extensions/language) | - | Catalog, Collection, Item | *WIP* | **Unreleased** | Fields and recommendations around making multi-lingual STAC catalogs available.  |
+| [Language (I18N)](https://github.com/stac-extensions/language) | - | Catalog, Collection, Item | Proposal | 1.0.0 | Fields and recommendations around making multi-lingual STAC catalogs available.  |
 | [ML AOI](https://github.com/stac-extensions/ml-aoi) | ml-aoi | Collection, Item | *WIP* | **Unreleased** | An Item and Collection extension to provide labeled training data for machine learning models. |
 | [ML Model](https://github.com/stac-extensions/ml-model) | ml-model | Collection, Item | Proposal | 1.0.0 | An Item and Collection extension to describe machine learning (ML) models that operate on Earth observation data. |
 | [Military Grid Reference System](https://github.com/stac-extensions/mgrs) | mgrs | Item | Pilot | 1.0.0 | MGRS extension that provides information about the latitude band, grid square and UTM zone. |
@@ -83,7 +83,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.0.0 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Mar 06 2023, 01:20 
+* **Last updated:** Mar 07 2023, 01:26 
 * **Count:** 57
 
 ### Grouped by maturity
@@ -160,6 +160,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Forecast](https://github.com/stac-extensions/forecast)
 
+* [Language (I18N)](https://github.com/stac-extensions/language)
+
 * [ML Model](https://github.com/stac-extensions/ml-model)
 
 * [Quality](https://github.com/linz/stac/tree/master/extensions/quality)*
@@ -192,8 +194,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Hyperspectral Imagery](https://github.com/stac-extensions/hsi)
 
 * [InSAR](https://github.com/stac-extensions/insar)
-
-* [Language (I18N)](https://github.com/stac-extensions/language)
 
 * [ML AOI](https://github.com/stac-extensions/ml-aoi)
 
