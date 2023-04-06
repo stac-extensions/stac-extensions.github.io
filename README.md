@@ -28,7 +28,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Accuracy](https://github.com/stac-extensions/accuracy) | accuracy | Collection, Item | *WIP* | **Unreleased** | Fields to provide estimates of accuracy, both geometric and measurement (e.g., radiometric) accuracy. |
 | [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)* | aerial-photo | Collection, Item | *WIP* | *Unknown* | Aerial photography related metadata, such as run, sequence number, altitude and scale. |
 | [Alternate Assets](https://github.com/stac-extensions/alternate-assets) | - | Asset | Pilot | 1.1.0 | Describes alternate locations and mirrors of assets |
-| [Anonymized Location](https://github.com/stac-extensions/anonymized-location) | anon | Collection, Item | Pilot | 1.0.0 | Provides a way to anonymize location data |
 | [Archive](https://github.com/stac-extensions/archive) | archive | Collection, Item | *WIP* | **Unreleased** | Archive extension that deals with cases when files are not directly accessible on their respective storage, but are part of an archive file, such as ZIP or TAR archives.  |
 | [CARD4L (Optical and SAR)](https://github.com/stac-extensions/card4l) | card4l | Item | Pilot | 0.1.0 | Describes how to comply to the CEOS CARD4L specifications (SAR and Optical) with STAC |
 | [CF](https://github.com/Fred-Leclercq/stac-CF-extention)* | cf | Collection, Item | *WIP* | **Unreleased** | None |
@@ -44,9 +43,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Forecast](https://github.com/stac-extensions/forecast) | forecast | Collection, Item | Proposal | 0.1.0 | Common fields for (meteorological/weather) forecast data. |
 | [Grid](https://github.com/stac-extensions/grid) | grid | Item | Pilot | 1.1.0 | Describes gridded data products, especially the grid code. |
 | [Hyperspectral Imagery](https://github.com/stac-extensions/hsi) | hsi | Collection, Item | *WIP* | **Unreleased** | Extension for Hyperspectral Imagery, to preserve the wavelength information for Items. |
-| [InSAR](https://github.com/stac-extensions/insar) | insar | Item | *WIP* | **Unreleased** | STAC extension for InSAR (Interferometric Synthetic Aperture Radar) |
 | [Item Assets Definition](https://github.com/stac-extensions/item-assets) | - | Collection | Stable | 1.0.0 | Provides a way to specify details about what assets may be found in Items belonging to a Collection. |
-| [Label](https://github.com/stac-extensions/label) | label | Collection, Item | Pilot | 1.0.1 | Items that relate labeled AOIs with source imagery. |
 | [Landsat](https://landsat.usgs.gov/stac/landsat-extension/v1.1.1/schema.json)* | landsat | *Unknown* | *Unknown* | 1.1.1 | *JSON Schema only!* |
 | [Landsat ARD Tile](https://landsat.usgs.gov/stac/landsat-ard-extension/v1.0.0/schema.json)* | landsat | *Unknown* | *Unknown* | 1.0.0 | *JSON Schema only!* |
 | [Language (I18N)](https://github.com/stac-extensions/language) | - | Catalog, Collection, Item | Proposal | 1.0.0 | Fields and recommendations around making multi-lingual STAC catalogs available.  |
@@ -55,6 +52,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Military Grid Reference System](https://github.com/stac-extensions/mgrs) | mgrs | Item | Pilot | 1.0.0 | MGRS extension that provides information about the latitude band, grid square and UTM zone. |
 | [NOAA Geostationary Operational Environmental Satellite (GOES)](https://github.com/stac-extensions/goes) | goes | Collection, Item | Pilot | 1.0.0 | STAC Extension for NOAA GOES (Geostationary Operational Environmental Satellite) products |
 | [NOAA MRMS QPE](https://github.com/stac-extensions/noaa-mrms-qpe) | noaa_mrms_qpe | Collection, Item | Pilot | 1.0.0 | STAC Extension for NOAA MRMS QPE (Multi-Radar Multi-Sensor Quantitative Precipitation Estimation) products |
+| [Open Science Catalog](https://github.com/stac-extensions/osc) | osc | Collection | *WIP* | **Unreleased** | STAC Extension for the ESA Open Science Catalog |
 | [Order](https://github.com/stac-extensions/order) | order | Collection, Item | Pilot | 1.1.0 | Allows assets ordering management within STAC specification. |
 | [Perspective Imagery](https://github.com/stac-extensions/perspective-imagery) | pers | Collection, Item | *WIP* | **Unreleased** | Describes perspective imagery collected by photogrammetric or non-photogrammetric cameras |
 | [Point Cloud](https://github.com/stac-extensions/pointcloud) | pc | Collection, Item | Pilot | 1.0.0 | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery. |
@@ -81,10 +79,13 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [View Geometry](https://github.com/stac-extensions/view) | view | Collection, Item | Stable | 1.0.0 | View Geometry adds metadata related to angles of sensors and other radiance angles that affect the view of resulting data. |
 | [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | virtual | Collection, Item | *WIP* | **Unreleased** | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.0.0 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
+| [anonymized-location](https://github.com/stac-extensions/anonymized-location) | *Unknown* | *Unknown* | *Unknown* | 1.0.0 | Provides a way to anonymize location data |
+| [insar](https://github.com/stac-extensions/insar) | *Unknown* | *Unknown* | *WIP* | **Unreleased** | STAC extension for InSAR (Interferometric Synthetic Aperture Radar) |
+| [label](https://github.com/stac-extensions/label) | *Unknown* | *Unknown* | *Unknown* | 1.0.1 | Items that relate labeled AOIs with source imagery. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Apr 05 2023, 00:59 
-* **Count:** 57
+* **Last updated:** Apr 06 2023, 01:09 
+* **Count:** 58
 
 ### Grouped by maturity
 
@@ -123,15 +124,11 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Alternate Assets](https://github.com/stac-extensions/alternate-assets)
 
-* [Anonymized Location](https://github.com/stac-extensions/anonymized-location)
-
 * [CARD4L (Optical and SAR)](https://github.com/stac-extensions/card4l)
 
 * [Classification](https://github.com/stac-extensions/classification)
 
 * [Grid](https://github.com/stac-extensions/grid)
-
-* [Label](https://github.com/stac-extensions/label)
 
 * [Military Grid Reference System](https://github.com/stac-extensions/mgrs)
 
@@ -193,9 +190,9 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Hyperspectral Imagery](https://github.com/stac-extensions/hsi)
 
-* [InSAR](https://github.com/stac-extensions/insar)
-
 * [ML AOI](https://github.com/stac-extensions/ml-aoi)
+
+* [Open Science Catalog](https://github.com/stac-extensions/osc)
 
 * [Perspective Imagery](https://github.com/stac-extensions/perspective-imagery)
 
@@ -206,6 +203,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Tiled Assets](https://github.com/stac-extensions/tiled-assets)
 
 * [Virtual Assets](https://github.com/stac-extensions/virtual-assets)
+
+* [insar](https://github.com/stac-extensions/insar)
 
 
 #### Deprecated
