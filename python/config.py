@@ -1,7 +1,6 @@
 # Names of GitHub repositories not in stac-extensions org
 COMMUNITY_REPOS = [
   # org, repo name
-  ['thareUSGS', 'ssys'],
   ['crim-ca', 'dlm-extension'],
   ['Terradue', 'stac-extensions-disaster'],
   ['Fred-Leclercq', 'stac-CF-extention']
