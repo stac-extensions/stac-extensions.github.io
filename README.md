@@ -35,6 +35,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Camera](https://github.com/linz/stac/tree/master/extensions/camera)* | camera | Collection, Item | *WIP* | *Unknown* | Camera related metadata, such as focal length and sequence number. Especially useful for aerial imagery surveys. |
 | [Classification](https://github.com/stac-extensions/classification) | classification | Collection, Item | Pilot | 1.1.0 | Describes categorical values and bitfields to give values in a file a certain meaning (classification). |
 | [Composite](https://github.com/stac-extensions/composite) | composite | Item | *WIP* | **Unreleased** | Defines how virtual assets can be composed from existing assets in STAC |
+| [Contacts](https://github.com/stac-extensions/contacts) | - | Catalog, Collection, Item | Proposal | 0.0.1 | A list of contacts with detailed information such as address, phone numbers, emails etc. |
 | [Datacube](https://github.com/stac-extensions/datacube) | cube | Collection, Item | Candidate | 2.1.0 | Datacube related metadata to describe their dimensions and variables. |
 | [Deep Learning Model Extension](https://github.com/crim-ca/dlm-extension)* | dlm | Collection, Item | *WIP* | **Unreleased** | Deep Learning Model STAC Extension  |
 | [Disasters Charter](https://github.com/Terradue/stac-extensions-disaster)* | disaster | Collection, Item | Proposal | 1.0.0 | Disaster Charter Extension Specification |
@@ -71,8 +72,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Solar System](https://github.com/stac-extensions/ssys) | ssys | Catalog, Collection, Item | *Unknown* | 1.0.0 | SSYS STAC Extension Specification |
 | [Stats](https://github.com/stac-extensions/stats) | stats | Catalog, Collection | Pilot | 0.2.0 | Describes the number of items, extensions and assets that are contained in a STAC catalog. |
 | [Storage](https://github.com/stac-extensions/storage) | storage | Asset, Item | Pilot | 1.0.0 | Provides additional fields relating to how the asset is stored in the cloud |
-| [Subjects](https://github.com/stac-extensions/subjects) | subjects | Collection, Item | *WIP* | **Unreleased** | A knowledge organization system used to classify the resource (controlled vocabularies / keywords) |
 | [Table](https://github.com/stac-extensions/table) | table | Collection, Item | Pilot | 1.2.0 | Describes tabular data assets using a list of Column objects. Tables can be specified in Collections. |
+| [Themes](https://github.com/stac-extensions/themes) | - | Catalog, Collection, Item | Proposal | 0.0.1 | A knowledge organization system used to classify the resource (controlled vocabularies / keywords) |
 | [Tiled Assets](https://github.com/stac-extensions/tiled-assets) | tiles | Catalog, Collection, Item | *WIP* | **Unreleased** | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
 | [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | Deprecated | **Unreleased** | Time Series STAC Extension Specification  |
 | [Timestamps](https://github.com/stac-extensions/timestamps) | - | Catalog, Collection, Item | Pilot | 1.1.0 | Allows to specify numerous additional timestamps for assets and metadata. |
@@ -82,10 +83,9 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [View Geometry](https://github.com/stac-extensions/view) | view | Collection, Item | Stable | 1.0.0 | View Geometry adds metadata related to angles of sensors and other radiance angles that affect the view of resulting data. |
 | [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | virtual | Collection, Item | *WIP* | **Unreleased** | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.0.0 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
-| [contacts](https://github.com/stac-extensions/contacts) | *Unknown* | Collection, Item | *WIP* | **Unreleased** | A list of contacts with detailed information such as address, phone numbers, emails etc. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Apr 25 2023, 01:12 
+* **Last updated:** Apr 26 2023, 01:10 
 * **Count:** 59
 
 ### Grouped by maturity
@@ -158,6 +158,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 #### Proposal
 
+* [Contacts](https://github.com/stac-extensions/contacts)
+
 * [Disasters Charter](https://github.com/Terradue/stac-extensions-disaster)*
 
 * [Forecast](https://github.com/stac-extensions/forecast)
@@ -167,6 +169,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [ML Model](https://github.com/stac-extensions/ml-model)
 
 * [Quality](https://github.com/linz/stac/tree/master/extensions/quality)*
+
+* [Themes](https://github.com/stac-extensions/themes)
 
 * [U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI)](https://github.com/stac-extensions/usfws-nwi)
 
@@ -205,13 +209,9 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)*
 
-* [Subjects](https://github.com/stac-extensions/subjects)
-
 * [Tiled Assets](https://github.com/stac-extensions/tiled-assets)
 
 * [Virtual Assets](https://github.com/stac-extensions/virtual-assets)
-
-* [contacts](https://github.com/stac-extensions/contacts)
 
 
 #### Deprecated
