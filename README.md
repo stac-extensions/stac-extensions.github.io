@@ -40,6 +40,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Deep Learning Model Extension](https://github.com/crim-ca/dlm-extension)* | dlm | Collection, Item | *WIP* | **Unreleased** | Deep Learning Model STAC Extension  |
 | [Disasters Charter](https://github.com/Terradue/stac-extensions-disaster)* | disaster | Collection, Item | Proposal | 1.0.0 | Disaster Charter Extension Specification |
 | [Electro-Optical](https://github.com/stac-extensions/eo) | eo | Collection, Item | Stable | 1.1.0 | Covers electro-optical data that represents a snapshot of the Earth. It could consist of cloud cover and multiple spectral bands, for example visible bands, infrared bands, red edge bands and panchromatic bands. |
+| [Example Links](https://github.com/stac-extensions/example-links) | example | Catalog, Collection, Item | *WIP* | **Unreleased** | Allows to provide links to examples, e.g. code snippets. |
 | [File Info](https://github.com/stac-extensions/file) | file | Catalog, Collection, Item | Stable | 2.1.0 | Specifies file-related details such as size, data type and checksum for assets and links in STAC. |
 | [Film](https://github.com/linz/stac/tree/master/extensions/film)* | film | Collection, Item | *WIP* | *Unknown* | Film related metadata, such as roll, negative sequence and other physical attributes. Especially useful for digitised historic aerial imagery surveys. |
 | [Forecast](https://github.com/stac-extensions/forecast) | forecast | Collection, Item | Proposal | 0.1.0 | Common fields for (meteorological/weather) forecast data. |
@@ -85,8 +86,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.0.0 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** May 01 2023, 01:14 
-* **Count:** 59
+* **Last updated:** May 02 2023, 01:11 
+* **Count:** 60
 
 ### Grouped by maturity
 
@@ -194,6 +195,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Composite](https://github.com/stac-extensions/composite)
 
 * [Deep Learning Model Extension](https://github.com/crim-ca/dlm-extension)*
+
+* [Example Links](https://github.com/stac-extensions/example-links)
 
 * [Film](https://github.com/linz/stac/tree/master/extensions/film)*
 
