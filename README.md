@@ -36,7 +36,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Classification](https://github.com/stac-extensions/classification) | classification | Collection, Item | Pilot | 1.1.0 | Describes categorical values and bitfields to give values in a file a certain meaning (classification). |
 | [Composite](https://github.com/stac-extensions/composite) | composite | Item | *WIP* | **Unreleased** | Defines how virtual assets can be composed from existing assets in STAC |
 | [Contacts](https://github.com/stac-extensions/contacts) | - | Catalog, Collection, Item | Proposal | 0.0.1 | A list of contacts with detailed information such as address, phone numbers, emails etc. |
-| [Datacube](https://github.com/stac-extensions/datacube) | cube | Collection, Item | Candidate | 2.1.0 | Datacube related metadata to describe their dimensions and variables. |
+| [Datacube](https://github.com/stac-extensions/datacube) | cube | Collection, Item | Candidate | 2.2.0 | Datacube related metadata to describe their dimensions and variables. |
 | [Deep Learning Model Extension](https://github.com/crim-ca/dlm-extension)* | dlm | Collection, Item | *WIP* | **Unreleased** | Deep Learning Model STAC Extension  |
 | [Disasters Charter](https://github.com/Terradue/stac-extensions-disaster)* | disaster | Collection, Item | Proposal | 1.0.0 | Disaster Charter Extension Specification |
 | [Electro-Optical](https://github.com/stac-extensions/eo) | eo | Collection, Item | Stable | 1.1.0 | Covers electro-optical data that represents a snapshot of the Earth. It could consist of cloud cover and multiple spectral bands, for example visible bands, infrared bands, red edge bands and panchromatic bands. |
@@ -79,14 +79,14 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | Deprecated | **Unreleased** | Time Series STAC Extension Specification  |
 | [Timestamps](https://github.com/stac-extensions/timestamps) | - | Catalog, Collection, Item | Pilot | 1.1.0 | Allows to specify numerous additional timestamps for assets and metadata. |
 | [U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI)](https://github.com/stac-extensions/usfws-nwi) | fws_nwi | Collection, Item | Proposal | 1.0.0 | Describes the U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI) products |
-| [Versioning Indicators](https://github.com/stac-extensions/version) | - | Collection, Item | Candidate | 1.1.0 | Provides fields and link relation types to provide a version and indicate deprecation. |
+| [Versioning Indicators](https://github.com/stac-extensions/version) | - | Collection, Item | Candidate | 1.2.0 | Provides fields and link relation types to provide a version and indicate deprecation. |
 | [Video](https://github.com/stac-extensions/video) | video | Collection, Item | Proposal | 1.0.0 | Provides a way to describe video assets. |
 | [View Geometry](https://github.com/stac-extensions/view) | view | Collection, Item | Stable | 1.0.0 | View Geometry adds metadata related to angles of sensors and other radiance angles that affect the view of resulting data. |
 | [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | virtual | Collection, Item | *WIP* | **Unreleased** | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.0.0 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** May 03 2023, 01:11 
+* **Last updated:** May 04 2023, 01:10 
 * **Count:** 60
 
 ### Grouped by maturity
