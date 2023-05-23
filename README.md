@@ -57,7 +57,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Military Grid Reference System](https://github.com/stac-extensions/mgrs) | mgrs | Item | Pilot | 1.0.0 | MGRS extension that provides information about the latitude band, grid square and UTM zone. |
 | [NOAA Geostationary Operational Environmental Satellite (GOES)](https://github.com/stac-extensions/goes) | goes | Collection, Item | Pilot | 1.0.0 | STAC Extension for NOAA GOES (Geostationary Operational Environmental Satellite) products |
 | [NOAA MRMS QPE](https://github.com/stac-extensions/noaa-mrms-qpe) | noaa_mrms_qpe | Collection, Item | Pilot | 1.0.0 | STAC Extension for NOAA MRMS QPE (Multi-Radar Multi-Sensor Quantitative Precipitation Estimation) products |
-| [Open Science Catalog](https://github.com/stac-extensions/osc) | osc | Collection | *WIP* | **Unreleased** | STAC Extension for the ESA Open Science Catalog |
+| [Open Science Catalog](https://github.com/stac-extensions/osc) | osc | Collection | Proposal | 1.0.0-rc.1 | STAC Extension for the ESA Open Science Catalog |
 | [Order](https://github.com/stac-extensions/order) | order | Collection, Item | Pilot | 1.1.0 | Allows assets ordering management within STAC specification. |
 | [Perspective Imagery](https://github.com/stac-extensions/perspective-imagery) | pers | Collection, Item | *WIP* | **Unreleased** | Describes perspective imagery collected by photogrammetric or non-photogrammetric cameras |
 | [Point Cloud](https://github.com/stac-extensions/pointcloud) | pc | Collection, Item | Pilot | 1.0.0 | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery. |
@@ -86,7 +86,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.0.0 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** May 22 2023, 01:15 
+* **Last updated:** May 23 2023, 01:11 
 * **Count:** 60
 
 ### Grouped by maturity
@@ -169,6 +169,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [ML Model](https://github.com/stac-extensions/ml-model)
 
+* [Open Science Catalog](https://github.com/stac-extensions/osc)
+
 * [Quality](https://github.com/linz/stac/tree/master/extensions/quality)*
 
 * [Themes](https://github.com/stac-extensions/themes)
@@ -205,8 +207,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [InSAR](https://github.com/stac-extensions/insar)
 
 * [ML AOI](https://github.com/stac-extensions/ml-aoi)
-
-* [Open Science Catalog](https://github.com/stac-extensions/osc)
 
 * [Perspective Imagery](https://github.com/stac-extensions/perspective-imagery)
 
