@@ -51,6 +51,13 @@ EXTERNAL_EXTENSIONS = [
     "version": "1.0.0",
     "prefix": "landsat",
     "description": "*JSON Schema only!*"
+  },
+  {
+    "title": "TrainingDMl-AI",
+    "url": "https://github.com/TrainingDML/trainingdml-ai-extension",
+    "version": "1.0.0",
+    "prefix": "tdml",
+    "description": "Detailed metadata for formalizing the information model of geospatial machine learning training data."
   }
 ]
 
