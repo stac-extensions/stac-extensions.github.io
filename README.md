@@ -85,7 +85,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | virtual | Collection, Item | *WIP* | **Unreleased** | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.0.0 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
-
+| [TrainingDML-AI](https://github.com/TrainingDML/trainingdml-ai-extension) | tdml | Collection, Item | Proposal | 1.0.0 | Detailed metadata of geospatial machine learning training data. |
 * **Last updated:** May 24 2023, 01:14 
 * **Count:** 60
 
@@ -180,6 +180,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Video](https://github.com/stac-extensions/video)
 
 * [Web Map Links](https://github.com/stac-extensions/web-map-links)
+* [TrainingDMl-AI](https://github.com/TrainingDML/trainingdml-ai-extension)
 
 
 #### WIP
