@@ -3,7 +3,8 @@ COMMUNITY_REPOS = [
   # org, repo name
   ['crim-ca', 'dlm-extension'],
   ['Terradue', 'stac-extensions-disaster'],
-  ['Fred-Leclercq', 'stac-CF-extention']
+  ['Fred-Leclercq', 'stac-CF-extention'],
+  ['TrainingDML', 'trainingdml-ai-extension']
 ]
 
 # Other extensions that are not on GitHub
