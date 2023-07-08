@@ -72,7 +72,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Single File STAC](https://github.com/stac-extensions/single-file-stac) | - | Collection, Item | Deprecated | **Unreleased** | An extension to provide a set of Collections and Items within a single file STAC. |
 | [Solar System](https://github.com/stac-extensions/ssys) | ssys | Catalog, Collection, Item | *Unknown* | 1.0.0 | SSYS STAC Extension Specification |
 | [Stats](https://github.com/stac-extensions/stats) | stats | Catalog, Collection | Pilot | 0.2.0 | Describes the number of items, extensions and assets that are contained in a STAC catalog. |
-| [Stereo Imagery](https://github.com/stac-extensions/stereo-imagery) | stereo-img | Collection, Item | *WIP* | **Unreleased** | Describes (tri-)stereo imagery that consists of multiple captures, often for 3D use cases. |
+| [Stereo Imagery](https://github.com/stac-extensions/stereo-imagery) | stereo-img | Collection, Item | Proposal | 0.0.1 | Describes (tri-)stereo imagery that consists of multiple captures, often for 3D use cases. |
 | [Storage](https://github.com/stac-extensions/storage) | storage | Asset, Item | Pilot | 1.0.0 | Provides additional fields relating to how the asset is stored in the cloud |
 | [Table](https://github.com/stac-extensions/table) | table | Collection, Item | Pilot | 1.2.0 | Describes tabular data assets using a list of Column objects. Tables can be specified in Collections. |
 | [Themes](https://github.com/stac-extensions/themes) | - | Catalog, Collection, Item | Proposal | 1.0.0 | A knowledge organization system used to classify the resource (controlled vocabularies / keywords) |
@@ -88,7 +88,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.1.0 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Jul 07 2023, 01:38 
+* **Last updated:** Jul 08 2023, 01:36 
 * **Count:** 62
 
 ### Grouped by maturity
@@ -177,6 +177,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Quality](https://github.com/linz/stac/tree/master/extensions/quality)*
 
+* [Stereo Imagery](https://github.com/stac-extensions/stereo-imagery)
+
 * [Themes](https://github.com/stac-extensions/themes)
 
 * [U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI)](https://github.com/stac-extensions/usfws-nwi)
@@ -213,8 +215,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [ML AOI](https://github.com/stac-extensions/ml-aoi)
 
 * [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)*
-
-* [Stereo Imagery](https://github.com/stac-extensions/stereo-imagery)
 
 * [Tiled Assets](https://github.com/stac-extensions/tiled-assets)
 
