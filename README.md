@@ -79,7 +79,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Tiled Assets](https://github.com/stac-extensions/tiled-assets) | tiles | Catalog, Collection, Item | *WIP* | **Unreleased** | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
 | [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | Deprecated | **Unreleased** | Time Series STAC Extension Specification  |
 | [Timestamps](https://github.com/stac-extensions/timestamps) | - | Catalog, Collection, Item | Pilot | 1.1.0 | Allows to specify numerous additional timestamps for assets and metadata. |
-| [TrainingDML-AI](https://github.com/TrainingDML/trainingdml-ai-extension)* | tdml | Collection, Item | *WIP* | **Unreleased** | Detailed metadata for formalizing the information model of geospatial EO machine learning training data.  |
+| [TrainingDML-AI](https://github.com/TrainingDML/trainingdml-ai-extension)* | tdml | Collection, Item | Proposal | 1.0.0 | Detailed metadata for formalizing the information model of geospatial EO machine learning training data.  |
 | [U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI)](https://github.com/stac-extensions/usfws-nwi) | fws_nwi | Collection, Item | Proposal | 1.0.0 | Describes the U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI) products |
 | [Versioning Indicators](https://github.com/stac-extensions/version) | - | Collection, Item | Candidate | 1.2.0 | Provides fields and link relation types to provide a version and indicate deprecation. |
 | [Video](https://github.com/stac-extensions/video) | video | Collection, Item | Proposal | 1.0.0 | Provides a way to describe video assets. |
@@ -88,7 +88,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.1.0 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Jul 10 2023, 01:27 
+* **Last updated:** Jul 11 2023, 01:22 
 * **Count:** 62
 
 ### Grouped by maturity
@@ -181,6 +181,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Themes](https://github.com/stac-extensions/themes)
 
+* [TrainingDML-AI](https://github.com/TrainingDML/trainingdml-ai-extension)*
+
 * [U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI)](https://github.com/stac-extensions/usfws-nwi)
 
 * [Video](https://github.com/stac-extensions/video)
@@ -217,8 +219,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)*
 
 * [Tiled Assets](https://github.com/stac-extensions/tiled-assets)
-
-* [TrainingDML-AI](https://github.com/TrainingDML/trainingdml-ai-extension)*
 
 * [Virtual Assets](https://github.com/stac-extensions/virtual-assets)
 
