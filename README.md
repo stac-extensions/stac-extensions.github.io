@@ -31,7 +31,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Anonymized Location](https://github.com/stac-extensions/anonymized-location) | anon | Collection, Item | Pilot | 1.0.0 | Provides a way to anonymize location data |
 | [Archive](https://github.com/stac-extensions/archive) | archive | Collection, Item | *WIP* | **Unreleased** | Archive extension that deals with cases when files are not directly accessible on their respective storage, but are part of an archive file, such as ZIP or TAR archives.  |
 | [CARD4L (Optical and SAR)](https://github.com/stac-extensions/card4l) | card4l | Item | Pilot | 0.1.0 | Describes how to comply to the CEOS CARD4L specifications (SAR and Optical) with STAC |
-| [CF](https://github.com/stac-extensions/cf) | cf | Collection, Item | *WIP* | **Unreleased** | None |
+| [CF](https://github.com/stac-extensions/cf) | cf | Collection, Item | Pilot | 0.1.0 | Field to provide CF parameter. |
 | [Camera](https://github.com/linz/stac/tree/master/extensions/camera)* | camera | Collection, Item | *WIP* | *Unknown* | Camera related metadata, such as focal length and sequence number. Especially useful for aerial imagery surveys. |
 | [Classification](https://github.com/stac-extensions/classification) | classification | Collection, Item | Pilot | 1.1.0 | Describes categorical values and bitfields to give values in a file a certain meaning (classification). |
 | [Composite](https://github.com/stac-extensions/composite) | composite | Item | *WIP* | **Unreleased** | Defines how virtual assets can be composed from existing assets in STAC |
@@ -131,6 +131,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Anonymized Location](https://github.com/stac-extensions/anonymized-location)
 
 * [CARD4L (Optical and SAR)](https://github.com/stac-extensions/card4l)
+  
+* [CF](https://github.com/stac-extensions/cf)
 
 * [Classification](https://github.com/stac-extensions/classification)
 
@@ -199,8 +201,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)*
 
 * [Archive](https://github.com/stac-extensions/archive)
-
-* [CF](https://github.com/stac-extensions/cf)
 
 * [Camera](https://github.com/linz/stac/tree/master/extensions/camera)*
 
