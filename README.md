@@ -84,12 +84,13 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Versioning Indicators](https://github.com/stac-extensions/version) | - | Collection, Item | Candidate | 1.2.0 | Provides fields and link relation types to provide a version and indicate deprecation. |
 | [Video](https://github.com/stac-extensions/video) | video | Collection, Item | Proposal | 1.0.0 | Provides a way to describe video assets. |
 | [View Geometry](https://github.com/stac-extensions/view) | view | Collection, Item | Stable | 1.0.0 | View Geometry adds metadata related to angles of sensors and other radiance angles that affect the view of resulting data. |
-| [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | virtual | Collection, Item | *WIP* | **Unreleased** | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
+| [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | vrt | Collection, Item | *WIP* | **Unreleased** | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
+| [render](https://github.com/stac-extensions/render) | *Unknown* | Collection, Item | *WIP* | **Unreleased** | Provide consumers with the information required to view an asset properly (e.g. on a online map) |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Sep 30 2023, 00:59 
-* **Count:** 62
+* **Last updated:** Oct 01 2023, 01:08 
+* **Count:** 63
 
 ### Grouped by maturity
 
@@ -219,6 +220,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Tiled Assets](https://github.com/stac-extensions/tiled-assets)
 
 * [Virtual Assets](https://github.com/stac-extensions/virtual-assets)
+
+* [render](https://github.com/stac-extensions/render)
 
 
 #### Deprecated
