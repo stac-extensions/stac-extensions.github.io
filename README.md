@@ -65,6 +65,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Projection](https://github.com/stac-extensions/projection) | proj | Collection, Item | Stable | 1.1.0 | Provides a way to describe Items whose assets are in a geospatial projection. |
 | [Quality](https://github.com/linz/stac/tree/master/extensions/quality)* | quality | Collection | Proposal | *Unknown* | Geospatial quality and accuracy of collections, such as horizontal and vertical accuracy. |
 | [Raster](https://github.com/stac-extensions/raster) | raster | Collection, Item | Candidate | 1.1.0 | Describes raster assets at band level (one or multiple) with specific information such as data type, unit, number of bits used, nodata. |
+| [Rendering](https://github.com/stac-extensions/render) | rdr | Collection, Item | *WIP* | **Unreleased** | Provide consumers with the information required to view an asset properly (e.g. on a online map) |
 | [SAR](https://github.com/stac-extensions/sar) | sar | Collection, Item | Candidate | 1.0.0 | Covers synthetic-aperture radar data that represents a snapshot of the earth for a single date and time. |
 | [Satellite](https://github.com/stac-extensions/sat) | sat | Collection, Item | Candidate | 1.0.0 | Satellite related metadata for data collected from satellites. |
 | [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)* | scan | Collection, Item | *WIP* | *Unknown* | Scanning related metadata, such as the scan date and time. Especially useful for digitised images. |
@@ -86,10 +87,9 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [View Geometry](https://github.com/stac-extensions/view) | view | Collection, Item | Stable | 1.0.0 | View Geometry adds metadata related to angles of sensors and other radiance angles that affect the view of resulting data. |
 | [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | vrt | Collection, Item | *WIP* | **Unreleased** | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
-| [render](https://github.com/stac-extensions/render) | *Unknown* | Collection, Item | *WIP* | **Unreleased** | Provide consumers with the information required to view an asset properly (e.g. on a online map) |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Oct 01 2023, 01:08 
+* **Last updated:** Oct 02 2023, 01:01 
 * **Count:** 63
 
 ### Grouped by maturity
@@ -215,13 +215,13 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [ML AOI](https://github.com/stac-extensions/ml-aoi)
 
+* [Rendering](https://github.com/stac-extensions/render)
+
 * [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)*
 
 * [Tiled Assets](https://github.com/stac-extensions/tiled-assets)
 
 * [Virtual Assets](https://github.com/stac-extensions/virtual-assets)
-
-* [render](https://github.com/stac-extensions/render)
 
 
 #### Deprecated
