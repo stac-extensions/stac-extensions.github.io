@@ -72,7 +72,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)* | scan | Collection, Item | *WIP* | *Unknown* | Scanning related metadata, such as the scan date and time. Especially useful for digitised images. |
 | [Scientific Citation](https://github.com/stac-extensions/scientific) | sci | Collection, Item | Stable | 1.0.0 | Metadata that indicate from which publication data originates and how the data itself should be cited or referenced. |
 | [Single File STAC](https://github.com/stac-extensions/single-file-stac) | - | Collection, Item | Deprecated | **Unreleased** | An extension to provide a set of Collections and Items within a single file STAC. |
-| [Solar System](https://github.com/stac-extensions/ssys) | ssys | Catalog, Collection, Item | *Unknown* | 1.0.0 | SSYS STAC Extension Specification |
+| [Solar System](https://github.com/stac-extensions/ssys) | ssys | Catalog, Collection, Item | Proposal | 1.1.0 | SSYS STAC Extension Specification |
 | [Stats](https://github.com/stac-extensions/stats) | stats | Catalog, Collection | Pilot | 0.2.0 | Describes the number of items, extensions and assets that are contained in a STAC catalog. |
 | [Stereo Imagery](https://github.com/stac-extensions/stereo-imagery) | stereo-img | Catalog, Collection, Item | Proposal | 1.0.0 | Describes (tri-)stereo imagery that consists of multiple captures, often for 3D use cases. |
 | [Storage](https://github.com/stac-extensions/storage) | storage | Asset, Item | Pilot | 1.0.0 | Provides additional fields relating to how the asset is stored in the cloud |
@@ -90,7 +90,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Oct 18 2023, 01:01 
+* **Last updated:** Oct 19 2023, 01:01 
 * **Count:** 64
 
 ### Grouped by maturity
@@ -182,6 +182,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Perspective Imagery](https://github.com/stac-extensions/perspective-imagery)
 
 * [Quality](https://github.com/linz/stac/tree/master/extensions/quality)*
+
+* [Solar System](https://github.com/stac-extensions/ssys)
 
 * [Stereo Imagery](https://github.com/stac-extensions/stereo-imagery)
 
