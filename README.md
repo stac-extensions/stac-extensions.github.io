@@ -30,6 +30,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Alternate Assets](https://github.com/stac-extensions/alternate-assets) | - | Asset | Pilot | 1.1.0 | Describes alternate locations and mirrors of assets |
 | [Anonymized Location](https://github.com/stac-extensions/anonymized-location) | anon | Collection, Item | Pilot | 1.0.0 | Provides a way to anonymize location data |
 | [Archive](https://github.com/stac-extensions/archive) | archive | Collection, Item | *WIP* | **Unreleased** | Archive extension that deals with cases when files are not directly accessible on their respective storage, but are part of an archive file, such as ZIP or TAR archives.  |
+| [Authentication](https://github.com/stac-extensions/authentication) | auth | Asset, Catalog, Collection, Item, Links | Proposal | 1.0.0 | Adds fields to define authentication or authorization flows used to access Assets and Links behind security |
 | [CARD4L (Optical and SAR)](https://github.com/stac-extensions/card4l) | card4l | Item | Pilot | 0.1.0 | Describes how to comply to the CEOS CARD4L specifications (SAR and Optical) with STAC |
 | [CEOS-ARD](https://github.com/stac-extensions/ceos-ard) | ceos_ard | Collection, Item | *WIP* | **Unreleased** | Describes how to comply to the CEOS ARD specifications with STAC. Supersedes the STAC CARD4L extension. |
 | [CF](https://github.com/stac-extensions/cf) | cf | Collection, Item | Proposal | 0.2.0 | Allows to provide the Standard Name Table based on the CF metadata convention. |
@@ -50,6 +51,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [InSAR](https://github.com/stac-extensions/insar) | insar | Item | *WIP* | **Unreleased** | STAC extension for InSAR (Interferometric Synthetic Aperture Radar) |
 | [Item Assets Definition](https://github.com/stac-extensions/item-assets) | - | Collection | Stable | 1.0.0 | Provides a way to specify details about what assets may be found in Items belonging to a Collection. |
 | [Label](https://github.com/stac-extensions/label) | label | Collection, Item | Pilot | 1.0.1 | Items that relate labeled AOIs with source imagery. |
+| [Landsat](https://github.com/stac-extensions/landsat) | landsat | Item | Stable | 2.0.0 | Landsat data fields |
 | [Landsat](https://landsat.usgs.gov/stac/landsat-extension/v1.1.1/schema.json)* | landsat | *Unknown* | *Unknown* | 1.1.1 | *JSON Schema only!* |
 | [Landsat ARD Tile](https://landsat.usgs.gov/stac/landsat-ard-extension/v1.0.0/schema.json)* | landsat | *Unknown* | *Unknown* | 1.0.0 | *JSON Schema only!* |
 | [Language (I18N)](https://github.com/stac-extensions/language) | - | Catalog, Collection, Item | Proposal | 1.0.0 | Fields and recommendations around making multi-lingual STAC catalogs available.  |
@@ -90,8 +92,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Nov 07 2023, 01:03 
-* **Count:** 64
+* **Last updated:** Nov 08 2023, 01:02 
+* **Count:** 66
 
 ### Grouped by maturity
 
@@ -103,6 +105,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [File Info](https://github.com/stac-extensions/file)
 
 * [Item Assets Definition](https://github.com/stac-extensions/item-assets)
+
+* [Landsat](https://github.com/stac-extensions/landsat)
 
 * [Projection](https://github.com/stac-extensions/projection)
 
@@ -162,6 +166,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 
 #### Proposal
+
+* [Authentication](https://github.com/stac-extensions/authentication)
 
 * [CF](https://github.com/stac-extensions/cf)
 
