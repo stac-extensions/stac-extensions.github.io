@@ -73,6 +73,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Satellite](https://github.com/stac-extensions/sat) | sat | Collection, Item | Candidate | 1.0.0 | Satellite related metadata for data collected from satellites. |
 | [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)* | scan | Collection, Item | *WIP* | *Unknown* | Scanning related metadata, such as the scan date and time. Especially useful for digitised images. |
 | [Scientific Citation](https://github.com/stac-extensions/scientific) | sci | Collection, Item | Stable | 1.0.0 | Metadata that indicate from which publication data originates and how the data itself should be cited or referenced. |
+| [Sentinel-2](https://github.com/stac-extensions/sentinel-2) | s2 | Item | Stable | 1.0.0 | Sentinel-2 STAC Extension |
 | [Single File STAC](https://github.com/stac-extensions/single-file-stac) | - | Collection, Item | Deprecated | **Unreleased** | An extension to provide a set of Collections and Items within a single file STAC. |
 | [Solar System](https://github.com/stac-extensions/ssys) | ssys | Catalog, Collection, Item | Proposal | 1.1.0 | SSYS STAC Extension Specification |
 | [Stats](https://github.com/stac-extensions/stats) | stats | Catalog, Collection | Pilot | 0.2.0 | Describes the number of items, extensions and assets that are contained in a STAC catalog. |
@@ -92,8 +93,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Nov 13 2023, 01:04 
-* **Count:** 66
+* **Last updated:** Nov 14 2023, 01:02 
+* **Count:** 67
 
 ### Grouped by maturity
 
@@ -111,6 +112,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Projection](https://github.com/stac-extensions/projection)
 
 * [Scientific Citation](https://github.com/stac-extensions/scientific)
+
+* [Sentinel-2](https://github.com/stac-extensions/sentinel-2)
 
 * [View Geometry](https://github.com/stac-extensions/view)
 
