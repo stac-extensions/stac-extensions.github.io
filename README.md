@@ -25,7 +25,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 | Title | Field Name Prefix | Scope | [Maturity](https://github.com/radiantearth/stac-spec/tree/master/extensions#extension-maturity) | Version | Description |
 | ----- | ----------------- | ----- | ----------------------------------------------------------------------------------------------- | ------- | ----------- |
-| [Accuracy](https://github.com/stac-extensions/accuracy) | accuracy | Collection, Item | *WIP* | **Unreleased** | Fields to provide estimates of accuracy, both geometric and measurement (e.g., radiometric) accuracy. |
+| [Accuracy](https://github.com/stac-extensions/accuracy) | accuracy | Collection, Item | Proposal | 1.0.0-beta.1 | Fields to provide estimates of accuracy, both geometric and measurement (e.g., radiometric) accuracy. |
 | [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)* | aerial-photo | Collection, Item | *WIP* | *Unknown* | Aerial photography related metadata, such as run, sequence number, altitude and scale. |
 | [Alternate Assets](https://github.com/stac-extensions/alternate-assets) | - | Asset | Pilot | 1.1.0 | Describes alternate locations and mirrors of assets |
 | [Anonymized Location](https://github.com/stac-extensions/anonymized-location) | anon | Collection, Item | Pilot | 1.0.0 | Provides a way to anonymize location data |
@@ -93,7 +93,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Dec 18 2023, 01:06 
+* **Last updated:** Dec 19 2023, 01:04 
 * **Count:** 67
 
 ### Grouped by maturity
@@ -170,6 +170,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 #### Proposal
 
+* [Accuracy](https://github.com/stac-extensions/accuracy)
+
 * [Authentication](https://github.com/stac-extensions/authentication)
 
 * [CF](https://github.com/stac-extensions/cf)
@@ -212,8 +214,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 
 #### WIP
-
-* [Accuracy](https://github.com/stac-extensions/accuracy)
 
 * [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)*
 
