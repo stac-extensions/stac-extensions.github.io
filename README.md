@@ -91,10 +91,12 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [View Geometry](https://github.com/stac-extensions/view) | view | Collection, Item | Stable | 1.0.0 | View Geometry adds metadata related to angles of sensors and other radiance angles that affect the view of resulting data. |
 | [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | vrt | Collection, Item | Proposal | 1.0.0 | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
+| [sentinel-1](https://github.com/stac-extensions/sentinel-1) | *Unknown* | Collection, Item | *WIP* | **Unreleased** | Sentinel-1 STAC Extension  |
+| [sentinel-3](https://github.com/stac-extensions/sentinel-3) | *Unknown* | Collection, Item | *WIP* | **Unreleased** | Sentinel-3 STAC Extension  |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Mar 07 2024, 00:50 
-* **Count:** 67
+* **Last updated:** Mar 08 2024, 01:00 
+* **Count:** 69
 
 ### Grouped by maturity
 
@@ -236,6 +238,10 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)*
 
 * [Tiled Assets](https://github.com/stac-extensions/tiled-assets)
+
+* [sentinel-1](https://github.com/stac-extensions/sentinel-1)
+
+* [sentinel-3](https://github.com/stac-extensions/sentinel-3)
 
 
 #### Deprecated
