@@ -48,7 +48,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Forecast](https://github.com/stac-extensions/forecast) | forecast | Collection, Item | Proposal | 0.1.0 | Common fields for (meteorological/weather) forecast data. |
 | [Grid](https://github.com/stac-extensions/grid) | grid | Item | Pilot | 1.1.0 | Describes gridded data products, especially the grid code. |
 | [Hyperspectral Imagery](https://github.com/stac-extensions/hsi) | hsi | Collection, Item | *WIP* | **Unreleased** | Extension for Hyperspectral Imagery, to preserve the wavelength information for Items. |
-| [InSAR](https://github.com/stac-extensions/insar) | insar | Item | *WIP* | **Unreleased** | STAC extension for InSAR (Interferometric Synthetic Aperture Radar) |
+| [InSAR](https://github.com/stac-extensions/insar) | insar | Item | Proposal | 1.0.0 | STAC extension for InSAR (Interferometric Synthetic Aperture Radar) |
 | [Item Assets Definition](https://github.com/stac-extensions/item-assets) | - | Collection | Stable | 1.0.0 | Provides a way to specify details about what assets may be found in Items belonging to a Collection. |
 | [Label](https://github.com/stac-extensions/label) | label | Collection, Item | Pilot | 1.0.1 | Items that relate labeled AOIs with source imagery. |
 | [Landsat](https://github.com/stac-extensions/landsat) | landsat | Item | Stable | 2.0.0 | Landsat data fields |
@@ -95,7 +95,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [sentinel-3](https://github.com/stac-extensions/sentinel-3) | *Unknown* | Collection, Item | *WIP* | **Unreleased** | Sentinel-3 STAC Extension  |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Mar 11 2024, 01:01 
+* **Last updated:** Mar 12 2024, 01:00 
 * **Count:** 69
 
 ### Grouped by maturity
@@ -186,6 +186,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Forecast](https://github.com/stac-extensions/forecast)
 
+* [InSAR](https://github.com/stac-extensions/insar)
+
 * [Language (I18N)](https://github.com/stac-extensions/language)
 
 * [ML Model](https://github.com/stac-extensions/ml-model)
@@ -230,8 +232,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Film](https://github.com/linz/stac/tree/master/extensions/film)*
 
 * [Hyperspectral Imagery](https://github.com/stac-extensions/hsi)
-
-* [InSAR](https://github.com/stac-extensions/insar)
 
 * [ML AOI](https://github.com/stac-extensions/ml-aoi)
 
