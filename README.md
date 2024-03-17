@@ -95,7 +95,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [sentinel-3](https://github.com/stac-extensions/sentinel-3) | *Unknown* | Collection, Item | *WIP* | **Unreleased** | Sentinel-3 STAC Extension  |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Mar 16 2024, 00:59 
+* **Last updated:** Mar 17 2024, 01:04 
 * **Count:** 69
 
 ### Grouped by maturity
