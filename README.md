@@ -73,10 +73,10 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Satellite](https://github.com/stac-extensions/sat) | sat | Collection, Item | Candidate | 1.0.0 | Satellite related metadata for data collected from satellites. |
 | [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)* | scan | Collection, Item | *WIP* | *Unknown* | Scanning related metadata, such as the scan date and time. Especially useful for digitised images. |
 | [Scientific Citation](https://github.com/stac-extensions/scientific) | sci | Collection, Item | Stable | 1.0.0 | Metadata that indicate from which publication data originates and how the data itself should be cited or referenced. |
-| [Sentinel-1](https://github.com/stac-extensions/sentinel-1) | s1 | Collection, Item | *WIP* | **Unreleased** | Sentinel-1 STAC Extension  |
+| [Sentinel-1](https://github.com/stac-extensions/sentinel-1) | s1 | Item | Proposal | 0.1.0 | Sentinel-1 STAC Extension  |
 | [Sentinel-2](https://github.com/stac-extensions/sentinel-2) | s2 | Item | Candidate | 1.0.0 | Sentinel-2 STAC Extension |
-| [Sentinel-3](https://github.com/stac-extensions/sentinel-3) | s3 | Item | *WIP* | **Unreleased** | Sentinel-3 STAC Extension  |
-| [Sentinel-5P](https://github.com/stac-extensions/sentinel-5p) | s5p | Item | *WIP* | **Unreleased** | Sentinel-5P STAC Extension  |
+| [Sentinel-3](https://github.com/stac-extensions/sentinel-3) | s3 | Item | Proposal | 0.1.0 | Sentinel-3 STAC Extension  |
+| [Sentinel-5P](https://github.com/stac-extensions/sentinel-5p) | s5p | Item | Proposal | 0.1.0 | Sentinel-5P STAC Extension  |
 | [Single File STAC](https://github.com/stac-extensions/single-file-stac) | - | Collection, Item | Deprecated | **Unreleased** | An extension to provide a set of Collections and Items within a single file STAC. |
 | [Solar System](https://github.com/stac-extensions/ssys) | ssys | Catalog, Collection, Item | Proposal | 1.1.0 | SSYS STAC Extension Specification |
 | [Stats](https://github.com/stac-extensions/stats) | stats | Catalog, Collection | Pilot | 0.2.0 | Describes the number of items, extensions and assets that are contained in a STAC catalog. |
@@ -96,7 +96,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [trainingdml-ai-extension](https://github.com/TrainingDML/trainingdml-ai-extension)* | *Unknown* | *Unknown* | *WIP* | **Unreleased** | Detailed metadata for formalizing the information model of geospatial EO machine learning training data. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Mar 25 2024, 01:03 
+* **Last updated:** Mar 26 2024, 01:00 
 * **Count:** 70
 
 ### Grouped by maturity
@@ -201,6 +201,12 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Rendering](https://github.com/stac-extensions/render)
 
+* [Sentinel-1](https://github.com/stac-extensions/sentinel-1)
+
+* [Sentinel-3](https://github.com/stac-extensions/sentinel-3)
+
+* [Sentinel-5P](https://github.com/stac-extensions/sentinel-5p)
+
 * [Solar System](https://github.com/stac-extensions/ssys)
 
 * [Stereo Imagery](https://github.com/stac-extensions/stereo-imagery)
@@ -235,12 +241,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [ML AOI](https://github.com/stac-extensions/ml-aoi)
 
 * [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)*
-
-* [Sentinel-1](https://github.com/stac-extensions/sentinel-1)
-
-* [Sentinel-3](https://github.com/stac-extensions/sentinel-3)
-
-* [Sentinel-5P](https://github.com/stac-extensions/sentinel-5p)
 
 * [Tiled Assets](https://github.com/stac-extensions/tiled-assets)
 
