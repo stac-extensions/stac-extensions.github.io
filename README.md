@@ -55,7 +55,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Landsat](https://landsat.usgs.gov/stac/landsat-extension/v1.1.1/schema.json)* | landsat | *Unknown* | *Unknown* | 1.1.1 | *JSON Schema only!* |
 | [Landsat ARD Tile](https://landsat.usgs.gov/stac/landsat-ard-extension/v1.0.0/schema.json)* | landsat | *Unknown* | *Unknown* | 1.0.0 | *JSON Schema only!* |
 | [Language (I18N)](https://github.com/stac-extensions/language) | - | Catalog, Collection, Item | Proposal | 1.0.0 | Fields and recommendations around making multi-lingual STAC catalogs available.  |
-| [ML AOI](https://github.com/stac-extensions/ml-aoi) | ml-aoi | Collection, Item | Proposal | 0.1.0 | An Item and Collection extension to provide labeled training data for machine learning models. |
+| [ML AOI](https://github.com/stac-extensions/ml-aoi) | ml-aoi | Asset, Collection, Item, Links | Proposal | 0.2.0 | An Item and Collection extension to provide labeled training data for machine learning models. |
 | [ML Model](https://github.com/stac-extensions/ml-model) | ml-model | Collection, Item | Proposal | 1.0.0 | An Item and Collection extension to describe machine learning (ML) models that operate on Earth observation data. |
 | [Military Grid Reference System](https://github.com/stac-extensions/mgrs) | mgrs | Item | Pilot | 1.0.0 | MGRS extension that provides information about the latitude band, grid square and UTM zone. |
 | [NOAA Geostationary Operational Environmental Satellite (GOES)](https://github.com/stac-extensions/goes) | goes | Collection, Item | Pilot | 1.0.0 | STAC Extension for NOAA GOES (Geostationary Operational Environmental Satellite) products |
@@ -96,7 +96,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [trainingdml-ai-extension](https://github.com/TrainingDML/trainingdml-ai-extension)* | *Unknown* | *Unknown* | *WIP* | **Unreleased** | Detailed metadata for formalizing the information model of geospatial EO machine learning training data. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Mar 28 2024, 01:01 
+* **Last updated:** Mar 29 2024, 01:01 
 * **Count:** 70
 
 ### Grouped by maturity
