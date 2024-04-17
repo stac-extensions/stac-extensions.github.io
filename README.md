@@ -28,6 +28,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Accuracy](https://github.com/stac-extensions/accuracy) | accuracy | Collection, Item | Proposal | 1.0.0-beta.1 | Fields to provide estimates of accuracy, both geometric and measurement (e.g., radiometric) accuracy. |
 | [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)* | aerial-photo | Collection, Item | *WIP* | *Unknown* | Aerial photography related metadata, such as run, sequence number, altitude and scale. |
 | [Alternate Assets](https://github.com/stac-extensions/alternate-assets) | - | Asset | Pilot | 1.1.0 | Describes alternate locations and mirrors of assets |
+| [Altimetry](https://github.com/stac-extensions/altimetry) | altm | Collection, Item | *WIP* | **Unreleased** | Altimetry Extension Specification |
 | [Anonymized Location](https://github.com/stac-extensions/anonymized-location) | anon | Collection, Item | Pilot | 1.0.0 | Provides a way to anonymize location data |
 | [Archive](https://github.com/stac-extensions/archive) | archive | Collection, Item | *WIP* | **Unreleased** | Archive extension that deals with cases when files are not directly accessible on their respective storage, but are part of an archive file, such as ZIP or TAR archives.  |
 | [Authentication](https://github.com/stac-extensions/authentication) | auth | Asset, Catalog, Collection, Item, Links | Proposal | 1.0.0 | Adds fields to define authentication or authorization flows used to access Assets and Links behind security |
@@ -93,11 +94,10 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [View Geometry](https://github.com/stac-extensions/view) | view | Collection, Item | Stable | 1.0.0 | View Geometry adds metadata related to angles of sensors and other radiance angles that affect the view of resulting data. |
 | [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | vrt | Collection, Item | Proposal | 1.0.0 | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
-| [altimetry](https://github.com/stac-extensions/altimetry) | *Unknown* | Collection, Item | *WIP* | **Unreleased** | Altimetry Extension Specification |
 | [trainingdml-ai-extension](https://github.com/TrainingDML/trainingdml-ai-extension)* | *Unknown* | *Unknown* | *WIP* | **Unreleased** | Detailed metadata for formalizing the information model of geospatial EO machine learning training data. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Apr 16 2024, 01:01 
+* **Last updated:** Apr 17 2024, 01:02 
 * **Count:** 71
 
 ### Grouped by maturity
@@ -229,6 +229,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)*
 
+* [Altimetry](https://github.com/stac-extensions/altimetry)
+
 * [Archive](https://github.com/stac-extensions/archive)
 
 * [CEOS-ARD](https://github.com/stac-extensions/ceos-ard)
@@ -244,8 +246,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)*
 
 * [Tiled Assets](https://github.com/stac-extensions/tiled-assets)
-
-* [altimetry](https://github.com/stac-extensions/altimetry)
 
 * [trainingdml-ai-extension](https://github.com/TrainingDML/trainingdml-ai-extension)*
 
