@@ -3,7 +3,7 @@ COMMUNITY_REPOS = [
   # org, repo name
   ['crim-ca', 'dlm-extension'],
   ['Terradue', 'stac-extensions-disaster'],
-  ['TrainingDML', 'trainingdml-ai-extension']
+  ['openrsgis', 'trainingdml-ai-extension']
 ]
 
 # Other extensions that are not on GitHub
