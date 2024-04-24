@@ -57,7 +57,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Language (I18N)](https://github.com/stac-extensions/language) | - | Catalog, Collection, Item | Proposal | 1.0.0 | Fields and recommendations around making multi-lingual STAC catalogs available.  |
 | [ML AOI](https://github.com/stac-extensions/ml-aoi) | ml-aoi | Asset, Collection, Item, Links | Proposal | 0.2.0 | An Item and Collection extension to provide labeled training data for machine learning models. |
 | [ML Model](https://github.com/stac-extensions/ml-model) | ml-model | Collection, Item | Proposal | 1.0.0 | An Item and Collection extension to describe machine learning (ML) models that operate on Earth observation data. |
-| [Machine Learning Model Extension](https://github.com/crim-ca/dlm-extension)* | mlm | Asset, Collection, Item, Links | Proposal | 1.0.0 | Deep Learning Model STAC Extension  |
+| [Machine Learning Model Extension](https://github.com/crim-ca/dlm-extension)* | mlm | Asset, Collection, Item, Links | Deprecated | 1.0.0 | Deep Learning Model STAC Extension  |
 | [Military Grid Reference System](https://github.com/stac-extensions/mgrs) | mgrs | Item | Pilot | 1.0.0 | MGRS extension that provides information about the latitude band, grid square and UTM zone. |
 | [NOAA Geostationary Operational Environmental Satellite (GOES)](https://github.com/stac-extensions/goes) | goes | Collection, Item | Pilot | 1.0.0 | STAC Extension for NOAA GOES (Geostationary Operational Environmental Satellite) products |
 | [NOAA MRMS QPE](https://github.com/stac-extensions/noaa-mrms-qpe) | noaa_mrms_qpe | Collection, Item | Pilot | 1.0.0 | STAC Extension for NOAA MRMS QPE (Multi-Radar Multi-Sensor Quantitative Precipitation Estimation) products |
@@ -97,7 +97,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [trainingdml-ai-extension](https://github.com/TrainingDML/trainingdml-ai-extension)* | *Unknown* | *Unknown* | *WIP* | **Unreleased** | Detailed metadata for formalizing the information model of geospatial EO machine learning training data. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Apr 23 2024, 01:03 
+* **Last updated:** Apr 24 2024, 01:04 
 * **Count:** 71
 
 ### Grouped by maturity
@@ -196,8 +196,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [ML Model](https://github.com/stac-extensions/ml-model)
 
-* [Machine Learning Model Extension](https://github.com/crim-ca/dlm-extension)*
-
 * [Open Science Catalog](https://github.com/stac-extensions/osc)
 
 * [Perspective Imagery](https://github.com/stac-extensions/perspective-imagery)
@@ -253,6 +251,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 
 #### Deprecated
+
+* [Machine Learning Model Extension](https://github.com/crim-ca/dlm-extension)*
 
 * [Single File STAC](https://github.com/stac-extensions/single-file-stac)
 
