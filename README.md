@@ -35,6 +35,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [CARD4L (Optical and SAR)](https://github.com/stac-extensions/card4l) | card4l | Item | Pilot | 0.1.0 | Describes how to comply to the CEOS CARD4L specifications (SAR and Optical) with STAC |
 | [CEOS-ARD](https://github.com/stac-extensions/ceos-ard) | ceosard | Collection, Item | *WIP* | **Unreleased** | Describes how to comply to the CEOS-ARD specifications with STAC. Supersedes the STAC CARD4L extension. |
 | [CF](https://github.com/stac-extensions/cf) | cf | Collection, Item | Proposal | 0.2.0 | Allows to provide the Standard Name Table based on the CF metadata convention. |
+| [CMIP6](https://github.com/stac-extensions/cmip6) | cmip6 | Item | *WIP* | **Unreleased** | None |
 | [Camera](https://github.com/linz/stac/tree/master/extensions/camera)* | camera | Collection, Item | *WIP* | *Unknown* | Camera related metadata, such as focal length and sequence number. Especially useful for aerial imagery surveys. |
 | [Classification](https://github.com/stac-extensions/classification) | classification | Collection, Item | Pilot | 1.1.0 | Describes categorical values and bitfields to give values in a file a certain meaning (classification). |
 | [Composite](https://github.com/stac-extensions/composite) | composite | Item | *WIP* | **Unreleased** | Defines how virtual assets can be composed from existing assets in STAC |
@@ -97,8 +98,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [trainingdml-ai-extension](https://github.com/TrainingDML/trainingdml-ai-extension)* | *Unknown* | *Unknown* | *WIP* | **Unreleased** | Detailed metadata for formalizing the information model of geospatial EO machine learning training data. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Apr 25 2024, 01:05 
-* **Count:** 71
+* **Last updated:** Apr 26 2024, 01:03 
+* **Count:** 72
 
 ### Grouped by maturity
 
@@ -234,6 +235,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Archive](https://github.com/stac-extensions/archive)
 
 * [CEOS-ARD](https://github.com/stac-extensions/ceos-ard)
+
+* [CMIP6](https://github.com/stac-extensions/cmip6)
 
 * [Camera](https://github.com/linz/stac/tree/master/extensions/camera)*
 
