@@ -4,7 +4,7 @@ COMMUNITY_REPOS = [
   ['crim-ca', 'dlm-extension'],
   ['crim-ca', 'mlm-extension'],
   ['Terradue', 'stac-extensions-disaster'],
-  ['TrainingDML', 'trainingdml-ai-extension']
+  ['openrsgis', 'trainingdml-ai-extension']
 ]
 
 # Other extensions that are not on GitHub
