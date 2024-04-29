@@ -31,7 +31,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Altimetry](https://github.com/stac-extensions/altimetry) | altm | Collection, Item | *WIP* | **Unreleased** | Altimetry Extension Specification |
 | [Anonymized Location](https://github.com/stac-extensions/anonymized-location) | anon | Collection, Item | Pilot | 1.0.0 | Provides a way to anonymize location data |
 | [Archive](https://github.com/stac-extensions/archive) | archive | Collection, Item | *WIP* | **Unreleased** | Archive extension that deals with cases when files are not directly accessible on their respective storage, but are part of an archive file, such as ZIP or TAR archives.  |
-| [Authentication](https://github.com/stac-extensions/authentication) | auth | Asset, Catalog, Collection, Item, Links | Proposal | 1.0.0 | Adds fields to define authentication or authorization flows used to access Assets and Links behind security |
+| [Authentication](https://github.com/stac-extensions/authentication) | auth | Asset, Catalog, Collection, Item, Links | Proposal | 1.1.0 | Adds fields to define authentication or authorization flows used to access Assets and Links behind security |
 | [CARD4L (Optical and SAR)](https://github.com/stac-extensions/card4l) | card4l | Item | Pilot | 0.1.0 | Describes how to comply to the CEOS CARD4L specifications (SAR and Optical) with STAC |
 | [CEOS-ARD](https://github.com/stac-extensions/ceos-ard) | ceosard | Collection, Item | *WIP* | **Unreleased** | Describes how to comply to the CEOS-ARD specifications with STAC. Supersedes the STAC CARD4L extension. |
 | [CF](https://github.com/stac-extensions/cf) | cf | Collection, Item | Proposal | 0.2.0 | Allows to provide the Standard Name Table based on the CF metadata convention. |
@@ -98,7 +98,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [trainingdml-ai-extension](https://github.com/TrainingDML/trainingdml-ai-extension)* | *Unknown* | *Unknown* | *WIP* | **Unreleased** | Detailed metadata for formalizing the information model of geospatial EO machine learning training data. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Apr 28 2024, 01:08 
+* **Last updated:** Apr 29 2024, 01:04 
 * **Count:** 72
 
 ### Grouped by maturity
