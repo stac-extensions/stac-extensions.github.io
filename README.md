@@ -28,7 +28,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Accuracy](https://github.com/stac-extensions/accuracy) | accuracy | Collection, Item | Proposal | 1.0.0-beta.1 | Fields to provide estimates of accuracy, both geometric and measurement (e.g., radiometric) accuracy. |
 | [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)* | aerial-photo | Collection, Item | *WIP* | *Unknown* | Aerial photography related metadata, such as run, sequence number, altitude and scale. |
 | [Alternate Assets](https://github.com/stac-extensions/alternate-assets) | - | Asset | Pilot | 1.1.0 | Describes alternate locations and mirrors of assets |
-| [Altimetry](https://github.com/stac-extensions/altimetry) | altm | Collection, Item | *WIP* | **Unreleased** | Altimetry Extension Specification |
+| [Altimetry](https://github.com/stac-extensions/altimetry) | altm | Item | *WIP* | **Unreleased** | Altimetry Extension Specification |
 | [Anonymized Location](https://github.com/stac-extensions/anonymized-location) | anon | Collection, Item | Pilot | 1.0.0 | Provides a way to anonymize location data |
 | [Archive](https://github.com/stac-extensions/archive) | archive | Collection, Item | *WIP* | **Unreleased** | Archive extension that deals with cases when files are not directly accessible on their respective storage, but are part of an archive file, such as ZIP or TAR archives.  |
 | [Authentication](https://github.com/stac-extensions/authentication) | auth | Asset, Catalog, Collection, Item, Links | Proposal | 1.1.0 | Adds fields to define authentication or authorization flows used to access Assets and Links behind security |
@@ -41,6 +41,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Composite](https://github.com/stac-extensions/composite) | composite | Item | *WIP* | **Unreleased** | Defines how virtual assets can be composed from existing assets in STAC |
 | [Contacts](https://github.com/stac-extensions/contacts) | - | Catalog, Collection, Item | Proposal | 0.1.1 | A list of contacts with detailed information such as address, phone numbers, emails etc. |
 | [Datacube](https://github.com/stac-extensions/datacube) | cube | Collection, Item | Candidate | 2.2.0 | Datacube related metadata to describe their dimensions and variables. |
+| [Deep Learning Model Extension](https://github.com/crim-ca/dlm-extension)* | dlm | Asset, Collection, Item, Links | Deprecated | 1.0.0 | Deep Learning Model STAC Extension (deprecated, see https://github.com/crim-ca/mlm-extension instead) |
 | [Disasters Charter](https://github.com/Terradue/stac-extensions-disaster)* | disaster | Collection, Item | Proposal | 1.0.0 | Disaster Charter Extension Specification |
 | [Electro-Optical](https://github.com/stac-extensions/eo) | eo | Collection, Item | Stable | 1.1.0 | Covers electro-optical data that represents a snapshot of the Earth. It could consist of cloud cover and multiple spectral bands, for example visible bands, infrared bands, red edge bands and panchromatic bands. |
 | [Example Links](https://github.com/stac-extensions/example-links) | example | Catalog, Collection, Item | Proposal | 0.0.1 | Allows to provide links to examples, e.g. code snippets. |
@@ -58,7 +59,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Language (I18N)](https://github.com/stac-extensions/language) | - | Catalog, Collection, Item | Proposal | 1.0.0 | Fields and recommendations around making multi-lingual STAC catalogs available.  |
 | [ML AOI](https://github.com/stac-extensions/ml-aoi) | ml-aoi | Asset, Collection, Item, Links | Proposal | 0.2.0 | An Item and Collection extension to provide labeled training data for machine learning models. |
 | [ML Model](https://github.com/stac-extensions/ml-model) | ml-model | Collection, Item | Proposal | 1.0.0 | An Item and Collection extension to describe machine learning (ML) models that operate on Earth observation data. |
-| [Machine Learning Model Extension](https://github.com/crim-ca/dlm-extension)* | mlm | Asset, Collection, Item, Links | Deprecated | 1.0.0 | Deep Learning Model STAC Extension  |
+| [Machine Learning Model Extension](https://github.com/crim-ca/mlm-extension)* | mlm | Asset, Collection, Item, Links | Pilot | 1.1.0 | Machine Learning Model STAC Extension  |
 | [Military Grid Reference System](https://github.com/stac-extensions/mgrs) | mgrs | Item | Pilot | 1.0.0 | MGRS extension that provides information about the latitude band, grid square and UTM zone. |
 | [NOAA Geostationary Operational Environmental Satellite (GOES)](https://github.com/stac-extensions/goes) | goes | Collection, Item | Pilot | 1.0.0 | STAC Extension for NOAA GOES (Geostationary Operational Environmental Satellite) products |
 | [NOAA MRMS QPE](https://github.com/stac-extensions/noaa-mrms-qpe) | noaa_mrms_qpe | Collection, Item | Pilot | 1.0.0 | STAC Extension for NOAA MRMS QPE (Multi-Radar Multi-Sensor Quantitative Precipitation Estimation) products |
@@ -67,6 +68,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Perspective Imagery](https://github.com/stac-extensions/perspective-imagery) | pers | Collection, Item | Proposal | 1.0.0 | Describes perspective imagery collected by photogrammetric or non-photogrammetric cameras |
 | [Point Cloud](https://github.com/stac-extensions/pointcloud) | pc | Collection, Item | Pilot | 1.0.0 | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery. |
 | [Processing](https://github.com/stac-extensions/processing) | processing | Collection, Item | Candidate | 1.1.0 | Indicates from which processing chain data originates and how the data itself has been produced. |
+| [Product](https://github.com/stac-extensions/product) | product | Collection, Item | *WIP* | **Unreleased** | Generic Product-related properties for STAC |
 | [Projection](https://github.com/stac-extensions/projection) | proj | Collection, Item | Stable | 1.1.0 | Provides a way to describe Items whose assets are in a geospatial projection. |
 | [Quality](https://github.com/linz/stac/tree/master/extensions/quality)* | quality | Collection | Proposal | *Unknown* | Geospatial quality and accuracy of collections, such as horizontal and vertical accuracy. |
 | [Raster](https://github.com/stac-extensions/raster) | raster | Collection, Item | Candidate | 1.1.0 | Describes raster assets at band level (one or multiple) with specific information such as data type, unit, number of bits used, nodata. |
@@ -98,8 +100,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [trainingdml-ai-extension](https://github.com/TrainingDML/trainingdml-ai-extension)* | *Unknown* | *Unknown* | *WIP* | **Unreleased** | Detailed metadata for formalizing the information model of geospatial EO machine learning training data. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Apr 29 2024, 01:04 
-* **Count:** 72
+* **Last updated:** Apr 29 2024, 16:49 
+* **Count:** 74
 
 ### Grouped by maturity
 
@@ -151,6 +153,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Grid](https://github.com/stac-extensions/grid)
 
 * [Label](https://github.com/stac-extensions/label)
+
+* [Machine Learning Model Extension](https://github.com/crim-ca/mlm-extension)*
 
 * [Military Grid Reference System](https://github.com/stac-extensions/mgrs)
 
@@ -246,6 +250,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Hyperspectral Imagery](https://github.com/stac-extensions/hsi)
 
+* [Product](https://github.com/stac-extensions/product)
+
 * [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)*
 
 * [Tiled Assets](https://github.com/stac-extensions/tiled-assets)
@@ -255,7 +261,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 #### Deprecated
 
-* [Machine Learning Model Extension](https://github.com/crim-ca/dlm-extension)*
+* [Deep Learning Model Extension](https://github.com/crim-ca/dlm-extension)*
 
 * [Single File STAC](https://github.com/stac-extensions/single-file-stac)
 
