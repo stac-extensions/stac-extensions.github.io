@@ -37,7 +37,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [CF](https://github.com/stac-extensions/cf) | cf | Collection, Item | Proposal | 0.2.0 | Allows to provide the Standard Name Table based on the CF metadata convention. |
 | [CMIP6](https://github.com/stac-extensions/cmip6) | cmip6 | Item | *WIP* | **Unreleased** | None |
 | [Camera](https://github.com/linz/stac/tree/master/extensions/camera)* | camera | Collection, Item | *WIP* | *Unknown* | Camera related metadata, such as focal length and sequence number. Especially useful for aerial imagery surveys. |
-| [Classification](https://github.com/stac-extensions/classification) | classification | Collection, Item | Pilot | 1.1.0 | Describes categorical values and bitfields to give values in a file a certain meaning (classification). |
+| [Classification](https://github.com/stac-extensions/classification) | classification | Collection, Item | Pilot | 2.0.0 | Describes categorical values and bitfields to give values in a file a certain meaning (classification). |
 | [Composite](https://github.com/stac-extensions/composite) | composite | Item | *WIP* | **Unreleased** | Defines how virtual assets can be composed from existing assets in STAC |
 | [Contacts](https://github.com/stac-extensions/contacts) | - | Catalog, Collection, Item | Proposal | 0.1.1 | A list of contacts with detailed information such as address, phone numbers, emails etc. |
 | [Datacube](https://github.com/stac-extensions/datacube) | cube | Collection, Item | Candidate | 2.2.0 | Datacube related metadata to describe their dimensions and variables. |
@@ -100,7 +100,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** May 18 2024, 01:04 
+* **Last updated:** May 19 2024, 01:10 
 * **Count:** 74
 
 ### Grouped by maturity
