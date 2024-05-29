@@ -79,8 +79,14 @@ def get_extensions() -> list:
           tags = tags.json()
           if len(tags) > 0:
             src["version"] = re.sub(r"^v", "", tags[0]["name"])
+            try:
+              with requests.get(tags[0]["commit"]["url"], headers=headers) as commit:
+                src["releasedate"] = commit.json()["commit"]["author"]["date"][:10]
+            except error as e:
+              logger.error(f"commit not available: {e}")
           else:
             src["version"] = "**Unreleased**"
+            src["releasedate"] = "N/A"
             if "maturity" not in src:
               src["maturity"] = wip
       except error as e:
@@ -131,6 +137,8 @@ def get_extensions() -> list:
       src["maturity"] = unknown
     if "scope" not in src:
       src["scope"] = unknown
+    if "releasedate" not in src:
+      src["releasedate"] = unknown
 
   return data
 
@@ -159,7 +167,7 @@ def main() -> bool:
   count = len(data)
 
   if count < 45:
-    logger.error("Something likely went wrong as there are not enough repos listed, don't overrride README")
+    logger.error("Something likely went wrong as there are not enough repos listed, don't override README")
     sys.exit(1)
   
   now = datetime.utcnow().strftime("%b %d %Y, %H:%M %Z")
