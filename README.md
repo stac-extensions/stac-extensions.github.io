@@ -28,7 +28,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Accuracy](https://github.com/stac-extensions/accuracy) | accuracy | Collection, Item | Proposal | 1.0.0-beta.1 | Fields to provide estimates of accuracy, both geometric and measurement (e.g., radiometric) accuracy. |
 | [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)* | aerial-photo | Collection, Item | *WIP* | *Unknown* | Aerial photography related metadata, such as run, sequence number, altitude and scale. |
 | [Alternate Assets](https://github.com/stac-extensions/alternate-assets) | - | Asset | Pilot | 1.1.0 | Describes alternate locations and mirrors of assets |
-| [Altimetry](https://github.com/stac-extensions/altimetry) | altm | Item | *WIP* | **Unreleased** | Altimetry Extension Specification |
+| [Altimetry](https://github.com/stac-extensions/altimetry) | altm | Item | Proposal | 0.1.0 | Altimetry Extension Specification |
 | [Anonymized Location](https://github.com/stac-extensions/anonymized-location) | anon | Collection, Item | Pilot | 1.0.0 | Provides a way to anonymize location data |
 | [Archive](https://github.com/stac-extensions/archive) | archive | Collection, Item | *WIP* | **Unreleased** | Archive extension that deals with cases when files are not directly accessible on their respective storage, but are part of an archive file, such as ZIP or TAR archives.  |
 | [Authentication](https://github.com/stac-extensions/authentication) | auth | Asset, Catalog, Collection, Item, Links | Proposal | 1.1.0 | Adds fields to define authentication or authorization flows used to access Assets and Links behind security |
@@ -77,10 +77,10 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Satellite](https://github.com/stac-extensions/sat) | sat | Collection, Item | Candidate | 1.0.0 | Satellite related metadata for data collected from satellites. |
 | [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)* | scan | Collection, Item | *WIP* | *Unknown* | Scanning related metadata, such as the scan date and time. Especially useful for digitised images. |
 | [Scientific Citation](https://github.com/stac-extensions/scientific) | sci | Collection, Item | Stable | 1.0.0 | Metadata that indicate from which publication data originates and how the data itself should be cited or referenced. |
-| [Sentinel-1](https://github.com/stac-extensions/sentinel-1) | s1 | Item | Proposal | 0.1.0 | Sentinel-1 STAC Extension  |
+| [Sentinel-1](https://github.com/stac-extensions/sentinel-1) | s1 | Item | Proposal | 0.2.0 | Sentinel-1 STAC Extension  |
 | [Sentinel-2](https://github.com/stac-extensions/sentinel-2) | s2 | Item | Candidate | 1.0.0 | Sentinel-2 STAC Extension |
-| [Sentinel-3](https://github.com/stac-extensions/sentinel-3) | s3 | Item | Proposal | 0.1.0 | Sentinel-3 STAC Extension  |
-| [Sentinel-5P](https://github.com/stac-extensions/sentinel-5p) | s5p | Item | Proposal | 0.1.0 | Sentinel-5P STAC Extension  |
+| [Sentinel-3](https://github.com/stac-extensions/sentinel-3) | s3 | Item | Proposal | 0.2.0 | Sentinel-3 STAC Extension  |
+| [Sentinel-5P](https://github.com/stac-extensions/sentinel-5p) | s5p | Item | Proposal | 0.2.0 | Sentinel-5P STAC Extension  |
 | [Single File STAC](https://github.com/stac-extensions/single-file-stac) | - | Collection, Item | Deprecated | **Unreleased** | An extension to provide a set of Collections and Items within a single file STAC. |
 | [Solar System](https://github.com/stac-extensions/ssys) | ssys | Catalog, Collection, Item | Proposal | 1.1.0 | SSYS STAC Extension Specification |
 | [Stats](https://github.com/stac-extensions/stats) | stats | Catalog, Collection | Pilot | 0.2.0 | Describes the number of items, extensions and assets that are contained in a STAC catalog. |
@@ -100,7 +100,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Jun 10 2024, 01:10 
+* **Last updated:** Jun 11 2024, 01:08 
 * **Count:** 74
 
 ### Grouped by maturity
@@ -181,6 +181,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Accuracy](https://github.com/stac-extensions/accuracy)
 
+* [Altimetry](https://github.com/stac-extensions/altimetry)
+
 * [Authentication](https://github.com/stac-extensions/authentication)
 
 * [CF](https://github.com/stac-extensions/cf)
@@ -237,8 +239,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 #### WIP
 
 * [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)*
-
-* [Altimetry](https://github.com/stac-extensions/altimetry)
 
 * [Archive](https://github.com/stac-extensions/archive)
 
