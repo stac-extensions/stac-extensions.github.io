@@ -72,7 +72,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Product](https://github.com/stac-extensions/product) | product | Collection, Item | Proposal | 0.1.0 | Generic Product-related properties for STAC |
 | [Projection](https://github.com/stac-extensions/projection) | proj | Collection, Item | Stable | 1.1.0 | Provides a way to describe Items whose assets are in a geospatial projection. |
 | [Quality](https://github.com/linz/stac/tree/master/extensions/quality)* | quality | Collection | Proposal | *Unknown* | Geospatial quality and accuracy of collections, such as horizontal and vertical accuracy. |
-| [Raster](https://github.com/stac-extensions/raster) | raster | Collection, Item | Candidate | 1.1.0 | Describes raster assets at band level (one or multiple) with specific information such as data type, unit, number of bits used, nodata. |
+| [Raster](https://github.com/stac-extensions/raster) | raster | Collection, Item | Proposal | 1.1.0 | Describes raster assets at band level (one or multiple) with specific information such as data type, unit, number of bits used, nodata. |
 | [Rendering](https://github.com/stac-extensions/render) | renders | Collection, Item | Proposal | 1.0.0 | Provide consumers with the information required to view an asset properly (e.g. on a online map) |
 | [SAR](https://github.com/stac-extensions/sar) | sar | Collection, Item | Candidate | 1.0.0 | Covers synthetic-aperture radar data that represents a snapshot of the earth for a single date and time. |
 | [Satellite](https://github.com/stac-extensions/sat) | sat | Collection, Item | Candidate | 1.0.0 | Satellite related metadata for data collected from satellites. |
@@ -101,7 +101,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Jul 08 2024, 01:11 
+* **Last updated:** Jul 09 2024, 01:10 
 * **Count:** 75
 
 ### Grouped by maturity
@@ -129,8 +129,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Datacube](https://github.com/stac-extensions/datacube)
 
 * [Processing](https://github.com/stac-extensions/processing)
-
-* [Raster](https://github.com/stac-extensions/raster)
 
 * [SAR](https://github.com/stac-extensions/sar)
 
@@ -211,6 +209,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Product](https://github.com/stac-extensions/product)
 
 * [Quality](https://github.com/linz/stac/tree/master/extensions/quality)*
+
+* [Raster](https://github.com/stac-extensions/raster)
 
 * [Rendering](https://github.com/stac-extensions/render)
 
