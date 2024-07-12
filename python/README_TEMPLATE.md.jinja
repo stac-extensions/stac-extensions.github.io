@@ -23,10 +23,10 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 ### Alphabetical list
 
-| Title | Field Name Prefix | Scope | [Maturity](https://github.com/radiantearth/stac-spec/tree/master/extensions#extension-maturity) | Version | Description |
-| ----- | ----------------- | ----- | ----------------------------------------------------------------------------------------------- | ------- | ----------- |
+| Title | Field Name Prefix | Scope | [Maturity](https://github.com/radiantearth/stac-spec/tree/master/extensions#extension-maturity) | Version | Release Date | Description |
+| ----- | ----------------- | ----- | ----------------------------------------------------------------------------------------------- | ------- | ------------ | ----------- |
 {%- for e in extensions %}
-| [{{e.title}}]({{e.url}}){% if e.external %}*{% endif %} | {{e.prefix}} | {{e.scope}} | {{e.maturity}} | {{e.version}} | {{e.description}} |
+| [{{e.title}}]({{e.url}}){% if e.external %}*{% endif %} | {{e.prefix}} | {{e.scope}} | {{e.maturity}} | {{e.version}} | {{e.releasedate}} | {{e.description}} |
 {%- endfor %}
 
 * **Last updated:** {{updated}}
