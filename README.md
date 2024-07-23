@@ -70,7 +70,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Point Cloud](https://github.com/stac-extensions/pointcloud) | pc | Collection, Item | Pilot | 1.0.0 | 2021-03-08 | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery. |
 | [Processing](https://github.com/stac-extensions/processing) | processing | Collection, Item | Candidate | 1.2.0 | 2024-05-09 | Indicates from which processing chain data originates and how the data itself has been produced. |
 | [Product](https://github.com/stac-extensions/product) | product | Collection, Item | Proposal | 0.1.0 | 2024-05-22 | Generic Product-related properties for STAC |
-| [Projection](https://github.com/stac-extensions/projection) | proj | Collection, Item | Stable | 1.1.0 | 2023-02-10 | Provides a way to describe Items whose assets are in a geospatial projection. |
+| [Projection](https://github.com/stac-extensions/projection) | proj | Collection, Item | Stable | 2.0.0 | 2024-07-22 | Provides a way to describe Items whose assets are in a geospatial projection. |
 | [Quality](https://github.com/linz/stac/tree/master/extensions/quality)* | quality | Collection | Proposal | *Unknown* | *Unknown* | Geospatial quality and accuracy of collections, such as horizontal and vertical accuracy. |
 | [Raster](https://github.com/stac-extensions/raster) | raster | Collection, Item | Proposal | 1.1.0 | 2021-07-06 | Describes raster assets at band level (one or multiple) with specific information such as data type, unit, number of bits used, nodata. |
 | [Rendering](https://github.com/stac-extensions/render) | renders | Collection, Item | Proposal | 1.0.0 | 2023-12-19 | Provide consumers with the information required to view an asset properly (e.g. on a online map) |
@@ -101,7 +101,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | 2023-08-28 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Jul 22 2024, 01:13 
+* **Last updated:** Jul 23 2024, 01:12 
 * **Count:** 75
 
 ### Grouped by maturity
