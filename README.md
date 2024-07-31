@@ -53,7 +53,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Grid](https://github.com/stac-extensions/grid) | grid | Item | Pilot | 1.1.0 | 2022-12-02 | Describes gridded data products, especially the grid code. |
 | [Hyperspectral Imagery](https://github.com/stac-extensions/hsi) | hsi | Collection, Item | *WIP* | **Unreleased** | N/A | Extension for Hyperspectral Imagery, to preserve the wavelength information for Items. |
 | [InSAR](https://github.com/stac-extensions/insar) | insar | Item | Proposal | 1.0.0 | 2024-03-11 | STAC extension for InSAR (Interferometric Synthetic Aperture Radar) |
-| [Item Assets Definition](https://github.com/stac-extensions/item-assets) | - | Collection | Stable | 1.0.0 | 2021-03-08 | Provides a way to specify details about what assets may be found in Items belonging to a Collection. |
+| [Item Assets Definition](https://github.com/stac-extensions/item-assets) | - | Collection | Deprecated | 1.0.0 | 2021-03-08 | Provides a way to specify details about what assets may be found in Items belonging to a Collection. |
 | [Label](https://github.com/stac-extensions/label) | label | Collection, Item | Pilot | 1.0.1 | 2022-01-21 | Items that relate labeled AOIs with source imagery. |
 | [Landsat](https://github.com/stac-extensions/landsat) | landsat | Item | Stable | 2.0.0 | 2023-11-07 | Landsat data fields |
 | [Landsat](https://landsat.usgs.gov/stac/landsat-extension/v1.1.1/schema.json)* | landsat | *Unknown* | *Unknown* | 1.1.1 | *Unknown* | *JSON Schema only!* |
@@ -102,7 +102,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | 2023-08-28 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Jul 30 2024, 01:11 
+* **Last updated:** Jul 31 2024, 00:59 
 * **Count:** 76
 
 ### Grouped by maturity
@@ -113,8 +113,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Electro-Optical](https://github.com/stac-extensions/eo)
 
 * [File Info](https://github.com/stac-extensions/file)
-
-* [Item Assets Definition](https://github.com/stac-extensions/item-assets)
 
 * [Landsat](https://github.com/stac-extensions/landsat)
 
@@ -268,6 +266,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 #### Deprecated
 
 * [Deep Learning Model Extension](https://github.com/crim-ca/dlm-extension)*
+
+* [Item Assets Definition](https://github.com/stac-extensions/item-assets)
 
 * [Single File STAC](https://github.com/stac-extensions/single-file-stac)
 
