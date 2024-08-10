@@ -34,7 +34,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Attribution](https://github.com/stac-extensions/attribution) | - | Collection, Item | Proposal | 0.1.0 | 2024-08-01 | Allows to provide an attribution, e.g. for maps, compliant with OGC API Collections |
 | [Authentication](https://github.com/stac-extensions/authentication) | auth | Asset, Catalog, Collection, Item, Links | Proposal | 1.1.0 | 2024-05-27 | Adds fields to define authentication or authorization flows used to access Assets and Links behind security |
 | [CARD4L (Optical and SAR)](https://github.com/stac-extensions/card4l) | card4l | Item | Pilot | 0.1.0 | 2022-01-25 | Describes how to comply to the CEOS CARD4L specifications (SAR and Optical) with STAC |
-| [CEOS-ARD](https://github.com/stac-extensions/ceos-ard) | ceosard | Collection, Item | *WIP* | **Unreleased** | N/A | Describes how to comply to the CEOS-ARD specifications with STAC. Supersedes the STAC CARD4L extension. |
+| [CEOS-ARD](https://github.com/stac-extensions/ceos-ard) | ceosard | Collection, Item | Proposal | 0.2.0 | 2024-05-07 | Describes how to comply to the CEOS-ARD specifications with STAC. Supersedes the STAC CARD4L extension. |
 | [CF](https://github.com/stac-extensions/cf) | cf | Collection, Item | Proposal | 0.2.0 | 2023-08-30 | Allows to provide the Standard Name Table based on the CF metadata convention. |
 | [CMIP6](https://github.com/stac-extensions/cmip6) | cmip6 | Item | *WIP* | **Unreleased** | N/A | None |
 | [Camera](https://github.com/linz/stac/tree/master/extensions/camera)* | camera | Collection, Item | *WIP* | *Unknown* | *Unknown* | Camera related metadata, such as focal length and sequence number. Especially useful for aerial imagery surveys. |
@@ -102,7 +102,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | 2023-08-28 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Aug 09 2024, 01:13 
+* **Last updated:** Aug 10 2024, 01:13 
 * **Count:** 76
 
 ### Grouped by maturity
@@ -187,6 +187,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Authentication](https://github.com/stac-extensions/authentication)
 
+* [CEOS-ARD](https://github.com/stac-extensions/ceos-ard)
+
 * [CF](https://github.com/stac-extensions/cf)
 
 * [Contacts](https://github.com/stac-extensions/contacts)
@@ -243,8 +245,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)*
 
 * [Archive](https://github.com/stac-extensions/archive)
-
-* [CEOS-ARD](https://github.com/stac-extensions/ceos-ard)
 
 * [CMIP6](https://github.com/stac-extensions/cmip6)
 
