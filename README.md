@@ -90,7 +90,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Storage](https://github.com/stac-extensions/storage) | storage | Collection, Item | Pilot | 1.0.0 | 2021-06-23 | Provides additional fields relating to how the asset is stored in the cloud |
 | [Table](https://github.com/stac-extensions/table) | table | Collection, Item | Pilot | 1.2.0 | 2021-08-30 | Describes tabular data assets using a list of Column objects. Tables can be specified in Collections. |
 | [Themes](https://github.com/stac-extensions/themes) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2023-05-11 | A knowledge organization system used to classify the resource (controlled vocabularies / keywords) |
-| [Tiled Assets](https://github.com/stac-extensions/tiled-assets) | tiles | Catalog, Collection, Item | *WIP* | **Unreleased** | N/A | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
+| [Tiled Assets](https://github.com/stac-extensions/tiled-assets) | tiles | Catalog, Collection, Item | Proposal | 1.0.0 | 2024-08-23 | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
 | [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | Deprecated | **Unreleased** | N/A | Time Series STAC Extension Specification  |
 | [Timestamps](https://github.com/stac-extensions/timestamps) | - | Catalog, Collection, Item | Pilot | 1.1.0 | 2023-01-05 | Allows to specify numerous additional timestamps for assets and metadata. |
 | [TrainingDML-AI](https://github.com/openrsgis/trainingdml-ai-extension)* | tdml | Collection, Item | Proposal | 1.0.0 | 2023-05-24 | Detailed metadata for formalizing the information model of geospatial EO machine learning training data.  |
@@ -102,7 +102,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | 2023-08-28 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Aug 23 2024, 01:13 
+* **Last updated:** Aug 24 2024, 01:11 
 * **Count:** 76
 
 ### Grouped by maturity
@@ -229,6 +229,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Themes](https://github.com/stac-extensions/themes)
 
+* [Tiled Assets](https://github.com/stac-extensions/tiled-assets)
+
 * [TrainingDML-AI](https://github.com/openrsgis/trainingdml-ai-extension)*
 
 * [U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI)](https://github.com/stac-extensions/usfws-nwi)
@@ -259,8 +261,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Hyperspectral Imagery](https://github.com/stac-extensions/hsi)
 
 * [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)*
-
-* [Tiled Assets](https://github.com/stac-extensions/tiled-assets)
 
 
 #### Deprecated
