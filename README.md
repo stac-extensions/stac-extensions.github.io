@@ -81,7 +81,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Scientific Citation](https://github.com/stac-extensions/scientific) | sci | Collection, Item | Stable | 1.0.0 | 2021-07-26 | Metadata that indicate from which publication data originates and how the data itself should be cited or referenced. |
 | [Sentinel-1](https://github.com/stac-extensions/sentinel-1) | s1 | Item | Proposal | 0.2.0 | 2024-06-10 | Sentinel-1 STAC Extension  |
 | [Sentinel-2](https://github.com/stac-extensions/sentinel-2) | s2 | Item | Candidate | 1.0.0 | 2023-11-13 | Sentinel-2 STAC Extension |
-| [Sentinel-3](https://github.com/stac-extensions/sentinel-3) | s3 | Item | Proposal | 0.2.0 | 2024-06-10 | Sentinel-3 STAC Extension  |
+| [Sentinel-3](https://github.com/stac-extensions/sentinel-3) | s3 | Item | Deprecated | 0.2.0 | 2024-06-10 | Sentinel-3 STAC Extension  |
 | [Sentinel-5P](https://github.com/stac-extensions/sentinel-5p) | s5p | Item | Proposal | 0.2.0 | 2024-06-10 | Sentinel-5P STAC Extension  |
 | [Single File STAC](https://github.com/stac-extensions/single-file-stac) | - | Collection, Item | Deprecated | **Unreleased** | N/A | An extension to provide a set of Collections and Items within a single file STAC. |
 | [Solar System](https://github.com/stac-extensions/ssys) | ssys | Catalog, Collection, Item | Proposal | 1.1.0 | 2023-10-19 | SSYS STAC Extension Specification |
@@ -99,10 +99,10 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Video](https://github.com/stac-extensions/video) | video | Collection, Item | Proposal | 1.0.0 | 2022-03-15 | Provides a way to describe video assets. |
 | [View Geometry](https://github.com/stac-extensions/view) | view | Collection, Item | Stable | 1.0.0 | 2021-03-30 | View Geometry adds metadata related to angles of sensors and other radiance angles that affect the view of resulting data. |
 | [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | vrt | Collection, Item | Proposal | 1.0.0 | 2023-11-09 | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
-| [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | 2023-08-28 | Allows to provide links to web maps for visualization purposes. Currently, OGC WMTS and XYZ are supported. |
+| [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | 2023-08-28 | Allows to provide links to web maps for visualization purposes |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Aug 27 2024, 01:14 
+* **Last updated:** Aug 28 2024, 01:14 
 * **Count:** 76
 
 ### Grouped by maturity
@@ -219,8 +219,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Sentinel-1](https://github.com/stac-extensions/sentinel-1)
 
-* [Sentinel-3](https://github.com/stac-extensions/sentinel-3)
-
 * [Sentinel-5P](https://github.com/stac-extensions/sentinel-5p)
 
 * [Solar System](https://github.com/stac-extensions/ssys)
@@ -268,6 +266,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Deep Learning Model Extension](https://github.com/crim-ca/dlm-extension)*
 
 * [Item Assets Definition](https://github.com/stac-extensions/item-assets)
+
+* [Sentinel-3](https://github.com/stac-extensions/sentinel-3)
 
 * [Single File STAC](https://github.com/stac-extensions/single-file-stac)
 
