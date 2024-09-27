@@ -2,7 +2,9 @@
 COMMUNITY_REPOS = [
   # org, repo name
   ['crim-ca', 'dlm-extension'],
-  ['crim-ca', 'mlm-extension'],
+  # MLM migrated to official https://github.com/stac-extensions/mlm
+  # see details: https://github.com/orgs/stac-utils/discussions/4
+  # ['crim-ca', 'mlm-extension'],
   ['Terradue', 'stac-extensions-disaster'],
   ['openrsgis', 'trainingdml-ai-extension']
 ]
