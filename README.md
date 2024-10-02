@@ -42,7 +42,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Composite](https://github.com/stac-extensions/composite) | composite | Item | *WIP* | **Unreleased** | N/A | Defines how virtual assets can be composed from existing assets in STAC |
 | [Contacts](https://github.com/stac-extensions/contacts) | - | Catalog, Collection, Item | Proposal | 0.1.1 | 2023-05-17 | A list of contacts with detailed information such as address, phone numbers, emails etc. |
 | [Datacube](https://github.com/stac-extensions/datacube) | cube | Collection, Item | Candidate | 2.2.0 | 2023-05-03 | Datacube related metadata to describe their dimensions and variables. |
-| [Deep Learning Model Extension](https://github.com/crim-ca/dlm-extension)* | dlm | Asset, Collection, Item, Links | Deprecated | 1.0.0 | 2024-04-18 | Deep Learning Model STAC Extension (deprecated, see https://github.com/crim-ca/mlm-extension instead) |
+| [Deep Learning Model Extension](https://github.com/crim-ca/dlm-extension)* | dlm | Asset, Collection, Item, Links | Deprecated | 1.0.0 | 2024-04-18 | Deep Learning Model STAC Extension (deprecated, see https://github.com/stac-extensions/mlm instead) |
 | [Disasters Charter](https://github.com/Terradue/stac-extensions-disaster)* | disaster | Collection, Item | Proposal | 1.1.0 | 2024-06-05 | Disaster Charter Extension Specification |
 | [Earthquake](https://github.com/stac-extensions/earthquake) | eq | Collection, Item | *WIP* | **Unreleased** | N/A | Earthquake Extension Specification |
 | [Electro-Optical](https://github.com/stac-extensions/eo) | eo | Collection, Item | Stable | 2.0.0 | 2024-09-09 | Covers electro-optical data that represents a snapshot of the Earth. It could consist of cloud cover and multiple spectral bands, for example visible bands, infrared bands, red edge bands and panchromatic bands. |
@@ -62,7 +62,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [ML AOI](https://github.com/stac-extensions/ml-aoi) | ml-aoi | Asset, Collection, Item, Links | Proposal | 0.2.0 | 2024-03-28 | An Item and Collection extension to provide labeled training data for machine learning models. |
 | [ML Model](https://github.com/stac-extensions/ml-model) | ml-model | Collection, Item | Proposal | 1.0.0 | 2021-12-14 | An Item and Collection extension to describe machine learning (ML) models that operate on Earth observation data. |
 | [Machine Learning Model Extension](https://github.com/stac-extensions/mlm) | mlm | Asset, Collection, Item, Links | Pilot | 1.3.0 | 2024-09-27 | STAC Machine Learning Model (MLM) Extension to describe ML models, their training details, and inference runtime requirements. |
-| [Machine Learning Model Extension](https://github.com/crim-ca/mlm-extension)* | mlm | Asset, Collection, Item, Links | Pilot | 1.3.0 | 2024-09-27 | Machine Learning Model STAC Extension (archive, see https://github.com/stac-extensions/mlm) |
 | [Military Grid Reference System](https://github.com/stac-extensions/mgrs) | mgrs | Item | Pilot | 1.0.0 | 2021-06-09 | MGRS extension that provides information about the latitude band, grid square and UTM zone. |
 | [NOAA Geostationary Operational Environmental Satellite (GOES)](https://github.com/stac-extensions/goes) | goes | Collection, Item | Pilot | 1.0.0 | 2022-09-22 | STAC Extension for NOAA GOES (Geostationary Operational Environmental Satellite) products |
 | [NOAA MRMS QPE](https://github.com/stac-extensions/noaa-mrms-qpe) | noaa_mrms_qpe | Collection, Item | Pilot | 1.0.0 | 2022-10-24 | STAC Extension for NOAA MRMS QPE (Multi-Radar Multi-Sensor Quantitative Precipitation Estimation) products |
@@ -103,8 +102,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | 2023-08-28 | Allows to provide links to web maps for visualization purposes |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Oct 02 2024, 01:20 
-* **Count:** 77
+* **Last updated:** Oct 02 2024, 21:21 
+* **Count:** 76
 
 ### Grouped by maturity
 
@@ -156,8 +155,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Label](https://github.com/stac-extensions/label)
 
 * [Machine Learning Model Extension](https://github.com/stac-extensions/mlm)
-
-* [Machine Learning Model Extension](https://github.com/crim-ca/mlm-extension)*
 
 * [Military Grid Reference System](https://github.com/stac-extensions/mgrs)
 
