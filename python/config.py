@@ -2,7 +2,6 @@
 COMMUNITY_REPOS = [
   # org, repo name
   ['crim-ca', 'dlm-extension'],
-  ['crim-ca', 'mlm-extension'],
   ['Terradue', 'stac-extensions-disaster'],
   ['openrsgis', 'trainingdml-ai-extension']
 ]
