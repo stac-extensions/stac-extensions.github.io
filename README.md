@@ -87,7 +87,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Solar System](https://github.com/stac-extensions/ssys) | ssys | Catalog, Collection, Item | Proposal | 1.1.0 | 2023-10-19 | SSYS STAC Extension Specification |
 | [Stats](https://github.com/stac-extensions/stats) | stats | Catalog, Collection | Pilot | 0.2.0 | 2022-08-01 | Describes the number of items, extensions and assets that are contained in a STAC catalog. |
 | [Stereo Imagery](https://github.com/stac-extensions/stereo-imagery) | stereo-img | Catalog, Collection, Item | Proposal | 1.0.0 | 2023-08-02 | Describes (tri-)stereo imagery that consists of multiple captures, often for 3D use cases. |
-| [Storage](https://github.com/stac-extensions/storage) | storage | Collection, Item | Pilot | 1.0.0 | 2021-06-23 | Provides additional fields relating to how the asset is stored in the cloud |
+| [Storage](https://github.com/stac-extensions/storage) | storage | Catalog, Collection, Item | Pilot | 1.0.0 | 2021-06-23 | Provides additional fields relating to how the asset is stored in the cloud |
 | [Table](https://github.com/stac-extensions/table) | table | Collection, Item | Pilot | 1.2.0 | 2021-08-30 | Describes tabular data assets using a list of Column objects. Tables can be specified in Collections. |
 | [Themes](https://github.com/stac-extensions/themes) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2023-05-11 | A knowledge organization system used to classify the resource (controlled vocabularies / keywords) |
 | [Tiled Assets](https://github.com/stac-extensions/tiled-assets) | tiles | Catalog, Collection, Item | Proposal | 1.0.0 | 2024-08-23 | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
@@ -102,7 +102,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | 2023-08-28 | Allows to provide links to web maps for visualization purposes |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Oct 18 2024, 01:20 
+* **Last updated:** Oct 19 2024, 01:20 
 * **Count:** 76
 
 ### Grouped by maturity
