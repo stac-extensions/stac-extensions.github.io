@@ -68,7 +68,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Open Science Catalog](https://github.com/stac-extensions/osc) | osc | Catalog, Collection, Item | Proposal | 1.0.0-rc.3 | 2023-08-29 | STAC Extension for the ESA Open Science Catalog |
 | [Order](https://github.com/stac-extensions/order) | order | Collection, Item | Pilot | 1.1.0 | 2023-01-05 | Allows assets ordering management within STAC specification. |
 | [Perspective Imagery](https://github.com/stac-extensions/perspective-imagery) | pers | Collection, Item | Proposal | 1.0.0 | 2022-06-27 | Describes perspective imagery collected by photogrammetric or non-photogrammetric cameras |
-| [Point Cloud](https://github.com/stac-extensions/pointcloud) | pc | Collection, Item | Pilot | 1.0.0 | 2021-03-08 | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery. |
+| [Point Cloud](https://github.com/stac-extensions/pointcloud) | pc | Collection, Item | Pilot | 2.0.0 | 2024-10-24 | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery. |
 | [Processing](https://github.com/stac-extensions/processing) | processing | Collection, Item | Candidate | 1.2.0 | 2024-05-09 | Indicates from which processing chain data originates and how the data itself has been produced. |
 | [Product](https://github.com/stac-extensions/product) | product | Collection, Item | Proposal | 0.1.0 | 2024-05-22 | Generic Product-related properties for STAC |
 | [Projection](https://github.com/stac-extensions/projection) | proj | Collection, Item | Stable | 2.0.0 | 2024-07-22 | Provides a way to describe Items whose assets are in a geospatial projection. |
@@ -102,7 +102,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | 2023-08-28 | Allows to provide links to web maps for visualization purposes |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Oct 24 2024, 01:20 
+* **Last updated:** Oct 25 2024, 01:21 
 * **Count:** 76
 
 ### Grouped by maturity
