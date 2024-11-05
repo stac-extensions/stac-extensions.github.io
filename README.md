@@ -62,7 +62,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [ML AOI](https://github.com/stac-extensions/ml-aoi) | ml-aoi | Asset, Collection, Item, Links | Proposal | 0.2.0 | 2024-03-28 | An Item and Collection extension to provide labeled training data for machine learning models. |
 | [ML Model](https://github.com/stac-extensions/ml-model) | ml-model | Collection, Item | Proposal | 1.0.0 | 2021-12-14 | An Item and Collection extension to describe machine learning (ML) models that operate on Earth observation data. |
 | [Machine Learning Model Extension](https://github.com/stac-extensions/mlm) | mlm | Asset, Collection, Item, Links | Pilot | 1.3.0 | 2024-09-27 | STAC Machine Learning Model (MLM) Extension to describe ML models, their training details, and inference runtime requirements. |
-| [Merkle Tree*](https://github.com/Healy-Hyperspatial/merkle-tree) | merkle | Catalog, Collection, Item, Links | Proposal | 1.0.0-beta.2 | 2024-10-18 | Embed catalog, collection and underlying item metadata in a Merkle Tree to help ensure data integrity. |
+| [Merkle Tree*](https://github.com/stacchain/merkle-tree) | merkle | Catalog, Collection, Item, Links | Proposal | 1.0.0-beta.2 | 2024-10-18 | Embed catalog, collection and underlying item metadata in a Merkle Tree to help ensure data integrity. |
 | [Military Grid Reference System](https://github.com/stac-extensions/mgrs) | mgrs | Item | Pilot | 1.0.0 | 2021-06-09 | MGRS extension that provides information about the latitude band, grid square and UTM zone. |
 | [NOAA Geostationary Operational Environmental Satellite (GOES)](https://github.com/stac-extensions/goes) | goes | Collection, Item | Pilot | 1.0.0 | 2022-09-22 | STAC Extension for NOAA GOES (Geostationary Operational Environmental Satellite) products |
 | [NOAA MRMS QPE](https://github.com/stac-extensions/noaa-mrms-qpe) | noaa_mrms_qpe | Collection, Item | Pilot | 1.0.0 | 2022-10-24 | STAC Extension for NOAA MRMS QPE (Multi-Radar Multi-Sensor Quantitative Precipitation Estimation) products |
@@ -208,7 +208,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [ML Model](https://github.com/stac-extensions/ml-model)
 
-* [Merkle Tree](https://github.com/Healy-Hyperspatial/merkle-tree)
+* [Merkle Tree](https://github.com/stacchain/merkle-tree)
 
 * [Open Science Catalog](https://github.com/stac-extensions/osc)
 
