@@ -51,6 +51,13 @@ EXTERNAL_EXTENSIONS = [
     "version": "1.0.0",
     "prefix": "landsat",
     "description": "*JSON Schema only!*"
+  },
+  {
+  "title": "Merkle Tree",
+    "url": "https://stacchain.github.io/merkle-tree/v1.0.0/schema.json",
+    "version": "1.0.0",
+    "prefix": "merkle",
+    "description": "*JSON Schema only!*"
   }
 ]
 
