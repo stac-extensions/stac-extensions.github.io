@@ -4,6 +4,7 @@ COMMUNITY_REPOS = [
   ['crim-ca', 'dlm-extension'],
   ['Terradue', 'stac-extensions-disaster'],
   ['openrsgis', 'trainingdml-ai-extension']
+  ['stacchain', 'merkle-tree']
 ]
 
 # Other extensions that are not on GitHub
@@ -51,7 +52,12 @@ EXTERNAL_EXTENSIONS = [
     "version": "1.0.0",
     "prefix": "landsat",
     "description": "*JSON Schema only!*"
-  }
+  },
+  "title": "Merkle Tree",
+    "url": "https://stacchain.github.io/merkle-tree/v1.0.0/schema.json",
+    "version": "1.0.0",
+    "prefix": "merkle",
+    "description": "*JSON Schema only!*"
 ]
 
 # Names of repositories in the stac-extensions org to skip
