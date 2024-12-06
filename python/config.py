@@ -53,7 +53,7 @@ EXTERNAL_EXTENSIONS = [
     "description": "*JSON Schema only!*"
   },
   {
-  "title": "Merkle Tree",
+    "title": "Merkle Tree",
     "url": "https://stacchain.github.io/merkle-tree/v1.0.0/schema.json",
     "version": "1.0.0",
     "prefix": "merkle",
