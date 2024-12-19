@@ -77,7 +77,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Raster](https://github.com/stac-extensions/raster) | raster | Collection, Item | Candidate | 2.0.0 | 2024-09-09 | Describes raster assets at band level (one or multiple) with specific information such as data type, unit, number of bits used, nodata. |
 | [Rendering](https://github.com/stac-extensions/render) | renders | Collection, Item | Pilot | 2.0.0 | 2024-11-19 | Provide consumers with the information required to view an asset properly (e.g. on a online map) |
 | [SAR](https://github.com/stac-extensions/sar) | sar | Collection, Item | Stable | 1.1.0 | 2024-12-18 | Covers synthetic-aperture radar data that represents a snapshot of the earth for a single date and time. |
-| [Satellite](https://github.com/stac-extensions/sat) | sat | Collection, Item | Candidate | 1.0.0 | 2021-03-04 | Satellite related metadata for data collected from satellites. |
+| [Satellite](https://github.com/stac-extensions/sat) | sat | Collection, Item | Candidate | 1.1.0 | 2024-12-18 | Satellite related metadata for data collected from satellites. |
 | [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)* | scan | Collection, Item | *WIP* | *Unknown* | *Unknown* | Scanning related metadata, such as the scan date and time. Especially useful for digitised images. |
 | [Scientific Citation](https://github.com/stac-extensions/scientific) | sci | Collection, Item | Stable | 1.0.0 | 2021-07-26 | Metadata that indicate from which publication data originates and how the data itself should be cited or referenced. |
 | [Sentinel-1](https://github.com/stac-extensions/sentinel-1) | s1 | Item | Proposal | 0.2.0 | 2024-06-10 | Sentinel-1 STAC Extension  |
@@ -103,7 +103,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | 2023-08-28 | Allows to provide links to web maps for visualization purposes |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Dec 18 2024, 01:24 
+* **Last updated:** Dec 19 2024, 01:25 
 * **Count:** 77
 
 ### Grouped by maturity
