@@ -44,7 +44,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Datacube](https://github.com/stac-extensions/datacube) | cube | Collection, Item | Candidate | 2.2.0 | 2023-05-03 | Datacube related metadata to describe their dimensions and variables. |
 | [Deep Learning Model Extension](https://github.com/crim-ca/dlm-extension)* | dlm | Asset, Collection, Item, Links | Deprecated | 1.0.0 | 2024-04-18 | Deep Learning Model STAC Extension (deprecated, see https://github.com/stac-extensions/mlm instead) |
 | [Disasters Charter](https://github.com/Terradue/stac-extensions-disaster)* | disaster | Collection, Item | Proposal | 1.1.0 | 2024-06-05 | Disaster Charter Extension Specification |
-| [Earthquake](https://github.com/stac-extensions/earthquake) | eq | Collection, Item | *WIP* | **Unreleased** | N/A | Earthquake Extension Specification |
+| [Earthquake](https://github.com/stac-extensions/earthquake) | eq | Collection, Item | Proposal | 1.0.0 | 2025-01-20 | Earthquake Extension Specification |
 | [Electro-Optical](https://github.com/stac-extensions/eo) | eo | Collection, Item | Stable | 2.0.0 | 2024-09-09 | Covers electro-optical data that represents a snapshot of the Earth. It could consist of cloud cover and multiple spectral bands, for example visible bands, infrared bands, red edge bands and panchromatic bands. |
 | [Example Links](https://github.com/stac-extensions/example-links) | example | Catalog, Collection, Item | Proposal | 0.0.1 | 2023-08-14 | Allows to provide links to examples, e.g. code snippets. |
 | [File Info](https://github.com/stac-extensions/file) | file | Catalog, Collection, Item | Stable | 2.1.0 | 2021-12-11 | Specifies file-related details such as size, data type and checksum for assets and links in STAC. |
@@ -103,7 +103,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | 2023-08-28 | Allows to provide links to web maps for visualization purposes |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Jan 20 2025, 01:19 
+* **Last updated:** Jan 21 2025, 01:18 
 * **Count:** 77
 
 ### Grouped by maturity
@@ -200,6 +200,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Disasters Charter](https://github.com/Terradue/stac-extensions-disaster)*
 
+* [Earthquake](https://github.com/stac-extensions/earthquake)
+
 * [Example Links](https://github.com/stac-extensions/example-links)
 
 * [Forecast](https://github.com/stac-extensions/forecast)
@@ -254,8 +256,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Camera](https://github.com/linz/stac/tree/master/extensions/camera)*
 
 * [Composite](https://github.com/stac-extensions/composite)
-
-* [Earthquake](https://github.com/stac-extensions/earthquake)
 
 * [Film](https://github.com/linz/stac/tree/master/extensions/film)*
 
