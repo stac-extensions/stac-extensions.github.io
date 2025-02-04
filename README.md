@@ -61,7 +61,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Language (I18N)](https://github.com/stac-extensions/language) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2023-03-06 | Fields and recommendations around making multi-lingual STAC catalogs available.  |
 | [ML AOI](https://github.com/stac-extensions/ml-aoi) | ml-aoi | Asset, Collection, Item, Links | Proposal | 0.2.0 | 2024-03-28 | An Item and Collection extension to provide labeled training data for machine learning models. |
 | [ML Model](https://github.com/stac-extensions/ml-model) | ml-model | Collection, Item | Proposal | 1.0.0 | 2021-12-14 | An Item and Collection extension to describe machine learning (ML) models that operate on Earth observation data. |
-| [Machine Learning Model Extension](https://github.com/stac-extensions/mlm) | mlm | Asset, Collection, Item, Links | Pilot | 1.3.0 | 2024-09-27 | STAC Machine Learning Model (MLM) Extension to describe ML models, their training details, and inference runtime requirements. |
+| [Machine Learning Model Extension](https://github.com/stac-extensions/mlm) | mlm | Asset, Collection, Item, Links | Pilot | 1.4.0 | 2025-02-03 | STAC Machine Learning Model (MLM) Extension to describe ML models, their training details, and inference runtime requirements. |
 | [Merkle Tree](https://github.com/stacchain/merkle-tree)* | merkle` | Catalog, Collection, Item | Proposal | 1.0.0 | 2024-11-05 | A STAC extension that enhances metadata integrity by encoding items, collections, and catalogs using Merkle hash trees. |
 | [Military Grid Reference System](https://github.com/stac-extensions/mgrs) | mgrs | Item | Pilot | 1.0.0 | 2021-06-09 | MGRS extension that provides information about the latitude band, grid square and UTM zone. |
 | [Moving Features](https://github.com/stac-extensions/moving-features) | mf | Item | *WIP* | **Unreleased** | N/A | stac extension for moving features |
@@ -104,7 +104,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | 2023-08-28 | Allows to provide links to web maps for visualization purposes |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Feb 03 2025, 01:20 UTC
+* **Last updated:** Feb 04 2025, 01:19 UTC
 * **Count:** 78
 
 ### Grouped by maturity
