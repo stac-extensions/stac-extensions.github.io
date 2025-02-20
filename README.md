@@ -67,7 +67,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Moving Features](https://github.com/stac-extensions/moving-features) | mf | Item | *WIP* | **Unreleased** | N/A | stac extension for moving features |
 | [NOAA Geostationary Operational Environmental Satellite (GOES)](https://github.com/stac-extensions/goes) | goes | Collection, Item | Pilot | 1.0.0 | 2022-09-22 | STAC Extension for NOAA GOES (Geostationary Operational Environmental Satellite) products |
 | [NOAA MRMS QPE](https://github.com/stac-extensions/noaa-mrms-qpe) | noaa_mrms_qpe | Collection, Item | Pilot | 1.0.0 | 2022-10-24 | STAC Extension for NOAA MRMS QPE (Multi-Radar Multi-Sensor Quantitative Precipitation Estimation) products |
-| [Open Science Catalog](https://github.com/stac-extensions/osc) | osc | Catalog, Collection, Item | Proposal | 1.0.0-rc.4 | 2025-02-18 | STAC Extension for the ESA Open Science Catalog |
+| [Open Science Catalog](https://github.com/stac-extensions/osc) | osc | Catalog, Collection, Item | Proposal | 1.0.0 | 2025-02-19 | STAC Extension for the ESA Open Science Catalog |
 | [Order](https://github.com/stac-extensions/order) | order | Collection, Item | Pilot | 1.1.0 | 2023-01-05 | Allows assets ordering management within STAC specification. |
 | [Perspective Imagery](https://github.com/stac-extensions/perspective-imagery) | pers | Collection, Item | Proposal | 1.0.0 | 2022-06-27 | Describes perspective imagery collected by photogrammetric or non-photogrammetric cameras |
 | [Point Cloud](https://github.com/stac-extensions/pointcloud) | pc | Collection, Item | Pilot | 2.0.0 | 2024-10-24 | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery. |
@@ -104,7 +104,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | 2023-08-28 | Allows to provide links to web maps for visualization purposes |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Feb 19 2025, 01:21 UTC
+* **Last updated:** Feb 20 2025, 01:21 UTC
 * **Count:** 78
 
 ### Grouped by maturity
