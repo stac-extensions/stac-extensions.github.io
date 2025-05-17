@@ -26,7 +26,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | Title | Field Name Prefix | Scope | [Maturity](https://github.com/radiantearth/stac-spec/tree/master/extensions#extension-maturity) | Version | Release Date | Description |
 | ----- | ----------------- | ----- | ----------------------------------------------------------------------------------------------- | ------- | ------------ | ----------- |
 | [Accuracy](https://github.com/stac-extensions/accuracy) | accuracy | Collection, Item | Proposal | 1.0.0-beta.1 | 2023-12-18 | Fields to provide estimates of accuracy, both geometric and measurement (e.g., radiometric) accuracy. |
-| [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)* | aerial-photo | Collection, Item | *WIP* | *Unknown* | *Unknown* | Aerial photography related metadata, such as run, sequence number, altitude and scale. |
+| [Aerial Photo](https://github.com/linz/stac/tree/master/extensions/aerial-photo)* | *Unknown* | *Unknown* | *Unknown* | *Unknown* | *Unknown* | Aerial photography related metadata, such as run, sequence number, altitude and scale. |
 | [Alternate Assets](https://github.com/stac-extensions/alternate-assets) | alternate` | Collection, Item | Pilot | 1.2.0 | 2024-07-09 | Describes alternate locations and mirrors of assets |
 | [Altimetry](https://github.com/stac-extensions/altimetry) | altm | Item | Proposal | 0.1.0 | 2024-06-10 | Altimetry Extension Specification |
 | [Anonymized Location](https://github.com/stac-extensions/anonymized-location) | anon | Collection, Item | Pilot | 1.0.0 | 2021-04-30 | Provides a way to anonymize location data |
@@ -83,7 +83,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Scientific Citation](https://github.com/stac-extensions/scientific) | sci | Collection, Item | Stable | 1.0.0 | 2021-07-26 | Metadata that indicate from which publication data originates and how the data itself should be cited or referenced. |
 | [Sentinel-1](https://github.com/stac-extensions/sentinel-1) | s1 | Item | Proposal | 0.2.0 | 2024-06-10 | Sentinel-1 STAC Extension  |
 | [Sentinel-2](https://github.com/stac-extensions/sentinel-2) | s2 | Item | Candidate | 1.0.0 | 2023-11-13 | Sentinel-2 STAC Extension |
-| [Sentinel-3](https://github.com/stac-extensions/sentinel-3) | s3 | Item | Deprecated | 0.2.0 | 2024-06-10 | Sentinel-3 STAC Extension  |
 | [Sentinel-5P](https://github.com/stac-extensions/sentinel-5p) | s5p | Item | Proposal | 0.2.0 | 2024-06-10 | Sentinel-5P STAC Extension  |
 | [Single File STAC](https://github.com/stac-extensions/single-file-stac) | - | Collection, Item | Deprecated | **Unreleased** | N/A | An extension to provide a set of Collections and Items within a single file STAC. |
 | [Solar System](https://github.com/stac-extensions/ssys) | ssys | Catalog, Collection, Item | Proposal | 1.1.0 | 2023-10-19 | SSYS STAC Extension Specification |
@@ -101,12 +100,13 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Video](https://github.com/stac-extensions/video) | video | Collection, Item | Proposal | 1.0.0 | 2022-03-15 | Provides a way to describe video assets. |
 | [View Geometry](https://github.com/stac-extensions/view) | view | Collection, Item | Stable | 1.0.0 | 2021-03-30 | View Geometry adds metadata related to angles of sensors and other radiance angles that affect the view of resulting data. |
 | [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | vrt | Collection, Item | Proposal | 1.0.0 | 2023-11-09 | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
-| [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | 2023-08-28 | Allows to provide links to web maps for visualization purposes |
 | [application](https://github.com/stac-extensions/application) | *Unknown* | Collection, Item | *WIP* | **Unreleased** | N/A | Describes applications (examples, workflows, ...) and links to them for execution. |
 | [link-templates](https://github.com/stac-extensions/link-templates) | - | Catalog, Collection, Item | *WIP* | **Unreleased** | N/A | A construct to provide templated links in STAC, as originally defined in OGC APIs. |
+| [sentinel-3](https://github.com/stac-extensions/sentinel-3) | *Unknown* | *Unknown* | Deprecated | 0.2.0 | 2024-06-10 | Sentinel-3 STAC Extension  |
+| [web-map-links](https://github.com/stac-extensions/web-map-links) | *Unknown* | *Unknown* | *Unknown* | 1.2.0 | 2023-08-28 | Allows to provide links to web maps for visualization purposes |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** May 16 2025, 01:41 UTC
+* **Last updated:** May 17 2025, 01:39 UTC
 * **Count:** 80
 
 ### Grouped by maturity
@@ -247,12 +247,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Virtual Assets](https://github.com/stac-extensions/virtual-assets)
 
-* [Web Map Links](https://github.com/stac-extensions/web-map-links)
-
 
 #### WIP
-
-* [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)*
 
 * [Archive](https://github.com/stac-extensions/archive)
 
@@ -279,11 +275,11 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Item Assets Definition](https://github.com/stac-extensions/item-assets)
 
-* [Sentinel-3](https://github.com/stac-extensions/sentinel-3)
-
 * [Single File STAC](https://github.com/stac-extensions/single-file-stac)
 
 * [Time Series](https://github.com/stac-extensions/timeseries)
+
+* [sentinel-3](https://github.com/stac-extensions/sentinel-3)
 
 
 
