@@ -35,7 +35,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Authentication](https://github.com/stac-extensions/authentication) | auth | Asset, Catalog, Collection, Item, Links | Proposal | 1.1.0 | 2024-05-27 | Adds fields to define authentication or authorization flows used to access Assets and Links behind security |
 | [CARD4L (Optical and SAR)](https://github.com/stac-extensions/card4l) | card4l | Item | Pilot | 0.1.0 | 2022-01-25 | Describes how to comply to the CEOS CARD4L specifications (SAR and Optical) with STAC |
 | [CEOS-ARD](https://github.com/stac-extensions/ceos-ard) | ceosard | Collection, Item | Proposal | 0.2.0 | 2024-05-07 | Describes how to comply to the CEOS-ARD specifications with STAC. Supersedes the STAC CARD4L extension. |
-| [CF](https://github.com/stac-extensions/cf) | cf | Collection, Item | Proposal | 0.2.0 | 2023-08-30 | Allows to provide the Standard Name Table based on the CF metadata convention. |
 | [CMIP6](https://github.com/stac-extensions/cmip6) | cmip6 | Item | Proposal | 1.0.0 | 2025-01-16 | None |
 | [Camera](https://github.com/linz/stac/tree/master/extensions/camera)* | camera | Collection, Item | *WIP* | *Unknown* | *Unknown* | Camera related metadata, such as focal length and sequence number. Especially useful for aerial imagery surveys. |
 | [Classification](https://github.com/stac-extensions/classification) | classification | Collection, Item | Pilot | 2.0.0 | 2024-05-18 | Describes categorical values and bitfields to give values in a file a certain meaning (classification). |
@@ -46,22 +45,15 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Disasters Charter](https://github.com/Terradue/stac-extensions-disaster)* | disaster | Collection, Item | Proposal | 1.1.0 | 2024-06-05 | Disaster Charter Extension Specification |
 | [Earthquake](https://github.com/stac-extensions/earthquake) | eq | Collection, Item | Proposal | 1.0.0 | 2025-01-20 | Earthquake Extension Specification |
 | [Electro-Optical](https://github.com/stac-extensions/eo) | eo | Collection, Item | Stable | 2.0.0 | 2024-09-09 | Covers electro-optical data that represents a snapshot of the Earth. It could consist of cloud cover and multiple spectral bands, for example visible bands, infrared bands, red edge bands and panchromatic bands. |
-| [Example Links](https://github.com/stac-extensions/example-links) | example | Catalog, Collection, Item | Proposal | 0.0.1 | 2023-08-14 | Allows to provide links to examples, e.g. code snippets. |
 | [File Info](https://github.com/stac-extensions/file) | file | Catalog, Collection, Item | Stable | 2.1.0 | 2021-12-11 | Specifies file-related details such as size, data type and checksum for assets and links in STAC. |
 | [Film](https://github.com/linz/stac/tree/master/extensions/film)* | film | Collection, Item | *WIP* | *Unknown* | *Unknown* | Film related metadata, such as roll, negative sequence and other physical attributes. Especially useful for digitised historic aerial imagery surveys. |
 | [Forecast](https://github.com/stac-extensions/forecast) | forecast | Collection, Item | Proposal | 0.2.0 | 2025-01-09 | Common fields for (meteorological/weather) forecast data. |
-| [Grid](https://github.com/stac-extensions/grid) | grid | Item | Pilot | 1.1.0 | 2022-12-02 | Describes gridded data products, especially the grid code. |
 | [Hyperspectral Imagery](https://github.com/stac-extensions/hsi) | hsi | Collection, Item | *WIP* | **Unreleased** | N/A | Extension for Hyperspectral Imagery, to preserve the wavelength information for Items. |
-| [InSAR](https://github.com/stac-extensions/insar) | insar | Item | Proposal | 1.0.0 | 2024-03-11 | STAC extension for InSAR (Interferometric Synthetic Aperture Radar) |
-| [Item Assets Definition](https://github.com/stac-extensions/item-assets) | - | Collection | Deprecated | 1.0.0 | 2021-03-08 | Provides a way to specify details about what assets may be found in Items belonging to a Collection. |
 | [Label](https://github.com/stac-extensions/label) | label | Collection, Item | Pilot | 1.0.1 | 2022-01-21 | Items that relate labeled AOIs with source imagery. |
 | [Landsat](https://github.com/stac-extensions/landsat) | landsat | Item | Stable | 2.0.0 | 2023-11-07 | Landsat data fields |
 | [Landsat](https://landsat.usgs.gov/stac/landsat-extension/v1.1.1/schema.json)* | landsat | *Unknown* | *Unknown* | 1.1.1 | *Unknown* | *JSON Schema only!* |
 | [Landsat ARD Tile](https://landsat.usgs.gov/stac/landsat-ard-extension/v1.0.0/schema.json)* | landsat | *Unknown* | *Unknown* | 1.0.0 | *Unknown* | *JSON Schema only!* |
-| [Language (I18N)](https://github.com/stac-extensions/language) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2023-03-06 | Fields and recommendations around making multi-lingual STAC catalogs available.  |
-| [ML AOI](https://github.com/stac-extensions/ml-aoi) | ml-aoi | Asset, Collection, Item, Links | Proposal | 0.2.0 | 2024-03-28 | An Item and Collection extension to provide labeled training data for machine learning models. |
 | [ML Model](https://github.com/stac-extensions/ml-model) | ml-model | Collection, Item | Proposal | 1.0.0 | 2021-12-14 | An Item and Collection extension to describe machine learning (ML) models that operate on Earth observation data. |
-| [Machine Learning Model Extension](https://github.com/stac-extensions/mlm) | mlm | Asset, Collection, Item, Links | Candidate | 1.4.0 | 2025-02-03 | STAC Machine Learning Model (MLM) Extension to describe ML models, their training details, and inference runtime requirements. |
 | [Merkle Tree](https://github.com/stacchain/merkle-tree)* | merkle` | Catalog, Collection, Item | Proposal | 1.0.0 | 2024-11-05 | A STAC extension that enhances metadata integrity by encoding items, collections, and catalogs using Merkle hash trees. |
 | [Military Grid Reference System](https://github.com/stac-extensions/mgrs) | mgrs | Item | Pilot | 1.0.0 | 2021-06-09 | MGRS extension that provides information about the latitude band, grid square and UTM zone. |
 | [Moving Features](https://github.com/stac-extensions/moving-features) | mf | Item | *WIP* | **Unreleased** | N/A | stac extension for moving features |
@@ -70,7 +62,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Open Science Catalog](https://github.com/stac-extensions/osc) | osc | Catalog, Collection, Item | Proposal | 1.0.0 | 2025-02-19 | STAC Extension for the ESA Open Science Catalog |
 | [Order](https://github.com/stac-extensions/order) | order | Collection, Item | Pilot | 1.1.0 | 2023-01-05 | Allows assets ordering management within STAC specification. |
 | [Perspective Imagery](https://github.com/stac-extensions/perspective-imagery) | pers | Collection, Item | Proposal | 1.0.0 | 2022-06-27 | Describes perspective imagery collected by photogrammetric or non-photogrammetric cameras |
-| [Point Cloud](https://github.com/stac-extensions/pointcloud) | pc | Collection, Item | Pilot | 2.0.0 | 2024-10-24 | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery. |
 | [Processing](https://github.com/stac-extensions/processing) | processing | Collection, Item | Candidate | 1.2.0 | 2024-05-09 | Indicates from which processing chain data originates and how the data itself has been produced. |
 | [Product](https://github.com/stac-extensions/product) | product | Collection, Item | Proposal | 0.1.0 | 2024-05-22 | Generic Product-related properties for STAC |
 | [Projection](https://github.com/stac-extensions/projection) | proj | Collection, Item | Stable | 2.0.0 | 2024-07-22 | Provides a way to describe Items whose assets are in a geospatial projection. |
@@ -81,8 +72,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Satellite](https://github.com/stac-extensions/sat) | sat | Collection, Item | Candidate | 1.1.0 | 2024-12-18 | Satellite related metadata for data collected from satellites. |
 | [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)* | scan | Collection, Item | *WIP* | *Unknown* | *Unknown* | Scanning related metadata, such as the scan date and time. Especially useful for digitised images. |
 | [Scientific Citation](https://github.com/stac-extensions/scientific) | sci | Collection, Item | Stable | 1.0.0 | 2021-07-26 | Metadata that indicate from which publication data originates and how the data itself should be cited or referenced. |
-| [Sentinel-1](https://github.com/stac-extensions/sentinel-1) | s1 | Item | Proposal | 0.2.0 | 2024-06-10 | Sentinel-1 STAC Extension  |
 | [Sentinel-2](https://github.com/stac-extensions/sentinel-2) | s2 | Item | Candidate | 1.0.0 | 2023-11-13 | Sentinel-2 STAC Extension |
+| [Sentinel-3](https://github.com/stac-extensions/sentinel-3) | s3 | Item | Deprecated | 0.2.0 | 2024-06-10 | Sentinel-3 STAC Extension  |
 | [Sentinel-5P](https://github.com/stac-extensions/sentinel-5p) | s5p | Item | Proposal | 0.2.0 | 2024-06-10 | Sentinel-5P STAC Extension  |
 | [Single File STAC](https://github.com/stac-extensions/single-file-stac) | - | Collection, Item | Deprecated | **Unreleased** | N/A | An extension to provide a set of Collections and Items within a single file STAC. |
 | [Solar System](https://github.com/stac-extensions/ssys) | ssys | Catalog, Collection, Item | Proposal | 1.1.0 | 2023-10-19 | SSYS STAC Extension Specification |
@@ -100,13 +91,22 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Video](https://github.com/stac-extensions/video) | video | Collection, Item | Proposal | 1.0.0 | 2022-03-15 | Provides a way to describe video assets. |
 | [View Geometry](https://github.com/stac-extensions/view) | view | Collection, Item | Stable | 1.0.0 | 2021-03-30 | View Geometry adds metadata related to angles of sensors and other radiance angles that affect the view of resulting data. |
 | [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | vrt | Collection, Item | Proposal | 1.0.0 | 2023-11-09 | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
+| [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | 2023-08-28 | Allows to provide links to web maps for visualization purposes |
 | [application](https://github.com/stac-extensions/application) | *Unknown* | Collection, Item | *WIP* | **Unreleased** | N/A | Describes applications (examples, workflows, ...) and links to them for execution. |
-| [link-templates](https://github.com/stac-extensions/link-templates) | - | Catalog, Collection, Item | *WIP* | **Unreleased** | N/A | A construct to provide templated links in STAC, as originally defined in OGC APIs. |
-| [sentinel-3](https://github.com/stac-extensions/sentinel-3) | *Unknown* | *Unknown* | Deprecated | 0.2.0 | 2024-06-10 | Sentinel-3 STAC Extension  |
-| [web-map-links](https://github.com/stac-extensions/web-map-links) | *Unknown* | *Unknown* | *Unknown* | 1.2.0 | 2023-08-28 | Allows to provide links to web maps for visualization purposes |
+| [cf](https://github.com/stac-extensions/cf) | *Unknown* | *Unknown* | *Unknown* | 0.2.0 | 2023-08-30 | Allows to provide the Standard Name Table based on the CF metadata convention. |
+| [example-links](https://github.com/stac-extensions/example-links) | *Unknown* | *Unknown* | *Unknown* | 0.0.1 | 2023-08-14 | Allows to provide links to examples, e.g. code snippets. |
+| [grid](https://github.com/stac-extensions/grid) | *Unknown* | *Unknown* | *Unknown* | 1.1.0 | 2022-12-02 | Describes gridded data products, especially the grid code. |
+| [insar](https://github.com/stac-extensions/insar) | *Unknown* | *Unknown* | *Unknown* | 1.0.0 | 2024-03-11 | STAC extension for InSAR (Interferometric Synthetic Aperture Radar) |
+| [item-assets](https://github.com/stac-extensions/item-assets) | *Unknown* | *Unknown* | Deprecated | 1.0.0 | 2021-03-08 | Provides a way to specify details about what assets may be found in Items belonging to a Collection. |
+| [language](https://github.com/stac-extensions/language) | *Unknown* | *Unknown* | *Unknown* | 1.0.0 | 2023-03-06 | Fields and recommendations around making multi-lingual STAC catalogs available.  |
+| [link-templates](https://github.com/stac-extensions/link-templates) | *Unknown* | *Unknown* | *WIP* | **Unreleased** | N/A | A construct to provide templated links in STAC, as originally defined in OGC APIs. |
+| [ml-aoi](https://github.com/stac-extensions/ml-aoi) | *Unknown* | *Unknown* | *Unknown* | 0.2.0 | 2024-03-28 | An Item and Collection extension to provide labeled training data for machine learning models. |
+| [mlm](https://github.com/stac-extensions/mlm) | *Unknown* | *Unknown* | *Unknown* | 1.4.0 | 2025-02-03 | STAC Machine Learning Model (MLM) Extension to describe ML models, their training details, and inference runtime requirements. |
+| [pointcloud](https://github.com/stac-extensions/pointcloud) | *Unknown* | *Unknown* | *Unknown* | 2.0.0 | 2024-10-24 | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery. |
+| [sentinel-1](https://github.com/stac-extensions/sentinel-1) | *Unknown* | *Unknown* | *Unknown* | 0.2.0 | 2024-06-10 | Sentinel-1 STAC Extension  |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** May 17 2025, 01:39 UTC
+* **Last updated:** May 18 2025, 01:47 UTC
 * **Count:** 80
 
 ### Grouped by maturity
@@ -133,8 +133,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Datacube](https://github.com/stac-extensions/datacube)
 
-* [Machine Learning Model Extension](https://github.com/stac-extensions/mlm)
-
 * [Processing](https://github.com/stac-extensions/processing)
 
 * [Raster](https://github.com/stac-extensions/raster)
@@ -156,8 +154,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Classification](https://github.com/stac-extensions/classification)
 
-* [Grid](https://github.com/stac-extensions/grid)
-
 * [Label](https://github.com/stac-extensions/label)
 
 * [Military Grid Reference System](https://github.com/stac-extensions/mgrs)
@@ -167,8 +163,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [NOAA MRMS QPE](https://github.com/stac-extensions/noaa-mrms-qpe)
 
 * [Order](https://github.com/stac-extensions/order)
-
-* [Point Cloud](https://github.com/stac-extensions/pointcloud)
 
 * [Rendering](https://github.com/stac-extensions/render)
 
@@ -195,8 +189,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [CEOS-ARD](https://github.com/stac-extensions/ceos-ard)
 
-* [CF](https://github.com/stac-extensions/cf)
-
 * [CMIP6](https://github.com/stac-extensions/cmip6)
 
 * [Contacts](https://github.com/stac-extensions/contacts)
@@ -205,15 +197,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Earthquake](https://github.com/stac-extensions/earthquake)
 
-* [Example Links](https://github.com/stac-extensions/example-links)
-
 * [Forecast](https://github.com/stac-extensions/forecast)
-
-* [InSAR](https://github.com/stac-extensions/insar)
-
-* [Language (I18N)](https://github.com/stac-extensions/language)
-
-* [ML AOI](https://github.com/stac-extensions/ml-aoi)
 
 * [ML Model](https://github.com/stac-extensions/ml-model)
 
@@ -226,8 +210,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Product](https://github.com/stac-extensions/product)
 
 * [Quality](https://github.com/linz/stac/tree/master/extensions/quality)*
-
-* [Sentinel-1](https://github.com/stac-extensions/sentinel-1)
 
 * [Sentinel-5P](https://github.com/stac-extensions/sentinel-5p)
 
@@ -246,6 +228,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Video](https://github.com/stac-extensions/video)
 
 * [Virtual Assets](https://github.com/stac-extensions/virtual-assets)
+
+* [Web Map Links](https://github.com/stac-extensions/web-map-links)
 
 
 #### WIP
@@ -273,13 +257,13 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Deep Learning Model Extension](https://github.com/crim-ca/dlm-extension)*
 
-* [Item Assets Definition](https://github.com/stac-extensions/item-assets)
+* [Sentinel-3](https://github.com/stac-extensions/sentinel-3)
 
 * [Single File STAC](https://github.com/stac-extensions/single-file-stac)
 
 * [Time Series](https://github.com/stac-extensions/timeseries)
 
-* [sentinel-3](https://github.com/stac-extensions/sentinel-3)
+* [item-assets](https://github.com/stac-extensions/item-assets)
 
 
 
