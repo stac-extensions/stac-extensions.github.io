@@ -26,7 +26,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | Title | Field Name Prefix | Scope | [Maturity](https://github.com/radiantearth/stac-spec/tree/master/extensions#extension-maturity) | Version | Release Date | Description |
 | ----- | ----------------- | ----- | ----------------------------------------------------------------------------------------------- | ------- | ------------ | ----------- |
 | [Accuracy](https://github.com/stac-extensions/accuracy) | accuracy | Collection, Item | Proposal | 1.0.0-beta.1 | 2023-12-18 | Fields to provide estimates of accuracy, both geometric and measurement (e.g., radiometric) accuracy. |
-| [Aerial Photo](https://github.com/linz/stac/tree/master/extensions/aerial-photo)* | *Unknown* | *Unknown* | *Unknown* | *Unknown* | *Unknown* | Aerial photography related metadata, such as run, sequence number, altitude and scale. |
+| [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)* | aerial-photo | Collection, Item | *WIP* | *Unknown* | *Unknown* | Aerial photography related metadata, such as run, sequence number, altitude and scale. |
 | [Alternate Assets](https://github.com/stac-extensions/alternate-assets) | alternate` | Collection, Item | Pilot | 1.2.0 | 2024-07-09 | Describes alternate locations and mirrors of assets |
 | [Altimetry](https://github.com/stac-extensions/altimetry) | altm | Item | Proposal | 0.1.0 | 2024-06-10 | Altimetry Extension Specification |
 | [Anonymized Location](https://github.com/stac-extensions/anonymized-location) | anon | Collection, Item | Pilot | 1.0.0 | 2021-04-30 | Provides a way to anonymize location data |
@@ -50,6 +50,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [File Info](https://github.com/stac-extensions/file) | file | Catalog, Collection, Item | Stable | 2.1.0 | 2021-12-11 | Specifies file-related details such as size, data type and checksum for assets and links in STAC. |
 | [Film](https://github.com/linz/stac/tree/master/extensions/film)* | film | Collection, Item | *WIP* | *Unknown* | *Unknown* | Film related metadata, such as roll, negative sequence and other physical attributes. Especially useful for digitised historic aerial imagery surveys. |
 | [Forecast](https://github.com/stac-extensions/forecast) | forecast | Collection, Item | Proposal | 0.2.0 | 2025-01-09 | Common fields for (meteorological/weather) forecast data. |
+| [Grid](https://github.com/stac-extensions/grid) | grid | Item | Pilot | 1.1.0 | 2022-12-02 | Describes gridded data products, especially the grid code. |
 | [Hyperspectral Imagery](https://github.com/stac-extensions/hsi) | hsi | Collection, Item | *WIP* | **Unreleased** | N/A | Extension for Hyperspectral Imagery, to preserve the wavelength information for Items. |
 | [InSAR](https://github.com/stac-extensions/insar) | insar | Item | Proposal | 1.0.0 | 2024-03-11 | STAC extension for InSAR (Interferometric Synthetic Aperture Radar) |
 | [Item Assets Definition](https://github.com/stac-extensions/item-assets) | - | Collection | Deprecated | 1.0.0 | 2021-03-08 | Provides a way to specify details about what assets may be found in Items belonging to a Collection. |
@@ -61,6 +62,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [ML AOI](https://github.com/stac-extensions/ml-aoi) | ml-aoi | Asset, Collection, Item, Links | Proposal | 0.2.0 | 2024-03-28 | An Item and Collection extension to provide labeled training data for machine learning models. |
 | [ML Model](https://github.com/stac-extensions/ml-model) | ml-model | Collection, Item | Proposal | 1.0.0 | 2021-12-14 | An Item and Collection extension to describe machine learning (ML) models that operate on Earth observation data. |
 | [Machine Learning Model Extension](https://github.com/stac-extensions/mlm) | mlm | Asset, Collection, Item, Links | Candidate | 1.4.0 | 2025-02-03 | STAC Machine Learning Model (MLM) Extension to describe ML models, their training details, and inference runtime requirements. |
+| [Merkle Tree](https://github.com/stacchain/merkle-tree)* | merkle` | Catalog, Collection, Item | Proposal | 1.0.0 | 2024-11-05 | A STAC extension that enhances metadata integrity by encoding items, collections, and catalogs using Merkle hash trees. |
 | [Military Grid Reference System](https://github.com/stac-extensions/mgrs) | mgrs | Item | Pilot | 1.0.0 | 2021-06-09 | MGRS extension that provides information about the latitude band, grid square and UTM zone. |
 | [Moving Features](https://github.com/stac-extensions/moving-features) | mf | Item | *WIP* | **Unreleased** | N/A | stac extension for moving features |
 | [NOAA Geostationary Operational Environmental Satellite (GOES)](https://github.com/stac-extensions/goes) | goes | Collection, Item | Pilot | 1.0.0 | 2022-09-22 | STAC Extension for NOAA GOES (Geostationary Operational Environmental Satellite) products |
@@ -101,12 +103,10 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | vrt | Collection, Item | Proposal | 1.0.0 | 2023-11-09 | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | 2023-08-28 | Allows to provide links to web maps for visualization purposes |
 | [application](https://github.com/stac-extensions/application) | *Unknown* | Collection, Item | *WIP* | **Unreleased** | N/A | Describes applications (examples, workflows, ...) and links to them for execution. |
-| [grid](https://github.com/stac-extensions/grid) | *Unknown* | *Unknown* | *Unknown* | 1.1.0 | 2022-12-02 | Describes gridded data products, especially the grid code. |
 | [link-templates](https://github.com/stac-extensions/link-templates) | - | Catalog, Collection, Item | *WIP* | **Unreleased** | N/A | A construct to provide templated links in STAC, as originally defined in OGC APIs. |
-| [merkle-tree](https://github.com/stacchain/merkle-tree)* | *Unknown* | *Unknown* | *Unknown* | 1.0.0 | 2024-11-05 | A STAC extension that enhances metadata integrity by encoding items, collections, and catalogs using Merkle hash trees. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** May 19 2025, 01:46 UTC
+* **Last updated:** May 20 2025, 01:42 UTC
 * **Count:** 80
 
 ### Grouped by maturity
@@ -155,6 +155,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [CARD4L (Optical and SAR)](https://github.com/stac-extensions/card4l)
 
 * [Classification](https://github.com/stac-extensions/classification)
+
+* [Grid](https://github.com/stac-extensions/grid)
 
 * [Label](https://github.com/stac-extensions/label)
 
@@ -215,6 +217,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [ML Model](https://github.com/stac-extensions/ml-model)
 
+* [Merkle Tree](https://github.com/stacchain/merkle-tree)*
+
 * [Open Science Catalog](https://github.com/stac-extensions/osc)
 
 * [Perspective Imagery](https://github.com/stac-extensions/perspective-imagery)
@@ -247,6 +251,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 
 #### WIP
+
+* [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)*
 
 * [Archive](https://github.com/stac-extensions/archive)
 
