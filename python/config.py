@@ -4,7 +4,8 @@ COMMUNITY_REPOS = [
   ['crim-ca', 'dlm-extension'],
   ['Terradue', 'stac-extensions-disaster'],
   ['openrsgis', 'trainingdml-ai-extension'],
-  ['stacchain', 'merkle-tree']
+  ['stacchain', 'merkle-tree'],
+  ['IFRCGo', 'monty-stac-extension']
 ]
 
 # Other extensions that are not on GitHub
