@@ -104,9 +104,9 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | 2023-08-28 | Allows to provide links to web maps for visualization purposes |
 | [application](https://github.com/stac-extensions/application) | *Unknown* | Collection, Item | *WIP* | **Unreleased** | N/A | Describes applications (examples, workflows, ...) and links to them for execution. |
 | [link-templates](https://github.com/stac-extensions/link-templates) | - | Catalog, Collection, Item | *WIP* | **Unreleased** | N/A | A construct to provide templated links in STAC, as originally defined in OGC APIs. |
-| [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
+| [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Jun 04 2025, 01:44 UTC
+* **Last updated:** Jun 05 2025, 01:42 UTC
 * **Count:** 80
 
 ### Grouped by maturity
@@ -179,8 +179,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Table](https://github.com/stac-extensions/table)
 
 * [Timestamps](https://github.com/stac-extensions/timestamps)
-
-* [xarray Assets](https://github.com/stac-extensions/xarray-assets)
 
 
 #### Proposal
@@ -284,6 +282,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Single File STAC](https://github.com/stac-extensions/single-file-stac)
 
 * [Time Series](https://github.com/stac-extensions/timeseries)
+
+* [xarray Assets](https://github.com/stac-extensions/xarray-assets)
 
 
 
