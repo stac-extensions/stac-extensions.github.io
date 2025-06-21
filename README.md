@@ -64,6 +64,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Machine Learning Model Extension](https://github.com/stac-extensions/mlm) | mlm | Asset, Collection, Item, Links | Candidate | 1.4.0 | 2025-02-03 | STAC Machine Learning Model (MLM) Extension to describe ML models, their training details, and inference runtime requirements. |
 | [Merkle Tree](https://github.com/stacchain/merkle-tree)* | merkle` | Catalog, Collection, Item | Proposal | 1.0.0 | 2024-11-05 | A STAC extension that enhances metadata integrity by encoding items, collections, and catalogs using Merkle hash trees. |
 | [Military Grid Reference System](https://github.com/stac-extensions/mgrs) | mgrs | Item | Pilot | 1.0.0 | 2021-06-09 | MGRS extension that provides information about the latitude band, grid square and UTM zone. |
+| [Monty](https://github.com/IFRCGo/monty-stac-extension)* | monty | Collection, Item | Proposal | 1.0.0 | 2025-05-27 | Provide a set of new fields and data type to build a Montandon, Global Crisis Data Bank |
 | [Moving Features](https://github.com/stac-extensions/moving-features) | mf | Item | *WIP* | **Unreleased** | N/A | stac extension for moving features |
 | [NOAA Geostationary Operational Environmental Satellite (GOES)](https://github.com/stac-extensions/goes) | goes | Collection, Item | Pilot | 1.0.0 | 2022-09-22 | STAC Extension for NOAA GOES (Geostationary Operational Environmental Satellite) products |
 | [NOAA MRMS QPE](https://github.com/stac-extensions/noaa-mrms-qpe) | noaa_mrms_qpe | Collection, Item | Pilot | 1.0.0 | 2022-10-24 | STAC Extension for NOAA MRMS QPE (Multi-Radar Multi-Sensor Quantitative Precipitation Estimation) products |
@@ -106,8 +107,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [link-templates](https://github.com/stac-extensions/link-templates) | - | Catalog, Collection, Item | *WIP* | **Unreleased** | N/A | A construct to provide templated links in STAC, as originally defined in OGC APIs. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Jun 21 2025, 01:42 UTC
-* **Count:** 80
+* **Last updated:** Jun 21 2025, 10:10 UTC
+* **Count:** 81
 
 ### Grouped by maturity
 
@@ -216,6 +217,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [ML Model](https://github.com/stac-extensions/ml-model)
 
 * [Merkle Tree](https://github.com/stacchain/merkle-tree)*
+
+* [Monty](https://github.com/IFRCGo/monty-stac-extension)*
 
 * [Open Science Catalog](https://github.com/stac-extensions/osc)
 
