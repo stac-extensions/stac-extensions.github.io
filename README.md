@@ -77,6 +77,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Projection](https://github.com/stac-extensions/projection) | proj | Collection, Item | Stable | 2.0.0 | 2024-07-22 | Provides a way to describe Items whose assets are in a geospatial projection. |
 | [Quality](https://github.com/linz/stac/tree/master/extensions/quality)* | quality | Collection | Proposal | *Unknown* | *Unknown* | Geospatial quality and accuracy of collections, such as horizontal and vertical accuracy. |
 | [Raster](https://github.com/stac-extensions/raster) | raster | Collection, Item | Candidate | 2.0.0 | 2024-09-09 | Describes raster assets at band level (one or multiple) with specific information such as data type, unit, number of bits used, nodata. |
+| [Region](https://github.com/stac-extensions/region) | region | Collection, Item | *WIP* | **Unreleased** | N/A | An extension to describe geographical regions |
 | [Rendering](https://github.com/stac-extensions/render) | renders | Collection, Item | Pilot | 2.0.0 | 2024-11-19 | Provide consumers with the information required to view an asset properly (e.g. on a online map) |
 | [SAR](https://github.com/stac-extensions/sar) | sar | Collection, Item | Stable | 1.2.0 | 2025-03-31 | Covers synthetic-aperture radar data that represents a snapshot of the earth for a single date and time. |
 | [Satellite](https://github.com/stac-extensions/sat) | sat | Collection, Item | Candidate | 1.1.0 | 2024-12-18 | Satellite related metadata for data collected from satellites. |
@@ -107,8 +108,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [link-templates](https://github.com/stac-extensions/link-templates) | - | Catalog, Collection, Item | *WIP* | **Unreleased** | N/A | A construct to provide templated links in STAC, as originally defined in OGC APIs. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Jul 09 2025, 01:47 UTC
-* **Count:** 81
+* **Last updated:** Jul 10 2025, 01:47 UTC
+* **Count:** 82
 
 ### Grouped by maturity
 
@@ -266,6 +267,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Hyperspectral Imagery](https://github.com/stac-extensions/hsi)
 
 * [Moving Features](https://github.com/stac-extensions/moving-features)
+
+* [Region](https://github.com/stac-extensions/region)
 
 * [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)*
 
