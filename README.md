@@ -30,6 +30,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Alternate Assets](https://github.com/stac-extensions/alternate-assets) | alternate` | Collection, Item | Pilot | 1.2.0 | 2024-07-09 | Describes alternate locations and mirrors of assets |
 | [Altimetry](https://github.com/stac-extensions/altimetry) | altm | Item | Proposal | 0.1.0 | 2024-06-10 | Altimetry Extension Specification |
 | [Anonymized Location](https://github.com/stac-extensions/anonymized-location) | anon | Collection, Item | Pilot | 1.0.0 | 2021-04-30 | Provides a way to anonymize location data |
+| [Application](https://github.com/stac-extensions/application) | application | Assets, Item, Links | *WIP* | **Unreleased** | N/A | Describes applications (examples, workflows, ...) and links to them for execution. |
 | [Archive](https://github.com/stac-extensions/archive) | archive | Collection, Item | *WIP* | **Unreleased** | N/A | Archive extension that deals with cases when files are not directly accessible on their respective storage, but are part of an archive file, such as ZIP or TAR archives.  |
 | [Attribution](https://github.com/stac-extensions/attribution) | - | Collection, Item | Proposal | 0.1.0 | 2024-08-01 | Allows to provide an attribution, e.g. for maps, compliant with OGC API Collections |
 | [Authentication](https://github.com/stac-extensions/authentication) | auth | Asset, Catalog, Collection, Item, Links | Proposal | 1.1.0 | 2024-05-27 | Adds fields to define authentication or authorization flows used to access Assets and Links behind security |
@@ -104,11 +105,10 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [View Geometry](https://github.com/stac-extensions/view) | view | Collection, Item | Stable | 1.0.0 | 2021-03-30 | View Geometry adds metadata related to angles of sensors and other radiance angles that affect the view of resulting data. |
 | [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | vrt | Collection, Item | Proposal | 1.0.0 | 2023-11-09 | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | 2023-08-28 | Allows to provide links to web maps for visualization purposes |
-| [application](https://github.com/stac-extensions/application) | *Unknown* | Collection, Item | *WIP* | **Unreleased** | N/A | Describes applications (examples, workflows, ...) and links to them for execution. |
 | [link-templates](https://github.com/stac-extensions/link-templates) | - | Catalog, Collection, Item | *WIP* | **Unreleased** | N/A | A construct to provide templated links in STAC, as originally defined in OGC APIs. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Jul 17 2025, 01:51 UTC
+* **Last updated:** Jul 18 2025, 01:52 UTC
 * **Count:** 82
 
 ### Grouped by maturity
@@ -254,6 +254,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)*
 
+* [Application](https://github.com/stac-extensions/application)
+
 * [Archive](https://github.com/stac-extensions/archive)
 
 * [Camera](https://github.com/linz/stac/tree/master/extensions/camera)*
@@ -269,8 +271,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Region](https://github.com/stac-extensions/region)
 
 * [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)*
-
-* [application](https://github.com/stac-extensions/application)
 
 * [link-templates](https://github.com/stac-extensions/link-templates)
 
