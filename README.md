@@ -105,11 +105,12 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [View Geometry](https://github.com/stac-extensions/view) | view | Collection, Item | Stable | 1.0.0 | 2021-03-30 | View Geometry adds metadata related to angles of sensors and other radiance angles that affect the view of resulting data. |
 | [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | vrt | Collection, Item | Proposal | 1.0.0 | 2023-11-09 | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | 2023-08-28 | Allows to provide links to web maps for visualization purposes |
+| [Zarr Extension Specification](https://github.com/stac-extensions/zarr) | zarr | Asset | *WIP* | **Unreleased** | N/A | This extension helps users open Zarr assets. It includes core fields from Zarr attributes especially those required when opening Zarr stores. |
 | [link-templates](https://github.com/stac-extensions/link-templates) | - | Catalog, Collection, Item | *WIP* | **Unreleased** | N/A | A construct to provide templated links in STAC, as originally defined in OGC APIs. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Jul 29 2025, 02:04 UTC
-* **Count:** 82
+* **Last updated:** Jul 30 2025, 01:54 UTC
+* **Count:** 83
 
 ### Grouped by maturity
 
@@ -271,6 +272,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Region](https://github.com/stac-extensions/region)
 
 * [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)*
+
+* [Zarr Extension Specification](https://github.com/stac-extensions/zarr)
 
 * [link-templates](https://github.com/stac-extensions/link-templates)
 
