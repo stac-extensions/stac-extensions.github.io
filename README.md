@@ -41,7 +41,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Camera](https://github.com/linz/stac/tree/master/extensions/camera)* | camera | Collection, Item | *WIP* | *Unknown* | *Unknown* | Camera related metadata, such as focal length and sequence number. Especially useful for aerial imagery surveys. |
 | [Classification](https://github.com/stac-extensions/classification) | classification | Collection, Item | Pilot | 2.0.0 | 2024-05-18 | Describes categorical values and bitfields to give values in a file a certain meaning (classification). |
 | [Composite](https://github.com/stac-extensions/composite) | composite | Item | *WIP* | **Unreleased** | N/A | Defines how virtual assets can be composed from existing assets in STAC |
-| [Contacts](https://github.com/stac-extensions/contacts) | - | Catalog, Collection, Item | Proposal | 0.1.1 | 2023-05-17 | A list of contacts with detailed information such as address, phone numbers, emails etc. |
+| [Contacts](https://github.com/stac-extensions/contacts) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2025-08-15 | A list of contacts with detailed information such as address, phone numbers, emails etc. |
 | [Datacube](https://github.com/stac-extensions/datacube) | cube | Collection, Item | Candidate | 2.3.0 | 2025-06-18 | Datacube related metadata to describe their dimensions and variables. |
 | [Deep Learning Model Extension](https://github.com/crim-ca/dlm-extension)* | dlm | Asset, Collection, Item, Links | Deprecated | 1.0.0 | 2024-04-18 | Deep Learning Model STAC Extension (deprecated, see https://github.com/stac-extensions/mlm instead) |
 | [Disasters Charter](https://github.com/Terradue/stac-extensions-disaster)* | disaster | Collection, Item | Proposal | 1.1.0 | 2024-06-05 | Disaster Charter Extension Specification |
@@ -78,7 +78,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Projection](https://github.com/stac-extensions/projection) | proj | Collection, Item | Stable | 2.0.0 | 2024-07-22 | Provides a way to describe Items whose assets are in a geospatial projection. |
 | [Quality](https://github.com/linz/stac/tree/master/extensions/quality)* | quality | Collection | Proposal | *Unknown* | *Unknown* | Geospatial quality and accuracy of collections, such as horizontal and vertical accuracy. |
 | [Raster](https://github.com/stac-extensions/raster) | raster | Collection, Item | Candidate | 2.0.0 | 2024-09-09 | Describes raster assets at band level (one or multiple) with specific information such as data type, unit, number of bits used, nodata. |
-| [Region](https://github.com/stac-extensions/region) | region | Collection, Item | *WIP* | **Unreleased** | N/A | An extension to describe geographical regions |
+| [Region](https://github.com/stac-extensions/region) | region | Collection, Item | Proposal | 0.1.0 | 2025-07-25 | An extension to describe geographical regions |
 | [Rendering](https://github.com/stac-extensions/render) | renders | Collection, Item | Pilot | 2.0.0 | 2024-11-19 | Provide consumers with the information required to view an asset properly (e.g. on a online map) |
 | [SAR](https://github.com/stac-extensions/sar) | sar | Collection, Item | Stable | 1.3.0 | 2025-07-16 | Covers synthetic-aperture radar data that represents a snapshot of the earth for a single date and time. |
 | [Satellite](https://github.com/stac-extensions/sat) | sat | Collection, Item | Candidate | 1.1.0 | 2024-12-18 | Satellite related metadata for data collected from satellites. |
@@ -102,14 +102,14 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI)](https://github.com/stac-extensions/usfws-nwi) | fws_nwi | Collection, Item | Proposal | 1.0.0 | 2022-10-24 | Describes the U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI) products |
 | [Versioning Indicators](https://github.com/stac-extensions/version) | - | Collection, Item | Candidate | 1.2.0 | 2023-05-03 | Provides fields and link relation types to provide a version and indicate deprecation. |
 | [Video](https://github.com/stac-extensions/video) | video | Collection, Item | Proposal | 1.0.0 | 2022-03-15 | Provides a way to describe video assets. |
-| [View Geometry](https://github.com/stac-extensions/view) | view | Collection, Item | Stable | 1.0.0 | 2021-03-30 | View Geometry adds metadata related to angles of sensors and other radiance angles that affect the view of resulting data. |
+| [View Geometry](https://github.com/stac-extensions/view) | view | Collection, Item | Stable | 1.1.0 | 2025-08-15 | View Geometry adds metadata related to angles of sensors and other radiance angles that affect the view of resulting data. |
 | [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | vrt | Collection, Item | Proposal | 1.0.0 | 2023-11-09 | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | 2023-08-28 | Allows to provide links to web maps for visualization purposes |
 | [Zarr Extension Specification](https://github.com/stac-extensions/zarr) | zarr | Asset | *WIP* | **Unreleased** | N/A | This extension helps users open Zarr assets. It includes core fields from Zarr attributes especially those required when opening Zarr stores. |
 | [link-templates](https://github.com/stac-extensions/link-templates) | - | Catalog, Collection, Item | *WIP* | **Unreleased** | N/A | A construct to provide templated links in STAC, as originally defined in OGC APIs. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Aug 15 2025, 01:46 UTC
+* **Last updated:** Aug 16 2025, 01:41 UTC
 * **Count:** 83
 
 ### Grouped by maturity
@@ -228,6 +228,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Quality](https://github.com/linz/stac/tree/master/extensions/quality)*
 
+* [Region](https://github.com/stac-extensions/region)
+
 * [Sentinel-1](https://github.com/stac-extensions/sentinel-1)
 
 * [Sentinel-5P](https://github.com/stac-extensions/sentinel-5p)
@@ -268,8 +270,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Hyperspectral Imagery](https://github.com/stac-extensions/hsi)
 
 * [Moving Features](https://github.com/stac-extensions/moving-features)
-
-* [Region](https://github.com/stac-extensions/region)
 
 * [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)*
 
