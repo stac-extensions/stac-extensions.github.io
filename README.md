@@ -62,7 +62,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Language (I18N)](https://github.com/stac-extensions/language) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2023-03-06 | Fields and recommendations around making multi-lingual STAC catalogs available.  |
 | [ML AOI](https://github.com/stac-extensions/ml-aoi) | ml-aoi | Asset, Collection, Item, Links | Proposal | 0.2.0 | 2024-03-28 | An Item and Collection extension to provide labeled training data for machine learning models. |
 | [ML Model](https://github.com/stac-extensions/ml-model) | ml-model | Collection, Item | Deprecated | 1.0.0 | 2021-12-14 | An Item and Collection extension to describe machine learning (ML) models that operate on Earth observation data. |
-| [Machine Learning Model Extension](https://github.com/stac-extensions/mlm) | mlm | Asset, Collection, Item, Links | Candidate | 1.4.0 | 2025-02-03 | STAC Machine Learning Model (MLM) Extension to describe ML models, their training details, and inference runtime requirements. |
+| [Machine Learning Model Extension](https://github.com/stac-extensions/mlm) | mlm | Asset, Collection, Item, Links | Candidate | 1.5.0 | 2025-08-23 | STAC Machine Learning Model (MLM) Extension to describe ML models, their training details, and inference runtime requirements. |
 | [Merkle Tree](https://github.com/stacchain/merkle-tree)* | merkle` | Catalog, Collection, Item | Proposal | 1.0.0 | 2024-11-05 | A STAC extension that enhances metadata integrity by encoding items, collections, and catalogs using Merkle hash trees. |
 | [Military Grid Reference System](https://github.com/stac-extensions/mgrs) | mgrs | Item | Pilot | 1.0.0 | 2021-06-09 | MGRS extension that provides information about the latitude band, grid square and UTM zone. |
 | [Monty](https://github.com/IFRCGo/monty-stac-extension)* | monty | Collection, Item | Proposal | 1.0.0 | 2025-05-27 | Provide a set of new fields and data type to build a Montandon, Global Crisis Data Bank |
@@ -109,7 +109,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [link-templates](https://github.com/stac-extensions/link-templates) | - | Catalog, Collection, Item | *WIP* | **Unreleased** | N/A | A construct to provide templated links in STAC, as originally defined in OGC APIs. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Aug 23 2025, 01:35 UTC
+* **Last updated:** Aug 24 2025, 01:48 UTC
 * **Count:** 83
 
 ### Grouped by maturity
