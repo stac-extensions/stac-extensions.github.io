@@ -109,7 +109,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [link-templates](https://github.com/stac-extensions/link-templates) | - | Catalog, Collection, Item | *WIP* | **Unreleased** | N/A | A construct to provide templated links in STAC, as originally defined in OGC APIs. |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Sep 06 2025, 01:24 UTC
+* **Last updated:** Sep 07 2025, 01:38 UTC
 * **Count:** 83
 
 ### Grouped by maturity
