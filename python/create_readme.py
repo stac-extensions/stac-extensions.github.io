@@ -100,9 +100,7 @@ def get_extensions() -> list:
           # Parse title
           title = re.search(r"[\-\*]\s+[\*\_]*Title[\*\_]*:[\*\_]*\s*(.+)", readme.text, re.I)
           if title:
-            title_str = title.group(1).strip()
-            if "template" not in title_str.lower():
-              src["title"] = title_str
+            src["title"] = title.group(1).strip()
         
           # Parse scope
           scope = re.search(r"[\-\*]\s+[\*\_]*Scope[\*\_]*:[\*\_]*\s*([\w\s,]+)", readme.text, re.I)
