@@ -113,7 +113,7 @@ def get_extensions() -> list:
             src["scope"] = ", ".join(scopes)
 
           # Parse prefix
-          prefix = re.search(r"[\-\*]\s+[\*\_]*(?:Field\s+Name\s+)?Prefix[\*\_]*:[\*\_]*\s*`?(.{1,20})`?", readme.text, re.I)
+          prefix = re.search(r"[\-\*]\s+[\*\_]*(?:Field\s+Name\s+)?Prefix[\*\_]*:[\*\_]*\s*`?([^`\s]{1,20})`?", readme.text, re.I)
           if prefix:
             prefix_str = prefix.group(1).strip()
             if "template" not in prefix_str.lower():
@@ -140,6 +140,8 @@ def get_extensions() -> list:
     if "releasedate" not in src:
       src["releasedate"] = unknown
 
+  data.sort(key=lambda x: x['title'])
+  
   return data
 
 def group_by_maturity(extensions) -> dict:
