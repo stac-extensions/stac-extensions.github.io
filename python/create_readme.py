@@ -164,7 +164,7 @@ def group_by_maturity(extensions) -> dict:
 
 def main() -> bool:
   data = get_extensions()
-  data.sort(key = lambda x: x["title"])
+  data.sort(key = lambda x: x["title"].lower())
   maturities = group_by_maturity(data)
   count = len(data)
 
