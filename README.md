@@ -26,6 +26,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | Title | Field Name Prefix | Scope | [Maturity](https://github.com/radiantearth/stac-spec/tree/master/extensions#extension-maturity) | Version | Release Date | Description |
 | ----- | ----------------- | ----- | ----------------------------------------------------------------------------------------------- | ------- | ------------ | ----------- |
 | [Accuracy](https://github.com/stac-extensions/accuracy) | accuracy | Collection, Item | Proposal | 1.0.0-beta.1 | 2023-12-18 | Fields to provide estimates of accuracy, both geometric and measurement (e.g., radiometric) accuracy. |
+| [Additional Identifiers](https://github.com/stac-extensions/external-ids) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2025-11-18 | A construct to provide additional identifiers in STAC, as originally defined in OGC APIs. |
 | [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)* | aerial-photo | Collection, Item | *WIP* | *Unknown* | *Unknown* | Aerial photography related metadata, such as run, sequence number, altitude and scale. |
 | [Alternate Assets](https://github.com/stac-extensions/alternate-assets) | alternate | Collection, Item | Pilot | 1.2.0 | 2024-07-09 | Describes alternate locations and mirrors of assets |
 | [Altimetry](https://github.com/stac-extensions/altimetry) | altm | Item | Proposal | 0.1.0 | 2024-06-10 | Altimetry Extension Specification |
@@ -109,8 +110,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 | [Zarr Extension Specification](https://github.com/stac-extensions/zarr) | zarr | Asset | Proposal | 1.1.0 | 2025-09-04 | This extension helps users open Zarr assets. It includes core fields from Zarr attributes especially those required when opening Zarr stores. |
 
-* **Last updated:** Nov 18 2025, 01:40 UTC
-* **Count:** 83
+* **Last updated:** Nov 19 2025, 01:41 UTC
+* **Count:** 84
 
 ### Grouped by maturity
 
@@ -187,6 +188,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 #### Proposal
 
 * [Accuracy](https://github.com/stac-extensions/accuracy)
+
+* [Additional Identifiers](https://github.com/stac-extensions/external-ids)
 
 * [Altimetry](https://github.com/stac-extensions/altimetry)
 
