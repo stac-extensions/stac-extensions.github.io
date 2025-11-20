@@ -41,7 +41,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [CF](https://github.com/stac-extensions/cf) | cf | Collection, Item | Proposal | 0.2.0 | 2023-08-30 | Allows to provide the Standard Name Table based on the CF metadata convention. |
 | [Classification](https://github.com/stac-extensions/classification) | classification | Collection, Item | Pilot | 2.0.0 | 2024-05-18 | Describes categorical values and bitfields to give values in a file a certain meaning (classification). |
 | [CMIP6](https://github.com/stac-extensions/cmip6) | cmip6 | Item | Proposal | 3.0.0 | 2025-09-23 | None |
-| [Composite](https://github.com/stac-extensions/composite) | composite | Item | *WIP* | **Unreleased** | N/A | Defines how virtual assets can be composed from existing assets in STAC |
+| [Composite](https://github.com/stac-extensions/composite) | composite | Item | Deprecated | **Unreleased** | N/A | Defines how virtual assets can be composed from existing assets in STAC |
 | [Contacts](https://github.com/stac-extensions/contacts) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2025-08-15 | A list of contacts with detailed information such as address, phone numbers, emails etc. |
 | [Datacube](https://github.com/stac-extensions/datacube) | cube | Collection, Item | Candidate | 2.3.0 | 2025-06-18 | Datacube related metadata to describe their dimensions and variables. |
 | [Deep Learning Model Extension](https://github.com/crim-ca/dlm-extension)* | dlm | Asset, Collection, Item, Links | Deprecated | 1.0.0 | 2024-04-18 | Deep Learning Model STAC Extension (deprecated, see https://github.com/stac-extensions/mlm instead) |
@@ -110,7 +110,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 | [Zarr Extension Specification](https://github.com/stac-extensions/zarr) | zarr | Asset | Proposal | 1.1.0 | 2025-09-04 | This extension helps users open Zarr assets. It includes core fields from Zarr attributes especially those required when opening Zarr stores. |
 
-* **Last updated:** Nov 19 2025, 01:41 UTC
+* **Last updated:** Nov 20 2025, 01:39 UTC
 * **Count:** 84
 
 ### Grouped by maturity
@@ -270,8 +270,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Camera](https://github.com/linz/stac/tree/master/extensions/camera)*
 
-* [Composite](https://github.com/stac-extensions/composite)
-
 * [Film](https://github.com/linz/stac/tree/master/extensions/film)*
 
 * [Hyperspectral Imagery](https://github.com/stac-extensions/hsi)
@@ -282,6 +280,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 
 #### Deprecated
+
+* [Composite](https://github.com/stac-extensions/composite)
 
 * [Deep Learning Model Extension](https://github.com/crim-ca/dlm-extension)*
 
