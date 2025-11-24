@@ -16,7 +16,7 @@ env = dict(os.environ)
 if "GITHUB_TOKEN" in env:
   headers["Authorization"] = " ".join(["Bearer", os.environ["GITHUB_TOKEN"]])
 else:
-  logger.warn("No GITHUB_TOKEN found in env")
+  logger.warning("No GITHUB_TOKEN found in env")
 
 def from_gh(response, external = False) -> dict:
   data = {
@@ -40,6 +40,7 @@ def get_sources() -> list:
   try:
     logger.info(f"Reading list of repositories")
     with requests.get("https://api.github.com/users/stac-extensions/repos?per_page=1000", headers=headers) as site:
+      site.raise_for_status()
       repos = site.json()
       for repo in repos:
         if not isinstance(repo, dict):
@@ -55,6 +56,7 @@ def get_sources() -> list:
     try:
       logger.info(f"Reading community repos individually")
       with requests.get(f"https://api.github.com/repos/{r[0]}/{r[1]}", headers=headers) as repo:
+        repo.raise_for_status()
         data.append(from_gh(repo.json(), True))
     except error as e:
         logger.error(f"community repo not available: {e}")
@@ -75,8 +77,9 @@ def get_extensions() -> list:
       src["version"] = unknown
     if "tags" in src:
       try:
-        with requests.get(src["tags"], headers=headers) as tags:
-          tags = tags.json()
+        with requests.get(src["tags"], headers=headers) as response:
+          response.raise_for_status()
+          tags = response.json()
           if len(tags) > 0:
             src["version"] = re.sub(r"^v", "", tags[0]["name"])
             try:
