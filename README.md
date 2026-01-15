@@ -62,7 +62,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Landsat ARD Tile](https://landsat.usgs.gov/stac/landsat-ard-extension/v1.0.0/schema.json)* | landsat | *Unknown* | *Unknown* | 1.0.0 | *Unknown* | *JSON Schema only!* |
 | [Language (I18N)](https://github.com/stac-extensions/language) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2023-03-06 | Fields and recommendations around making multi-lingual STAC catalogs available.  |
 | [Link Templates](https://github.com/stac-extensions/link-templates) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2025-04-16 | A construct to provide templated links in STAC, as originally defined in OGC APIs. |
-| [Machine Learning Model Extension](https://github.com/stac-extensions/mlm) | mlm | Asset, Collection, Item, Links | Candidate | 1.5.0 | 2025-08-23 | STAC Machine Learning Model (MLM) Extension to describe ML models, their training details, and inference runtime requirements. |
+| [Machine Learning Model Extension](https://github.com/stac-extensions/mlm) | mlm | Asset, Collection, Item, Links | Candidate | 1.5.1 | 2026-01-14 | STAC Machine Learning Model (MLM) Extension to describe ML models, their training details, and inference runtime requirements. |
 | [Merkle Tree](https://github.com/stacchain/merkle-tree)* | merkle | Catalog, Collection, Item | Proposal | 1.1.1 | 2026-01-13 | A STAC extension that enhances metadata integrity by encoding items, collections, and catalogs using Merkle hash trees. |
 | [Military Grid Reference System](https://github.com/stac-extensions/mgrs) | mgrs | Item | Pilot | 1.0.0 | 2021-06-09 | MGRS extension that provides information about the latitude band, grid square and UTM zone. |
 | [ML AOI](https://github.com/stac-extensions/ml-aoi) | ml-aoi | Asset, Collection, Item, Links | Proposal | 0.2.0 | 2024-03-28 | An Item and Collection extension to provide labeled training data for machine learning models. |
@@ -110,7 +110,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 | [Zarr Extension Specification](https://github.com/stac-extensions/zarr) | zarr | Asset | Proposal | 1.1.0 | 2025-09-04 | This extension helps users open Zarr assets. It includes core fields from Zarr attributes especially those required when opening Zarr stores. |
 
-* **Last updated:** Jan 14 2026, 01:55 UTC
+* **Last updated:** Jan 15 2026, 01:50 UTC
 * **Count:** 84
 
 ### Grouped by maturity
