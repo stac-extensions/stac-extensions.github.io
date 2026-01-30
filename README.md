@@ -67,7 +67,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Military Grid Reference System](https://github.com/stac-extensions/mgrs) | mgrs | Item | Pilot | 1.0.0 | 2021-06-09 | MGRS extension that provides information about the latitude band, grid square and UTM zone. |
 | [ML AOI](https://github.com/stac-extensions/ml-aoi) | ml-aoi | Asset, Collection, Item, Links | Proposal | 0.2.0 | 2024-03-28 | An Item and Collection extension to provide labeled training data for machine learning models. |
 | [ML Model](https://github.com/stac-extensions/ml-model) | ml-model | Collection, Item | Deprecated | 1.0.0 | 2021-12-14 | An Item and Collection extension to describe machine learning (ML) models that operate on Earth observation data. |
-| [Monty](https://github.com/IFRCGo/monty-stac-extension)* | monty | Collection, Item | Proposal | 1.1.0 | 2025-11-06 | Provide a set of new fields and data type to build a Montandon, Global Crisis Data Bank |
+| [Monty](https://github.com/IFRCGo/monty-stac-extension)* | monty | Collection, Item | Proposal | 1.1.1 | 2026-01-29 | Provide a set of new fields and data type to build a Montandon, Global Crisis Data Bank |
 | [Moving Features](https://github.com/stac-extensions/moving-features) | mf | Item | *WIP* | **Unreleased** | N/A | stac extension for moving features |
 | [NOAA Geostationary Operational Environmental Satellite (GOES)](https://github.com/stac-extensions/goes) | goes | Collection, Item | Pilot | 1.0.0 | 2022-09-22 | STAC Extension for NOAA GOES (Geostationary Operational Environmental Satellite) products |
 | [NOAA MRMS QPE](https://github.com/stac-extensions/noaa-mrms-qpe) | noaa_mrms_qpe | Collection, Item | Pilot | 1.0.0 | 2022-10-24 | STAC Extension for NOAA MRMS QPE (Multi-Radar Multi-Sensor Quantitative Precipitation Estimation) products |
@@ -111,7 +111,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 | [Zarr Extension Specification](https://github.com/stac-extensions/zarr) | zarr | Asset | Proposal | 1.1.0 | 2025-09-04 | This extension helps users open Zarr assets. It includes core fields from Zarr attributes especially those required when opening Zarr stores. |
 
-* **Last updated:** Jan 29 2026, 02:08 UTC
+* **Last updated:** Jan 30 2026, 02:08 UTC
 * **Count:** 85
 
 ### Grouped by maturity
