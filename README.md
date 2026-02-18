@@ -91,7 +91,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Sentinel-3](https://github.com/stac-extensions/sentinel-3) | s3 | Item | Deprecated | 0.2.0 | 2024-06-10 | Sentinel-3 STAC Extension  |
 | [Sentinel-5P](https://github.com/stac-extensions/sentinel-5p) | s5p | Item | Proposal | 0.2.0 | 2024-06-10 | Sentinel-5P STAC Extension  |
 | [Single File STAC](https://github.com/stac-extensions/single-file-stac) | - | Collection, Item | Deprecated | **Unreleased** | N/A | An extension to provide a set of Collections and Items within a single file STAC. |
-| [Solar System](https://github.com/stac-extensions/ssys) | ssys | Catalog, Collection, Item | Proposal | 1.1.1 | 2026-02-06 | SSYS STAC Extension Specification |
+| [Solar System](https://github.com/stac-extensions/ssys) | ssys | Catalog, Collection, Item | Candidate | 1.1.1 | 2026-02-06 | SSYS STAC Extension Specification |
 | [Stats](https://github.com/stac-extensions/stats) | stats | Catalog, Collection | Pilot | 0.2.0 | 2022-08-01 | Describes the number of items, extensions and assets that are contained in a STAC catalog. |
 | [Stereo Imagery](https://github.com/stac-extensions/stereo-imagery) | stereo-img | Catalog, Collection, Item | Proposal | 1.0.0 | 2023-08-02 | Describes (tri-)stereo imagery that consists of multiple captures, often for 3D use cases. |
 | [Storage](https://github.com/stac-extensions/storage) | storage | Catalog, Collection, Item | Pilot | 2.0.0 | 2024-10-18 | Provides additional fields relating to how the asset is stored in the cloud |
@@ -147,6 +147,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Satellite](https://github.com/stac-extensions/sat)
 
 * [Sentinel-2](https://github.com/stac-extensions/sentinel-2)
+ 
+* [Solar System](https://github.com/stac-extensions/ssys)
 
 * [Versioning Indicators](https://github.com/stac-extensions/version)
 
@@ -241,8 +243,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Sentinel-1](https://github.com/stac-extensions/sentinel-1)
 
 * [Sentinel-5P](https://github.com/stac-extensions/sentinel-5p)
-
-* [Solar System](https://github.com/stac-extensions/ssys)
 
 * [Stereo Imagery](https://github.com/stac-extensions/stereo-imagery)
 
