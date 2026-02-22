@@ -25,6 +25,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 | Title | Field Name Prefix | Scope | [Maturity](https://github.com/radiantearth/stac-spec/tree/master/extensions#extension-maturity) | Version | Release Date | Description |
 | ----- | ----------------- | ----- | ----------------------------------------------------------------------------------------------- | ------- | ------------ | ----------- |
+| [3D City Models](https://github.com/cityjson/stac-city3d)* | city3d | Collection, Item | Proposal | 0.1.0 | 2026-02-21 | STAC extension for 3D city models |
 | [Accuracy](https://github.com/stac-extensions/accuracy) | accuracy | Collection, Item | Proposal | 1.0.0-beta.1 | 2023-12-18 | Fields to provide estimates of accuracy, both geometric and measurement (e.g., radiometric) accuracy. |
 | [Additional Identifiers](https://github.com/stac-extensions/external-ids) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2025-11-18 | A construct to provide additional identifiers in STAC, as originally defined in OGC APIs. |
 | [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)* | aerial-photo | Collection, Item | *WIP* | *Unknown* | *Unknown* | Aerial photography related metadata, such as run, sequence number, altitude and scale. |
@@ -112,8 +113,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 | [Zarr Extension Specification](https://github.com/stac-extensions/zarr) | zarr | Asset | Proposal | 1.1.0 | 2025-09-04 | This extension helps users open Zarr assets. It includes core fields from Zarr attributes especially those required when opening Zarr stores. |
 
-* **Last updated:** Feb 22 2026, 02:23 UTC
-* **Count:** 86
+* **Last updated:** Feb 22 2026, 21:49 UTC
+* **Count:** 87
 
 ### Grouped by maturity
 
@@ -188,6 +189,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 
 #### Proposal
+
+* [3D City Models](https://github.com/cityjson/stac-city3d)*
 
 * [Accuracy](https://github.com/stac-extensions/accuracy)
 
