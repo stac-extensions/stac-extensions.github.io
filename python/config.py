@@ -5,7 +5,8 @@ COMMUNITY_REPOS = [
   ['Terradue', 'stac-extensions-disaster'],
   ['openrsgis', 'trainingdml-ai-extension'],
   ['stacchain', 'merkle-tree'],
-  ['IFRCGo', 'monty-stac-extension']
+  ['IFRCGo', 'monty-stac-extension'],
+  ['cityjson', 'stac-city3d']
 ]
 
 # Other extensions that are not on GitHub
