@@ -6,7 +6,8 @@ COMMUNITY_REPOS = [
   ['openrsgis', 'trainingdml-ai-extension'],
   ['stacchain', 'merkle-tree'],
   ['IFRCGo', 'monty-stac-extension'],
-  ['cityjson', 'stac-city3d']
+  ['cityjson', 'stac-city3d'],
+  ['portolan-sdi', 'stac-iceberg-extension']
 ]
 
 # Other extensions that are not on GitHub
