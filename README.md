@@ -84,7 +84,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Region](https://github.com/stac-extensions/region) | region | Collection, Item | Proposal | 0.1.0 | 2025-07-25 | An extension to describe geographical regions |
 | [Rendering](https://github.com/stac-extensions/render) | renders | Collection, Item | Pilot | 2.0.0 | 2024-11-19 | Provide consumers with the information required to view an asset properly (e.g. on a online map) |
 | [SAR](https://github.com/stac-extensions/sar) | sar | Collection, Item | Stable | 1.3.0 | 2025-07-16 | Covers synthetic-aperture radar data that represents a snapshot of the earth for a single date and time. |
-| [Satellite](https://github.com/stac-extensions/sat) | sat | Collection, Item | Candidate | 1.1.0 | 2024-12-18 | Satellite related metadata for data collected from satellites. |
+| [Satellite](https://github.com/stac-extensions/sat) | sat | Collection, Item | Stable | 1.2.0 | 2026-04-30 | Satellite related metadata for data collected from satellites. |
 | [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)* | scan | Collection, Item | *WIP* | *Unknown* | *Unknown* | Scanning related metadata, such as the scan date and time. Especially useful for digitised images. |
 | [Scientific Citation](https://github.com/stac-extensions/scientific) | sci | Collection, Item | Stable | 1.0.0 | 2021-07-26 | Metadata that indicate from which publication data originates and how the data itself should be cited or referenced. |
 | [Sentinel-1](https://github.com/stac-extensions/sentinel-1) | s1 | Item | Proposal | 0.2.0 | 2024-06-10 | Sentinel-1 STAC Extension  |
@@ -113,7 +113,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 | [Zarr Extension Specification](https://github.com/stac-extensions/zarr) | zarr | Asset | Proposal | 1.1.0 | 2025-09-04 | This extension helps users open Zarr assets. It includes core fields from Zarr attributes especially those required when opening Zarr stores. |
 
-* **Last updated:** Apr 30 2026, 03:22 UTC
+* **Last updated:** May 01 2026, 03:32 UTC
 * **Count:** 87
 
 ### Grouped by maturity
@@ -131,6 +131,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [SAR](https://github.com/stac-extensions/sar)
 
+* [Satellite](https://github.com/stac-extensions/sat)
+
 * [Scientific Citation](https://github.com/stac-extensions/scientific)
 
 * [View Geometry](https://github.com/stac-extensions/view)
@@ -145,8 +147,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Processing](https://github.com/stac-extensions/processing)
 
 * [Raster](https://github.com/stac-extensions/raster)
-
-* [Satellite](https://github.com/stac-extensions/sat)
 
 * [Sentinel-2](https://github.com/stac-extensions/sentinel-2)
 
