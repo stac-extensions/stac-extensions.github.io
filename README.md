@@ -55,6 +55,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Forecast](https://github.com/stac-extensions/forecast) | forecast | Collection, Item | Proposal | 0.2.0 | 2025-01-09 | Common fields for (meteorological/weather) forecast data. |
 | [Grid](https://github.com/stac-extensions/grid) | grid | Item | Pilot | 1.1.0 | 2022-12-02 | Describes gridded data products, especially the grid code. |
 | [Hyperspectral Imagery](https://github.com/stac-extensions/hsi) | hsi | Collection, Item | *WIP* | **Unreleased** | N/A | Extension for Hyperspectral Imagery, to preserve the wavelength information for Items. |
+| [Iceberg](https://github.com/portolan-sdi/stac-iceberg-extension)* | iceberg | Collection | *Unknown* | 1.0.0 | 2026-04-08 | STAC Extension for Apache Iceberg table access and versioning metadata |
 | [InSAR](https://github.com/stac-extensions/insar) | insar | Item | Proposal | 1.0.0 | 2024-03-11 | STAC extension for InSAR (Interferometric Synthetic Aperture Radar) |
 | [Item Assets Definition](https://github.com/stac-extensions/item-assets) | - | Collection | Deprecated | 1.0.0 | 2021-03-08 | Provides a way to specify details about what assets may be found in Items belonging to a Collection. |
 | [Label](https://github.com/stac-extensions/label) | label | Collection, Item | Pilot | 1.0.1 | 2022-01-21 | Items that relate labeled AOIs with source imagery. |
@@ -102,6 +103,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Tiled Assets](https://github.com/stac-extensions/tiled-assets) | tiles | Catalog, Collection, Item | Proposal | 1.0.0 | 2024-08-23 | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
 | [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | Deprecated | **Unreleased** | N/A | Time Series STAC Extension Specification  |
 | [Timestamps](https://github.com/stac-extensions/timestamps) | - | Catalog, Collection, Item | Pilot | 1.1.0 | 2023-01-05 | Allows to specify numerous additional timestamps for assets and metadata. |
+| [Topographic 4D](https://github.com/tum-rsa/topo4d)* | topo4d | Collection, Item | Proposal | 0.2.0 | 2025-12-09 | The STAC extension for 4D point clouds metadata curation |
 | [TrainingDML-AI](https://github.com/openrsgis/trainingdml-ai-extension)* | tdml | Collection, Item | Proposal | 1.0.0 | 2023-05-24 | Detailed metadata for formalizing the information model of geospatial EO machine learning training data.  |
 | [U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI)](https://github.com/stac-extensions/usfws-nwi) | fws_nwi | Collection, Item | Proposal | 1.0.0 | 2022-10-24 | Describes the U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI) products |
 | [Vector](https://github.com/stac-extensions/vector) | vector | Collection, Item | Proposal | 0.1.0 | 2026-02-24 | Vector data properties |
@@ -113,8 +115,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 | [Zarr Extension Specification](https://github.com/stac-extensions/zarr) | zarr | Asset | Proposal | 1.1.0 | 2025-09-04 | This extension helps users open Zarr assets. It includes core fields from Zarr attributes especially those required when opening Zarr stores. |
 
-* **Last updated:** May 08 2026, 03:18 UTC
-* **Count:** 87
+* **Last updated:** May 08 2026, 11:38 UTC
+* **Count:** 89
 
 ### Grouped by maturity
 
@@ -253,6 +255,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Themes](https://github.com/stac-extensions/themes)
 
 * [Tiled Assets](https://github.com/stac-extensions/tiled-assets)
+
+* [Topographic 4D](https://github.com/tum-rsa/topo4d)*
 
 * [TrainingDML-AI](https://github.com/openrsgis/trainingdml-ai-extension)*
 
