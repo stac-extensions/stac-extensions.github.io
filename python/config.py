@@ -7,7 +7,8 @@ COMMUNITY_REPOS = [
   ['stacchain', 'merkle-tree'],
   ['IFRCGo', 'monty-stac-extension'],
   ['cityjson', 'stac-city3d'],
-  ['tum-rsa', 'topo4d']
+  ['portolan-sdi', 'stac-iceberg-extension'],
+  ['tum-rsa', 'topo4d'],
 ]
 
 # Other extensions that are not on GitHub
