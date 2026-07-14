@@ -34,7 +34,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Anonymized Location](https://github.com/stac-extensions/anonymized-location) | anon | Collection, Item | Pilot | 1.0.0 | 2021-04-30 | Provides a way to anonymize location data |
 | [Application](https://github.com/stac-extensions/application) | application | Assets, Item, Links | *WIP* | **Unreleased** | N/A | Describes applications (examples, workflows, ...) and links to them for execution. |
 | [Archive](https://github.com/stac-extensions/archive) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2025-12-19 | Archive extension that deals with cases when files are not directly accessible on their respective storage, but are part of an archive file, such as ZIP or TAR archives.  |
-| [Asset Templates](https://github.com/stac-extensions/asset-templates) | - | Collection, Item | Proposal | 0.1.0 | 2026-07-09 | A construct to provide templated assets in STAC, similar to link templates. |
+| [Asset Templates](https://github.com/stac-extensions/asset-templates) | - | Collection, Item | Proposal | 0.1.0 | 2026-07-13 | A construct to provide templated assets in STAC, similar to link templates. |
 | [Attribution](https://github.com/stac-extensions/attribution) | - | Collection, Item | Proposal | 0.1.0 | 2024-08-01 | Allows to provide an attribution, e.g. for maps, compliant with OGC API Collections |
 | [Authentication](https://github.com/stac-extensions/authentication) | auth | Asset, Catalog, Collection, Item, Links | Proposal | 1.1.0 | 2024-05-27 | Adds fields to define authentication or authorization flows used to access Assets and Links behind security |
 | [Camera](https://github.com/linz/stac/tree/master/extensions/camera)* | camera | Collection, Item | *WIP* | *Unknown* | *Unknown* | Camera related metadata, such as focal length and sequence number. Especially useful for aerial imagery surveys. |
@@ -58,6 +58,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Hyperspectral Imagery](https://github.com/stac-extensions/hsi) | hsi | Collection, Item | *WIP* | **Unreleased** | N/A | Extension for Hyperspectral Imagery, to preserve the wavelength information for Items. |
 | [Iceberg](https://github.com/portolan-sdi/stac-iceberg-extension)* | iceberg | Collection | *Unknown* | 1.0.0 | 2026-04-08 | STAC Extension for Apache Iceberg table access and versioning metadata |
 | [InSAR](https://github.com/stac-extensions/insar) | insar | Item | Proposal | 1.0.0 | 2024-03-11 | STAC extension for InSAR (Interferometric Synthetic Aperture Radar) |
+| [Instruments](https://github.com/stac-extensions/instruments) | - | Catalog, Collection, Item | Proposal | 0.1.0 | 2026-07-13 | Fields about instruments |
 | [Item Assets Definition](https://github.com/stac-extensions/item-assets) | - | Collection | Deprecated | 1.0.0 | 2021-03-08 | Provides a way to specify details about what assets may be found in Items belonging to a Collection. |
 | [Label](https://github.com/stac-extensions/label) | label | Collection, Item | Pilot | 1.0.1 | 2022-01-21 | Items that relate labeled AOIs with source imagery. |
 | [Landsat](https://github.com/stac-extensions/landsat) | landsat | Item | Stable | 2.0.0 | 2023-11-07 | Landsat data fields |
@@ -85,7 +86,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Raster](https://github.com/stac-extensions/raster) | raster | Collection, Item | Candidate | 2.0.0 | 2024-09-09 | Describes raster assets at band level (one or multiple) with specific information such as data type, unit, number of bits used, nodata. |
 | [Region](https://github.com/stac-extensions/region) | region | Collection, Item | Proposal | 0.1.0 | 2025-07-25 | An extension to describe geographical regions |
 | [Rendering](https://github.com/stac-extensions/render) | renders | Collection, Item | Pilot | 2.0.0 | 2024-11-19 | Provide consumers with the information required to view an asset properly (e.g. on a online map) |
-| [SAR](https://github.com/stac-extensions/sar) | sar | Collection, Item | Stable | 1.3.1 | 2026-06-01 | Covers synthetic-aperture radar data that represents a snapshot of the earth for a single date and time. |
+| [SAR](https://github.com/stac-extensions/sar) | sar | Collection, Item | Stable | 1.3.2 | 2026-07-13 | Covers synthetic-aperture radar data that represents a snapshot of the earth for a single date and time. |
 | [Satellite](https://github.com/stac-extensions/sat) | sat | Collection, Item | Stable | 1.2.0 | 2026-04-30 | Satellite related metadata for data collected from satellites. |
 | [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)* | scan | Collection, Item | *WIP* | *Unknown* | *Unknown* | Scanning related metadata, such as the scan date and time. Especially useful for digitised images. |
 | [Scientific Citation](https://github.com/stac-extensions/scientific) | sci | Collection, Item | Stable | 1.0.0 | 2021-07-26 | Metadata that indicate from which publication data originates and how the data itself should be cited or referenced. |
@@ -108,6 +109,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [TrainingDML-AI](https://github.com/openrsgis/trainingdml-ai-extension)* | tdml | Collection, Item | Proposal | 1.0.0 | 2023-05-24 | Detailed metadata for formalizing the information model of geospatial EO machine learning training data.  |
 | [U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI)](https://github.com/stac-extensions/usfws-nwi) | fws_nwi | Collection, Item | Proposal | 1.0.0 | 2022-10-24 | Describes the U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI) products |
 | [Vector](https://github.com/stac-extensions/vector) | vector | Collection, Item | Proposal | 0.1.0 | 2026-02-24 | Vector data properties |
+| [Vegetation Phenology and Productivity](https://github.com/stac-extensions/vpp) | vpp | Collection, Item | *WIP* | **Unreleased** | N/A | STAC Extension for Vegetation Phenology and Productivity (CLMS) |
 | [Versioning Indicators](https://github.com/stac-extensions/version) | - | Collection, Item | Candidate | 1.2.0 | 2023-05-03 | Provides fields and link relation types to provide a version and indicate deprecation. |
 | [Video](https://github.com/stac-extensions/video) | video | Collection, Item | Proposal | 1.0.0 | 2022-03-15 | Provides a way to describe video assets. |
 | [View Geometry](https://github.com/stac-extensions/view) | view | Collection, Item | Stable | 1.1.0 | 2025-08-15 | View Geometry adds metadata related to angles of sensors and other radiance angles that affect the view of resulting data. |
@@ -116,8 +118,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 | [Zarr Extension Specification](https://github.com/stac-extensions/zarr) | zarr | Asset | Proposal | 1.1.0 | 2025-09-04 | This extension helps users open Zarr assets. It includes core fields from Zarr attributes especially those required when opening Zarr stores. |
 
-* **Last updated:** Jul 13 2026, 02:53 UTC
-* **Count:** 90
+* **Last updated:** Jul 14 2026, 02:34 UTC
+* **Count:** 92
 
 ### Grouped by maturity
 
@@ -227,6 +229,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [InSAR](https://github.com/stac-extensions/insar)
 
+* [Instruments](https://github.com/stac-extensions/instruments)
+
 * [Language (I18N)](https://github.com/stac-extensions/language)
 
 * [Link Templates](https://github.com/stac-extensions/link-templates)
@@ -293,6 +297,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)*
 
 * [Template](https://github.com/stac-extensions/dggs)
+
+* [Vegetation Phenology and Productivity](https://github.com/stac-extensions/vpp)
 
 
 #### Deprecated
