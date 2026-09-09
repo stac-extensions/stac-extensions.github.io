@@ -66,7 +66,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Landsat ARD Tile](https://landsat.usgs.gov/stac/landsat-ard-extension/v1.0.0/schema.json)* | landsat | *Unknown* | *Unknown* | 1.0.0 | *Unknown* | *JSON Schema only!* |
 | [Language (I18N)](https://github.com/stac-extensions/language) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2023-03-06 | Fields and recommendations around making multi-lingual STAC catalogs available.  |
 | [Link Templates](https://github.com/stac-extensions/link-templates) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2025-04-16 | A construct to provide templated links in STAC, as originally defined in OGC APIs. |
-| [Machine Learning Model](https://github.com/stac-extensions/mlm) | mlm | Asset, Collection, Item, Links | Candidate | 1.5.2 | 2026-05-05 | STAC Machine Learning Model (MLM) extension to describe ML models, their training details, and inference runtime requirements. |
+| [Machine Learning Model](https://github.com/stac-extensions/mlm) | mlm | Asset, Collection, Item, Links | Candidate | 1.5.3 | 2026-09-09 | STAC Machine Learning Model (MLM) extension to describe ML models, their training details, and inference runtime requirements. |
 | [Merkle Tree](https://github.com/stacchain/merkle-tree)* | merkle | Catalog, Collection, Item | Proposal | 1.1.1 | 2026-01-13 | A STAC extension that enhances metadata integrity by encoding items, collections, and catalogs using Merkle hash trees. |
 | [Military Grid Reference System](https://github.com/stac-extensions/mgrs) | mgrs | Item | Pilot | 1.0.0 | 2021-06-09 | MGRS extension that provides information about the latitude band, grid square and UTM zone. |
 | [ML AOI](https://github.com/stac-extensions/ml-aoi) | ml-aoi | Asset, Collection, Item, Links | Proposal | 0.2.0 | 2024-03-28 | An Item and Collection extension to provide labeled training data for machine learning models. |
@@ -108,7 +108,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Topographic 4D](https://github.com/tum-rsa/topo4d)* | topo4d | Collection, Item | Proposal | 0.2.0 | 2025-12-09 | The STAC extension for 4D point clouds metadata curation |
 | [TrainingDML-AI](https://github.com/openrsgis/trainingdml-ai-extension)* | tdml | Collection, Item | Proposal | 1.0.0 | 2023-05-24 | Detailed metadata for formalizing the information model of geospatial EO machine learning training data.  |
 | [U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI)](https://github.com/stac-extensions/usfws-nwi) | fws_nwi | Collection, Item | Proposal | 1.0.0 | 2022-10-24 | Describes the U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI) products |
-| [VCS](https://github.com/stac-extensions/vcs) | vcs | Catalog, Collection, Item, Link | *WIP* | **Unreleased** | N/A | Metadata about version control systems |
+| [VCS](https://github.com/stac-extensions/vcs) | vcs | Catalog, Collection, Item, Link | Proposal | 0.1.0 | 2026-09-08 | Metadata about version control systems |
 | [Vector](https://github.com/stac-extensions/vector) | vector | Collection, Item | Proposal | 0.1.0 | 2026-02-24 | Vector data properties |
 | [Vegetation Phenology and Productivity](https://github.com/stac-extensions/vpp) | vpp | Collection, Item | *WIP* | **Unreleased** | N/A | STAC Extension for Vegetation Phenology and Productivity (CLMS) |
 | [Versioning Indicators](https://github.com/stac-extensions/version) | - | Collection, Item | Candidate | 1.2.0 | 2023-05-03 | Provides fields and link relation types to provide a version and indicate deprecation. |
@@ -119,7 +119,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 | [Zarr Extension Specification](https://github.com/stac-extensions/zarr) | zarr | Asset | Proposal | 1.1.0 | 2025-09-04 | This extension helps users open Zarr assets. It includes core fields from Zarr attributes especially those required when opening Zarr stores. |
 
-* **Last updated:** Sep 08 2026, 03:28 UTC
+* **Last updated:** Sep 09 2026, 03:32 UTC
 * **Count:** 93
 
 ### Grouped by maturity
@@ -270,6 +270,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [U.S. Fish & Wildlife Service (FWS) National Wetlands Inventory (NWI)](https://github.com/stac-extensions/usfws-nwi)
 
+* [VCS](https://github.com/stac-extensions/vcs)
+
 * [Vector](https://github.com/stac-extensions/vector)
 
 * [Video](https://github.com/stac-extensions/video)
@@ -298,8 +300,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)*
 
 * [Template](https://github.com/stac-extensions/dggs)
-
-* [VCS](https://github.com/stac-extensions/vcs)
 
 * [Vegetation Phenology and Productivity](https://github.com/stac-extensions/vpp)
 
