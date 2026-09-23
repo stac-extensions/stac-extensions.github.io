@@ -9,6 +9,7 @@ COMMUNITY_REPOS = [
   ['cityjson', 'stac-city3d'],
   ['portolan-sdi', 'stac-iceberg-extension'],
   ['tum-rsa', 'topo4d'],
+  ['eodash', 'eodash-extension'],
 ]
 
 # Other extensions that are not on GitHub
