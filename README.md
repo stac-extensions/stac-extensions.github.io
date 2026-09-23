@@ -50,6 +50,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Disasters Charter](https://github.com/Terradue/stac-extensions-disaster)* | disaster | Collection, Item | Proposal | 1.1.0 | 2024-06-05 | Disaster Charter Extension Specification |
 | [Earthquake](https://github.com/stac-extensions/earthquake) | eq | Collection, Item | Proposal | 1.0.0 | 2025-01-20 | Earthquake Extension Specification |
 | [Electro-Optical](https://github.com/stac-extensions/eo) | eo | Collection, Item | Stable | 2.0.0 | 2024-09-09 | Covers electro-optical data that represents a snapshot of the Earth. It could consist of cloud cover and multiple spectral bands, for example visible bands, infrared bands, red edge bands and panchromatic bands. |
+| [eodash STAC extension](https://github.com/eodash/eodash-extension)* | eodash, | Asset, Collection, Item, Link | Proposal | 0.2.0 | 2025-10-09 | eodash STAC Extension |
 | [Example Links](https://github.com/stac-extensions/example-links) | example | Catalog, Collection, Item | Proposal | 0.0.1 | 2023-08-14 | Allows to provide links to examples, e.g. code snippets. |
 | [File Info](https://github.com/stac-extensions/file) | file | Catalog, Collection, Item | Stable | 2.1.0 | 2021-12-11 | Specifies file-related details such as size, data type and checksum for assets and links in STAC. |
 | [Film](https://github.com/linz/stac/tree/master/extensions/film)* | film | Collection, Item | *WIP* | *Unknown* | *Unknown* | Film related metadata, such as roll, negative sequence and other physical attributes. Especially useful for digitised historic aerial imagery surveys. |
@@ -85,7 +86,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Quality](https://github.com/linz/stac/tree/master/extensions/quality)* | quality | Collection | Proposal | *Unknown* | *Unknown* | Geospatial quality and accuracy of collections, such as horizontal and vertical accuracy. |
 | [Raster](https://github.com/stac-extensions/raster) | raster | Collection, Item | Candidate | 2.0.0 | 2024-09-09 | Describes raster assets at band level (one or multiple) with specific information such as data type, unit, number of bits used, nodata. |
 | [Region](https://github.com/stac-extensions/region) | region | Collection, Item | Proposal | 0.1.0 | 2025-07-25 | An extension to describe geographical regions |
-| [Rendering](https://github.com/stac-extensions/render) | renders | Collection, Item | Pilot | 2.0.0 | 2024-11-19 | Provide consumers with the information required to view an asset properly (e.g. on a online map) |
+| [Rendering](https://github.com/stac-extensions/render) | renders | Collection, Item | Pilot | 2.1.0 | 2026-09-22 | Provide consumers with the information required to view an asset properly (e.g. on a online map) |
 | [SAR](https://github.com/stac-extensions/sar) | sar | Collection, Item | Stable | 1.3.2 | 2026-07-13 | Covers synthetic-aperture radar data that represents a snapshot of the earth for a single date and time. |
 | [Satellite](https://github.com/stac-extensions/sat) | sat | Collection, Item | Stable | 1.2.0 | 2026-04-30 | Satellite related metadata for data collected from satellites. |
 | [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)* | scan | Collection, Item | *WIP* | *Unknown* | *Unknown* | Scanning related metadata, such as the scan date and time. Especially useful for digitised images. |
@@ -119,8 +120,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 | [Zarr Extension Specification](https://github.com/stac-extensions/zarr) | zarr | Asset | Proposal | 1.1.0 | 2025-09-04 | This extension helps users open Zarr assets. It includes core fields from Zarr attributes especially those required when opening Zarr stores. |
 
-* **Last updated:** Sep 23 2026, 03:43 UTC
-* **Count:** 93
+* **Last updated:** Sep 23 2026, 14:45 UTC
+* **Count:** 94
 
 ### Grouped by maturity
 
@@ -223,6 +224,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Disasters Charter](https://github.com/Terradue/stac-extensions-disaster)*
 
 * [Earthquake](https://github.com/stac-extensions/earthquake)
+
+* [eodash STAC extension](https://github.com/eodash/eodash-extension)*
 
 * [Example Links](https://github.com/stac-extensions/example-links)
 
