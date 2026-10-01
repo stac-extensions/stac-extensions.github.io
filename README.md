@@ -32,7 +32,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Alternate Assets](https://github.com/stac-extensions/alternate-assets) | alternate | Collection, Item | Pilot | 1.2.0 | 2024-07-09 | Describes alternate locations and mirrors of assets |
 | [Altimetry](https://github.com/stac-extensions/altimetry) | altm | Item | Proposal | 0.1.0 | 2024-06-10 | Altimetry Extension Specification |
 | [Anonymized Location](https://github.com/stac-extensions/anonymized-location) | anon | Collection, Item | Pilot | 1.0.0 | 2021-04-30 | Provides a way to anonymize location data |
-| [Application](https://github.com/stac-extensions/application) | application | Item | *WIP* | **Unreleased** | N/A | Describes applications (examples, workflows, ...) and links to them for execution. |
+| [Application](https://github.com/stac-extensions/application) | application | Item | Proposal | 0.1.0 | 2026-09-30 | Describes applications (examples, workflows, ...) and links to them for execution. |
 | [Archive](https://github.com/stac-extensions/archive) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2025-12-19 | Archive extension that deals with cases when files are not directly accessible on their respective storage, but are part of an archive file, such as ZIP or TAR archives.  |
 | [Asset Templates](https://github.com/stac-extensions/asset-templates) | - | Collection, Item | Proposal | 0.1.0 | 2026-07-13 | A construct to provide templated assets in STAC, similar to link templates. |
 | [Attribution](https://github.com/stac-extensions/attribution) | - | Collection, Item | Proposal | 0.1.0 | 2024-08-01 | Allows to provide an attribution, e.g. for maps, compliant with OGC API Collections |
@@ -121,7 +121,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 | [Zarr Extension Specification](https://github.com/stac-extensions/zarr) | zarr | Asset | Proposal | 1.1.0 | 2025-09-04 | This extension helps users open Zarr assets. It includes core fields from Zarr attributes especially those required when opening Zarr stores. |
 
-* **Last updated:** Sep 30 2026, 04:26 UTC
+* **Last updated:** Oct 01 2026, 04:37 UTC
 * **Count:** 95
 
 ### Grouped by maturity
@@ -205,6 +205,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Additional Identifiers](https://github.com/stac-extensions/external-ids)
 
 * [Altimetry](https://github.com/stac-extensions/altimetry)
+
+* [Application](https://github.com/stac-extensions/application)
 
 * [Archive](https://github.com/stac-extensions/archive)
 
@@ -290,8 +292,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 #### WIP
 
 * [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)*
-
-* [Application](https://github.com/stac-extensions/application)
 
 * [Camera](https://github.com/linz/stac/tree/master/extensions/camera)*
 
