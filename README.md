@@ -56,7 +56,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Forecast](https://github.com/stac-extensions/forecast) | forecast | Collection, Item | Proposal | 0.2.0 | 2025-01-09 | Common fields for (meteorological/weather) forecast data. |
 | [Grid](https://github.com/stac-extensions/grid) | grid | Item | Pilot | 1.1.0 | 2022-12-02 | Describes gridded data products, especially the grid code. |
 | [Hyperspectral Imagery](https://github.com/stac-extensions/hsi) | hsi | Collection, Item | *WIP* | **Unreleased** | N/A | Extension for Hyperspectral Imagery, to preserve the wavelength information for Items. |
-| [Iceberg](https://github.com/portolan-sdi/stac-iceberg-extension)* | iceberg | Collection | *Unknown* | 1.0.0 | 2026-04-08 | STAC Extension for Apache Iceberg table access and versioning metadata |
+| [Iceberg](https://github.com/portolan-sdi/stac-iceberg-extension)* | iceberg | Collection | *Unknown* | 1.1.0 | 2026-10-07 | STAC Extension for Apache Iceberg table access and versioning metadata |
 | [InSAR](https://github.com/stac-extensions/insar) | insar | Item | Proposal | 1.0.0 | 2024-03-11 | STAC extension for InSAR (Interferometric Synthetic Aperture Radar) |
 | [Instruments](https://github.com/stac-extensions/instruments) | - | Catalog, Collection, Item | Proposal | 0.1.0 | 2026-07-13 | Fields about instruments |
 | [Interactive Dashboards (eodash)](https://github.com/eodash/eodash-extension)* | eodash | Asset, Collection, Item, Link | Proposal | 0.2.0 | 2025-10-09 | eodash STAC Extension |
@@ -121,7 +121,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 | [Zarr Extension Specification](https://github.com/stac-extensions/zarr) | zarr | Asset | Proposal | 1.1.0 | 2025-09-04 | This extension helps users open Zarr assets. It includes core fields from Zarr attributes especially those required when opening Zarr stores. |
 
-* **Last updated:** Oct 07 2026, 04:47 UTC
+* **Last updated:** Oct 08 2026, 04:57 UTC
 * **Count:** 95
 
 ### Grouped by maturity
