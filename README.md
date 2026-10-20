@@ -104,6 +104,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Stereo Imagery](https://github.com/stac-extensions/stereo-imagery) | stereo-img | Catalog, Collection, Item | Proposal | 1.0.0 | 2023-08-02 | Describes (tri-)stereo imagery that consists of multiple captures, often for 3D use cases. |
 | [Storage](https://github.com/stac-extensions/storage) | storage | Catalog, Collection, Item | Pilot | 2.0.0 | 2024-10-18 | Provides additional fields relating to how the asset is stored in the cloud |
 | [Table](https://github.com/stac-extensions/table) | table | Collection, Item | Pilot | 1.3.0 | 2026-09-07 | Describes tabular data assets using a list of Column objects. Tables can be specified in Collections. |
+| [Template](https://github.com/stac-extensions/ortho) | *Unknown* | Catalog, Collection, Item | *WIP* | **Unreleased** | N/A | None |
 | [Themes](https://github.com/stac-extensions/themes) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2023-05-11 | A knowledge organization system used to classify the resource (controlled vocabularies / keywords) |
 | [Tiled Assets](https://github.com/stac-extensions/tiled-assets) | tiles | Catalog, Collection, Item | Proposal | 1.0.0 | 2024-08-23 | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
 | [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | Deprecated | **Unreleased** | N/A | Time Series STAC Extension Specification  |
@@ -122,8 +123,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 | [Zarr Extension Specification](https://github.com/stac-extensions/zarr) | zarr | Asset | Proposal | 1.1.0 | 2025-09-04 | This extension helps users open Zarr assets. It includes core fields from Zarr attributes especially those required when opening Zarr stores. |
 
-* **Last updated:** Oct 19 2026, 03:38 UTC
-* **Count:** 96
+* **Last updated:** Oct 20 2026, 03:49 UTC
+* **Count:** 97
 
 ### Grouped by maturity
 
@@ -309,6 +310,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Moving Features](https://github.com/stac-extensions/moving-features)
 
 * [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)*
+
+* [Template](https://github.com/stac-extensions/ortho)
 
 * [Vegetation Phenology and Productivity](https://github.com/stac-extensions/vpp)
 
