@@ -81,6 +81,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [NOAA MRMS QPE](https://github.com/stac-extensions/noaa-mrms-qpe) | noaa_mrms_qpe | Collection, Item | Pilot | 1.0.0 | 2022-10-24 | STAC Extension for NOAA MRMS QPE (Multi-Radar Multi-Sensor Quantitative Precipitation Estimation) products |
 | [Open Science Catalog](https://github.com/stac-extensions/osc) | osc | Catalog, Collection, Item | Proposal | 1.0.0 | 2025-02-19 | STAC Extension for the ESA Open Science Catalog |
 | [Order](https://github.com/stac-extensions/order) | order | Collection, Item | Pilot | 1.1.0 | 2023-01-05 | Allows assets ordering management within STAC specification. |
+| [Orthophoto](https://github.com/stac-extensions/ortho) | ortho | Collection, Item | Proposal | 0.1.0 | 2026-10-20 | None |
 | [Perspective Imagery](https://github.com/stac-extensions/perspective-imagery) | pers | Collection, Item | Proposal | 1.0.0 | 2022-06-27 | Describes perspective imagery collected by photogrammetric or non-photogrammetric cameras |
 | [Point Cloud](https://github.com/stac-extensions/pointcloud) | pc | Collection, Item | Pilot | 2.0.0 | 2024-10-24 | Provides a way to describe point cloud datasets. The point clouds can come from either active or passive sensors, and data is frequently acquired using tools such as LiDAR or coincidence-matched imagery. |
 | [Processing](https://github.com/stac-extensions/processing) | processing | Collection, Item | Candidate | 1.3.0 | 2026-10-14 | Indicates from which processing chain data originates and how the data itself has been produced. |
@@ -104,7 +105,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Stereo Imagery](https://github.com/stac-extensions/stereo-imagery) | stereo-img | Catalog, Collection, Item | Proposal | 1.0.0 | 2023-08-02 | Describes (tri-)stereo imagery that consists of multiple captures, often for 3D use cases. |
 | [Storage](https://github.com/stac-extensions/storage) | storage | Catalog, Collection, Item | Pilot | 2.0.0 | 2024-10-18 | Provides additional fields relating to how the asset is stored in the cloud |
 | [Table](https://github.com/stac-extensions/table) | table | Collection, Item | Pilot | 1.3.0 | 2026-09-07 | Describes tabular data assets using a list of Column objects. Tables can be specified in Collections. |
-| [Template](https://github.com/stac-extensions/ortho) | *Unknown* | Catalog, Collection, Item | *WIP* | **Unreleased** | N/A | None |
 | [Themes](https://github.com/stac-extensions/themes) | - | Catalog, Collection, Item | Proposal | 1.0.0 | 2023-05-11 | A knowledge organization system used to classify the resource (controlled vocabularies / keywords) |
 | [Tiled Assets](https://github.com/stac-extensions/tiled-assets) | tiles | Catalog, Collection, Item | Proposal | 1.0.0 | 2024-08-23 | Allows to specify numerous assets using asset templates via tile matrices and dimensions. |
 | [Time Series](https://github.com/stac-extensions/timeseries) | ts | Collection, Item | Deprecated | **Unreleased** | N/A | Time Series STAC Extension Specification  |
@@ -123,7 +123,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 | [Zarr Extension Specification](https://github.com/stac-extensions/zarr) | zarr | Asset | Proposal | 1.1.0 | 2025-09-04 | This extension helps users open Zarr assets. It includes core fields from Zarr attributes especially those required when opening Zarr stores. |
 
-* **Last updated:** Oct 20 2026, 03:49 UTC
+* **Last updated:** Oct 21 2026, 03:40 UTC
 * **Count:** 97
 
 ### Grouped by maturity
@@ -252,6 +252,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [Open Science Catalog](https://github.com/stac-extensions/osc)
 
+* [Orthophoto](https://github.com/stac-extensions/ortho)
+
 * [Perspective Imagery](https://github.com/stac-extensions/perspective-imagery)
 
 * [Product](https://github.com/stac-extensions/product)
@@ -310,8 +312,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Moving Features](https://github.com/stac-extensions/moving-features)
 
 * [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)*
-
-* [Template](https://github.com/stac-extensions/ortho)
 
 * [Vegetation Phenology and Productivity](https://github.com/stac-extensions/vpp)
 
