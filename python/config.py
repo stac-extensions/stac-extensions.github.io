@@ -10,6 +10,7 @@ COMMUNITY_REPOS = [
   ['portolan-sdi', 'stac-iceberg-extension'],
   ['tum-rsa', 'topo4d'],
   ['eodash', 'eodash-extension'],
+  ['Energybench-Association', 'stac-extension-energy'],
 ]
 
 # Other extensions that are not on GitHub
