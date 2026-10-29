@@ -52,6 +52,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Disasters Charter](https://github.com/Terradue/stac-extensions-disaster)* | disaster | Collection, Item | Proposal | 1.1.0 | 2024-06-05 | Disaster Charter Extension Specification |
 | [Earthquake](https://github.com/stac-extensions/earthquake) | eq | Collection, Item | Proposal | 1.0.0 | 2025-01-20 | Earthquake Extension Specification |
 | [Electro-Optical](https://github.com/stac-extensions/eo) | eo | Collection, Item | Stable | 2.0.0 | 2024-09-09 | Covers electro-optical data that represents a snapshot of the Earth. It could consist of cloud cover and multiple spectral bands, for example visible bands, infrared bands, red edge bands and panchromatic bands. |
+| [Embeddings](https://github.com/stac-extensions/embeddings) | emb | Collection, Item | Proposal | 1.0.0 | 2026-10-28 | Defines a STAC extension for describing collections of geospatial vector embeddings. |
 | [Energy](https://github.com/Energybench-Association/stac-extension-energy)* | energy | Collection, Item | Proposal | 0.1.0 | 2026-10-26 | A STAC Extension to describe energy generation and storage entities and their data (e.g. time series) |
 | [Example Links](https://github.com/stac-extensions/example-links) | example | Catalog, Collection, Item | Proposal | 0.0.1 | 2023-08-14 | Allows to provide links to examples, e.g. code snippets. |
 | [File Info](https://github.com/stac-extensions/file) | file | Catalog, Collection, Item | Stable | 2.1.0 | 2021-12-11 | Specifies file-related details such as size, data type and checksum for assets and links in STAC. |
@@ -124,8 +125,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 | [Zarr Extension Specification](https://github.com/stac-extensions/zarr) | zarr | Asset | Proposal | 1.1.0 | 2025-09-04 | This extension helps users open Zarr assets. It includes core fields from Zarr attributes especially those required when opening Zarr stores. |
 
-* **Last updated:** Oct 28 2026, 04:29 UTC
-* **Count:** 98
+* **Last updated:** Oct 29 2026, 04:45 UTC
+* **Count:** 99
 
 ### Grouped by maturity
 
@@ -230,6 +231,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Disasters Charter](https://github.com/Terradue/stac-extensions-disaster)*
 
 * [Earthquake](https://github.com/stac-extensions/earthquake)
+
+* [Embeddings](https://github.com/stac-extensions/embeddings)
 
 * [Energy](https://github.com/Energybench-Association/stac-extension-energy)*
 
