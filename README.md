@@ -120,12 +120,12 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Versioning Indicators](https://github.com/stac-extensions/version) | - | Collection, Item | Candidate | 1.2.0 | 2023-05-03 | Provides fields and link relation types to provide a version and indicate deprecation. |
 | [Video](https://github.com/stac-extensions/video) | video | Collection, Item | Proposal | 1.0.0 | 2022-03-15 | Provides a way to describe video assets. |
 | [View Geometry](https://github.com/stac-extensions/view) | view | Collection, Item | Stable | 1.1.0 | 2025-08-15 | View Geometry adds metadata related to angles of sensors and other radiance angles that affect the view of resulting data. |
-| [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | vrt | Collection, Item | Proposal | 1.0.0 | 2023-11-09 | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
+| [Virtual Assets](https://github.com/stac-extensions/virtual-assets) | vrt | Collection, Item | Pilot | 1.0.1 | 2026-11-13 | Allows the description of virtual assets composed from 2 or more assets with cross references and repositioning. |
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, | Catalog, Collection, Item | Proposal | 1.3.0 | 2026-01-01 | Allows to provide links to web maps for visualization purposes |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Deprecated | 1.0.0 | 2021-06-30 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 | [Zarr Extension Specification](https://github.com/stac-extensions/zarr) | zarr | Asset | Proposal | 1.1.0 | 2025-09-04 | This extension helps users open Zarr assets. It includes core fields from Zarr attributes especially those required when opening Zarr stores. |
 
-* **Last updated:** Nov 13 2026, 05:29 UTC
+* **Last updated:** Nov 14 2026, 05:20 UTC
 * **Count:** 99
 
 ### Grouped by maturity
@@ -198,6 +198,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Table](https://github.com/stac-extensions/table)
 
 * [Timestamps](https://github.com/stac-extensions/timestamps)
+
+* [Virtual Assets](https://github.com/stac-extensions/virtual-assets)
 
 
 #### Proposal
@@ -291,8 +293,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Vector](https://github.com/stac-extensions/vector)
 
 * [Video](https://github.com/stac-extensions/video)
-
-* [Virtual Assets](https://github.com/stac-extensions/virtual-assets)
 
 * [Web Map Links](https://github.com/stac-extensions/web-map-links)
 
